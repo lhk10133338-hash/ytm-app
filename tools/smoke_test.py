@@ -320,7 +320,7 @@ def main() -> int:
         problems.append("설정 없는 상태의 검색 결과 없음")
 
     # ---------- 6) API 검색(모의 응답) ----------
-    js("__ym.state.settings.apiKey='TEST_KEY'; __ym.state.explore.q=''; __ym.render();")
+    js("__ym.state.settings.apiKey='TEST_KEY'; __ym.state.settings.externalPlay=false; __ym.state.explore.q=''; __ym.render();")
     js("__ym.runSearch('아이유');")
     api_rows = js("__ym.state.explore.results ? __ym.state.explore.results.length : -1")
     api_ids = js("(__ym.state.explore.results||[]).map(function(s){return s.videoId;}).join(',')")

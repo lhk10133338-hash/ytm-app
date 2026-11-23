@@ -615,8 +615,7 @@
 
   function apiSearch(q, key) {
     var searchUrl = 'https://www.googleapis.com/youtube/v3/search?part=snippet&type=video' +
-      '&videoCategoryId=10&maxResults=20&regionCode=KR&relevanceLanguage=ko&q=' +
-      encodeURIComponent(q) + '&key=' + encodeURIComponent(key);
+      '&maxResults=25&q=' + encodeURIComponent(q) + '&key=' + encodeURIComponent(key);
     return fetch(searchUrl).then(function (r) {
       return r.json().catch(function () { return {}; }).then(function (data) {
         if (!r.ok || data.error) {
@@ -645,17 +644,18 @@
         return r2.json();
       }).then(function (vdata) {
         var out = [];
+        var allowNonEmbed = state.settings.externalPlay !== false;
         (vdata.items || []).forEach(function (it) {
           var st = it.status || {};
-          if (st.embeddable === false) return;
+          if (!allowNonEmbed && st.embeddable === false) return;
           if (st.privacyStatus && st.privacyStatus !== 'public') return;
           var rr = (it.contentDetails || {}).regionRestriction;
-          if (rr) {
+          if (!allowNonEmbed && rr) {
             if (rr.blocked && rr.blocked.indexOf('KR') >= 0) return;
             if (rr.allowed && rr.allowed.indexOf('KR') < 0) return;
           }
           var sec = parseISODuration((it.contentDetails || {}).duration);
-          if (!sec || sec > 3600) return;
+          if (!sec || sec > 14400) return;
           var sn = it.snippet || {};
           var thumbs = sn.thumbnails || {};
           var songObj = {
