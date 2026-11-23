@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no">
+<meta name="theme-color" content="#030303">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="YMUSIC">
+<meta name="description" content="YouTube Music 스타일 개인 음악 스트리밍 앱 — YMUSIC">
+<title>YMUSIC</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app" class="app">
+  <header id="topbar" class="topbar"></header>
+  <main id="view" class="view" role="main"></main>
+  <div id="miniplayer" class="miniplayer" hidden></div>
+  <nav id="tabbar" class="tabbar" aria-label="주요 메뉴"></nav>
+</div>
+
+<section id="player-screen" class="player-screen" hidden aria-label="플레이어"></section>
+
+<div id="sheet" class="sheet" hidden></div>
+<div id="modal" class="modal" hidden></div>
+<div id="oled" class="oled" data-act="oled-tap" hidden></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<div id="yt-host" class="yt-host" aria-hidden="true"><div id="ytplayer"></div></div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
