@@ -796,6 +796,7 @@
       '<button data-act="open-queue">' + ICON.queue + '다음 트랙</button>' +
       '<button data-act="open-similar">' + ICON.music + '비슷한 곡</button>' +
       '<button data-act="open-quality">' + qualityLabelShort(state.settings.quality) + '</button>' +
+      '<button data-act="open-external" data-id="' + esc(song.videoId) + '">외부 앱</button>' +
       '<button class="oled-btn" data-act="open-oled" aria-label="OLED 절전 모드">' + ICON.moon + '</button>' +
       '</div></div></div>';
 
@@ -1438,6 +1439,7 @@
       '<div class="result-note">' + esc(song.title) + ' — ' + esc(song.artist) + '</div>' +
       '<div class="track-list">' +
       '<button class="lib-row" data-act="play-now" data-id="' + esc(songId) + '"><span class="cover">' + ICON.play + '</span><span class="meta"><span class="t">지금 재생</span></span></button>' +
+      '<button class="lib-row" data-act="open-external" data-id="' + esc(songId) + '"><span class="cover">' + ICON.music + '</span><span class="meta"><span class="t">외부 앱으로 열기 (ReVanced 등)</span></span></button>' +
       '<button class="lib-row" data-act="add-to-open" data-id="' + esc(songId) + '"><span class="cover">' + ICON.plus + '</span><span class="meta"><span class="t">재생목록에 추가</span></span></button>' +
       '<button class="lib-row" data-act="queue-add" data-id="' + esc(songId) + '"><span class="cover">' + ICON.queue + '</span><span class="meta"><span class="t">대기열 맨 뒤에 추가</span></span></button>' +
       '<button class="lib-row" data-act="toggle-like" data-id="' + esc(songId) + '"><span class="cover">' + (state.liked[songId] ? ICON.heart : ICON.heartOutline) + '</span><span class="meta"><span class="t">' + (state.liked[songId] ? '좋아요 해제' : '좋아요') + '</span></span></button>' +
@@ -1563,6 +1565,16 @@
       case 'open-queue': openQueue(); break;
       case 'open-similar': openSimilar(); break;
       case 'open-quality': openQualitySheet(); break;
+      case 'open-external': {
+        var extId = id || (currentSong() && currentSong().videoId);
+        if (!extId) break;
+        if (state.playing && state.yt && state.yt.pauseVideo) {
+          try { state.yt.pauseVideo(); state.playing = false; releaseWakeLock(); stopTick(); refreshPlayIcons(); } catch (err) {}
+        }
+        if (state.sheet) closeSheet();
+        window.open('https://www.youtube.com/watch?v=' + encodeURIComponent(extId), '_blank', 'noopener');
+        break;
+      }
       case 'set-quality': {
         state.settings.quality = id || 'highres';
         saveSettings();
