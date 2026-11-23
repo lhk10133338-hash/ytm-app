@@ -1572,7 +1572,14 @@
           try { state.yt.pauseVideo(); state.playing = false; releaseWakeLock(); stopTick(); refreshPlayIcons(); } catch (err) {}
         }
         if (state.sheet) closeSheet();
-        window.open('https://www.youtube.com/watch?v=' + encodeURIComponent(extId), '_blank', 'noopener');
+        var fallback = encodeURIComponent('https://youtu.be/' + extId);
+        var isAndroid = /Android/i.test(navigator.userAgent || '');
+        if (isAndroid) {
+          location.href = 'intent://www.youtube.com/watch?v=' + encodeURIComponent(extId) +
+            '#Intent;scheme=https;package=app.revanced.android.youtube;S.browser_fallback_url=' + fallback + ';end';
+        } else {
+          window.open('https://youtu.be/' + encodeURIComponent(extId), '_blank', 'noopener');
+        }
         break;
       }
       case 'set-quality': {
