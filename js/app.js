@@ -510,12 +510,20 @@
 
   function paintSearch() {
     var el = $('search-results');
-    if (el) { el.innerHTML = searchResultsHTML(); return; }
+    var charts = $('explore-charts');
+    if (el) {
+      var hasQ = !!(state.explore.q && state.explore.q.trim());
+      el.hidden = !hasQ;
+      el.innerHTML = hasQ ? searchResultsHTML() : '';
+      if (charts) charts.hidden = hasQ;
+      return;
+    }
     render();
   }
 
   function renderExplore() {
     var ex = state.explore;
+    var hasQ = !!(ex.q && ex.q.trim());
     var html = '<h1 class="page-title">탐색</h1>';
     html += '<div class="searchbar"><div class="search-inner">' + ICON.search +
       '<input id="search-input" type="search" inputmode="search" enterkeyhint="search" placeholder="곡, 아티스트, 플레이리스트 검색" value="' + esc(ex.q) + '" autocomplete="off">' +
@@ -527,10 +535,8 @@
         '<button data-act="open-settings">설정</button></div>';
     }
 
-    if (ex.q) {
-      html += '<div id="search-results">' + searchResultsHTML() + '</div>';
-      return html;
-    }
+    html += '<div id="search-results"' + (hasQ ? '' : ' hidden') + '>' + (hasQ ? searchResultsHTML() : '') + '</div>';
+    html += '<div id="explore-charts"' + (hasQ ? ' hidden' : '') + '>';
 
     var genres = state.data.genres || [];
     html += '<section class="sect">' + sectionHead('장르별 차트', '<span class="more">조회수 기준</span>') + '</section>';
@@ -547,6 +553,7 @@
       html += '<section class="sect">' + sectionHead(g + ' 전체') + '<div class="track-list">' +
         all.map(function (s, i) { return trackRowHTML(s, i, { menu: true }); }).join('') + '</div></section>';
     }
+    html += '</div>';
     return html;
   }
 
@@ -1680,9 +1687,9 @@
     if (t.id === 'search-input') {
       var v = t.value;
       state.explore.q = v;
-      if (!v) { state.explore.results = null; state.explore.loading = false; render(); return; }
       clearTimeout(state.searchTimer);
-      state.searchTimer = setTimeout(function () { runSearch(v); }, 380);
+      if (!v) { state.explore.results = null; state.explore.loading = false; paintSearch(); return; }
+      state.searchTimer = setTimeout(function () { runSearch(v); }, 420);
     } else if (t.id === 'seek') {
       state.seeking = true;
       var val = Number(t.value) || 0;
