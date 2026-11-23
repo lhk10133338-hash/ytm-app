@@ -1024,8 +1024,12 @@
   function setCurrent(song, queue, index) {
     state.current = song;
     rememberSong(song);
-    if (queue && queue.length) { state.queue = queue.slice(); state.index = index; }
-    else { state.queue = [song]; state.index = 0; }
+    if (queue && queue.length > 1) { state.queue = queue.slice(); state.index = index; }
+    else {
+      var autoSim = similarSongs(song, 19).filter(function (s) { return s.videoId !== song.videoId; });
+      state.queue = [song].concat(autoSim);
+      state.index = 0;
+    }
     state.position = 0;
     state.duration = song.durationSec || 0;
     addRecent(song);
@@ -1075,6 +1079,10 @@
   function togglePlay() {
     var song = currentSong();
     if (!song) { toast('먼저 곡을 선택해 주세요'); return; }
+    if (state.settings.externalPlay !== false) {
+      launchExternal(song.videoId);
+      return;
+    }
     if (!state.yt) { ensurePlayer(song); state.playing = true; render(); return; }
     try {
       if (state.playing) { state.yt.pauseVideo(); state.playing = false; releaseWakeLock(); stopTick(); }
