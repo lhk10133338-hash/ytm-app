@@ -1114,6 +1114,7 @@
     state.prevScreen = state.screen;
     state.screen = 'oled';
     state.oled = true;
+    if (document.body && document.body.classList) document.body.classList.add('no-scroll');
     el.hidden = false;
     renderOled();
     startClock();
@@ -1154,6 +1155,7 @@
     state.oled = false;
     stopClock();
     state.screen = state.prevScreen === 'full' ? 'full' : 'none';
+    if (state.screen === 'none' && document.body && document.body.classList) document.body.classList.remove('no-scroll');
     if (state.screen === 'none') {
       var ps = $('player-screen');
       if (ps) { ps.hidden = true; ps.innerHTML = ''; }
@@ -1386,6 +1388,7 @@
   function openPlayer() {
     if (!currentSong()) return;
     state.screen = 'full';
+    if (document.body && document.body.classList) document.body.classList.add('no-scroll');
     renderMini();
     renderPlayer();
     layoutVideoHost();
@@ -1393,6 +1396,7 @@
 
   function closePlayer() {
     state.screen = 'none';
+    if (document.body && document.body.classList) document.body.classList.remove('no-scroll');
     var el = $('player-screen');
     if (el) { el.hidden = true; el.innerHTML = ''; }
     layoutVideoHost();
