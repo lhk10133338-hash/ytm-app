@@ -396,17 +396,18 @@ input[type="range"].seek::-moz-range-thumb { width: 12px; height: 12px; border: 
 .controls .play-big svg { width: 30px; height: 30px; }
 .controls .play-big:active { transform: scale(.95); }
 
-.p-tabs { position: relative; display: flex; gap: 8px; }
+.p-tabs { position: relative; display: flex; flex-wrap: wrap; gap: 7px; }
 .p-tabs button {
-  flex: 1; display: flex; align-items: center; justify-content: center; gap: 7px;
-  padding: 12px 8px; border-radius: 12px;
+  flex: 1 1 auto; min-width: 0;
+  display: flex; align-items: center; justify-content: center; gap: 5px;
+  padding: 11px 10px; border-radius: 12px;
   background: rgba(255, 255, 255, .07); color: #e7e7e7;
-  font-size: 12px; font-weight: 700;
+  font-size: 12px; font-weight: 700; white-space: nowrap;
   border: 1px solid rgba(255, 255, 255, .06);
 }
-.p-tabs button svg { width: 17px; height: 17px; fill: currentColor; }
+.p-tabs button svg { width: 16px; height: 16px; fill: currentColor; flex: 0 0 auto; }
 .p-tabs button.on { background: rgba(255, 255, 255, .16); color: #fff; }
-.p-tabs .oled-btn { flex: 0 0 46px; background: rgba(0, 0, 0, .5); }
+.p-tabs .oled-btn { flex: 0 0 44px; padding: 11px 0; background: rgba(0, 0, 0, .5); }
 
 /* 유튜브 iframe 호스트(플레이어 화면 위에 겹쳐 배치) */
 .yt-host {
@@ -438,6 +439,23 @@ input[type="range"].seek::-moz-range-thumb { width: 12px; height: 12px; border: 
 .sheet-head { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
 .sheet-head h3 { font-size: 17px; font-weight: 800; margin: 0; }
 .sheet-head .icon-btn { margin-left: auto; }
+
+.sheet-list { display: flex; flex-direction: column; gap: 8px; margin-top: 8px; }
+.sheet-row {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  width: 100%; padding: 13px 14px; border-radius: 12px;
+  background: var(--card); border: 1px solid var(--line);
+  text-align: left; color: var(--text);
+}
+.sheet-row:active { background: var(--card-hi); }
+.sheet-row.on { background: rgba(255, 0, 51, .14); border-color: rgba(255, 0, 51, .55); }
+.sheet-row .txt { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+.sheet-row .txt .t { font-size: 14px; font-weight: 700; color: #fff; }
+.sheet-row .txt .a { font-size: 12px; color: var(--muted); line-height: 1.35; }
+.badge-on {
+  flex: 0 0 auto; padding: 4px 10px; border-radius: 999px;
+  background: var(--accent); color: #fff; font-size: 11px; font-weight: 800;
+}
 
 .modal {
   position: fixed; z-index: 82;
