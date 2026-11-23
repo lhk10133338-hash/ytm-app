@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-23T14:11:54+00:00",
- "count": 492,
+ "generatedAt": "2026-11-23T14:27:08+00:00",
+ "count": 462,
  "genres": [
   "K-POP",
   "발라드",
@@ -109,15 +109,6 @@
    "found": 40,
    "added": 37,
    "rejected": 4
-  },
-  {
-   "key": "dingo-tipsy",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "genre": "발라드",
-   "playlistId": "PLmxVF8ick5cS8ywQrE-4l6871ZfRxSDj_",
-   "found": 30,
-   "added": 30,
-   "rejected": 5
   },
   {
    "key": "warner-khiphop",
@@ -1067,7 +1058,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 27384371,
+   "views": 27387406,
    "publishedAt": "2026-11-09",
    "channel": "SMTOWN",
    "rawTitle": "NCT DREAM 엔시티 드림 'Boogie Woogie' MV",
@@ -1125,7 +1116,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 25256302,
+   "views": 25256879,
    "publishedAt": "2026-10-12",
    "channel": "SMTOWN",
    "rawTitle": "NCT WISH 엔시티 위시 'I SPY' MV",
@@ -1183,7 +1174,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 23060528,
+   "views": 23062694,
    "publishedAt": "2026-11-13",
    "channel": "HYBE LABELS",
    "rawTitle": "ENHYPEN (엔하이픈) 'I Want You' Official MV",
@@ -1380,7 +1371,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 15213624,
+   "views": 15214538,
    "publishedAt": "2026-10-25",
    "channel": "SMTOWN",
    "rawTitle": "RIIZE 라이즈 'Insomnia' MV",
@@ -1476,7 +1467,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 12650395,
+   "views": 12650766,
    "publishedAt": "2026-11-13",
    "channel": "JYP Entertainment",
    "rawTitle": "GIRLSET \"young & dumb\" Music Video",
@@ -1554,7 +1545,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 11205054,
+   "views": 11205071,
    "publishedAt": "2026-02-12",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "2026 YG SPECIAL AUDITION : GO! DEBUT #2",
@@ -1632,7 +1623,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 8571945,
+   "views": 8605983,
    "publishedAt": "2026-11-20",
    "channel": "HYBE LABELS",
    "rawTitle": "SANTOS BRAVOS x &TEAM - “ORIGAMI” OFFICIAL MV",
@@ -1651,7 +1642,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 8552836,
+   "views": 8552849,
    "publishedAt": "2025-05-25",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "BLACKPINK, BABYMONSTER, TREASURE, AND UPCOMING ROOKIES | YG ANNOUNCEMENT",
@@ -1708,7 +1699,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 7241623,
+   "views": 7241639,
    "publishedAt": "2026-04-29",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "BABYMONSTER, TREASURE, AND UPCOMING ROOKIES | YG ANNOUNCEMENT",
@@ -1746,7 +1737,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 5963439,
+   "views": 5963455,
    "publishedAt": "2026-03-13",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "TREASURE - 2025-26 TOUR [PULSE ON] IN OSAKA ‘쾌지나 칭칭 + VolKno' LIVE PERFORMANCE",
@@ -1765,7 +1756,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 5898991,
+   "views": 5899009,
    "publishedAt": "2026-02-27",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "TREASURE - 2025-26 TOUR [PULSE ON] IN KANAGAWA ‘KING KONG’ JP Ver. LIVE PERFORMANCE",
@@ -1784,7 +1775,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 5779332,
+   "views": 5779351,
    "publishedAt": "2026-02-20",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "TREASURE - 2025-26 TOUR [PULSE ON] IN KANAGAWA ‘음 (MMM)’ JP Ver. LIVE PERFORMANCE",
@@ -1842,7 +1833,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 5276226,
+   "views": 5276261,
    "publishedAt": "2026-10-26",
    "channel": "SMTOWN",
    "rawTitle": "XIAOJUN 샤오쥔 'Hey, Somebody (English Ver.)' MV",
@@ -2033,7 +2024,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 3413225,
+   "views": 3413274,
    "publishedAt": "2026-10-19",
    "channel": "SMTOWN",
    "rawTitle": "MAX CHANGMIN 최강창민 'All Of My Life' MV",
@@ -2226,7 +2217,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 2265729,
+   "views": 2265933,
    "publishedAt": "2026-10-19",
    "channel": "SMTOWN",
    "rawTitle": "NCT DREAM 엔시티 드림 'The Sun' MV",
@@ -2342,7 +2333,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 1667641,
+   "views": 1667850,
    "publishedAt": "2026-11-03",
    "channel": "SMTOWN",
    "rawTitle": "Red Velvet - IRENE & SEULGI 'Cheetah' MV",
@@ -2457,7 +2448,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 1257651,
+   "views": 1257887,
    "publishedAt": "2026-10-18",
    "channel": "SMTOWN",
    "rawTitle": "Hearts2Hearts 하츠투하츠 'ICONIC HEART (Korean Ver.)' MV",
@@ -2476,7 +2467,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 1244978,
+   "views": 1245932,
    "publishedAt": "2026-11-20",
    "channel": "HYBE LABELS",
    "rawTitle": "The Wildcard Club 'Click Flick' Official MV  |  AmaLee, Dokibird, ironmouse, Rin Penrose",
@@ -2514,7 +2505,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 974736,
+   "views": 974754,
    "publishedAt": "2026-08-10",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "2026 YG GLOBAL AUDITION",
@@ -2865,7 +2856,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 167375,
+   "views": 167403,
    "publishedAt": "2026-11-16",
    "channel": "HYBE LABELS",
    "rawTitle": "TXT (투모로우바이투게더) ‘Angel Bite’ Official MV",
@@ -2924,7 +2915,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 139366,
+   "views": 139377,
    "publishedAt": "2026-11-13",
    "channel": "HYBE LABELS",
    "rawTitle": "#ENHYPEN (#엔하이픈) 'I Want You' Official MV",
@@ -2943,7 +2934,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 138569,
+   "views": 138653,
    "publishedAt": "2026-11-19",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "[Playlist] 고작 이별하기 위해 널 사랑한 건 아닌데 (Singing My Blues)",
@@ -2982,7 +2973,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 123797,
+   "views": 123966,
    "publishedAt": "2026-11-20",
    "channel": "JYP Entertainment",
    "rawTitle": "NAYEON \"BABY ANGEL\" M/V",
@@ -3001,7 +2992,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 93470,
+   "views": 93488,
    "publishedAt": "2026-11-13",
    "channel": "JYP Entertainment",
    "rawTitle": "NAYEON SINGLE “NA-sty” SNEAK PEEK Track 03. BOY #TWICE #NAYEON #나연 #NA_sty #BABY_ANGEL",
@@ -3060,7 +3051,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 50745,
+   "views": 50770,
    "publishedAt": "2026-11-16",
    "channel": "JYP Entertainment",
    "rawTitle": "YAOCHEN(야오천) - \"WONDERFUL\" M/V",
@@ -3100,7 +3091,7 @@
     "신나는",
     "청량"
    ],
-   "views": 18711,
+   "views": 18752,
    "publishedAt": "2026-11-19",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] Hong Sung Yun(홍성윤) _ It's still love(그래도 사랑입니다)",
@@ -3140,7 +3131,7 @@
     "신나는",
     "청량"
    ],
-   "views": 13131,
+   "views": 13158,
    "publishedAt": "2026-11-19",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] WE GO-6 _ First and Last(처음이자 마지막으로)",
@@ -3220,30 +3211,10 @@
     "신나는",
     "청량"
    ],
-   "views": 10292,
+   "views": 10320,
    "publishedAt": "2026-11-22",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] Tophyun(탑현), Hwang inhyeock(황인혁) _ Hot Pack in My Pocket(주머니에 핫팩 하나)",
-   "embedOk": true,
-   "embedCheck": "rss"
-  },
-  {
-   "videoId": "8qm6F4zTTnQ",
-   "title": "MV KWON IN SEO(권인서) _ Cotton Candy(솜사탕)(Drama Ver.)",
-   "artist": "Various Artists",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/8qm6F4zTTnQ/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "최신 K-POP · 1theK",
-   "moods": [
-    "신나는",
-    "청량"
-   ],
-   "views": 10213,
-   "publishedAt": "2026-11-20",
-   "channel": "1theK (원더케이)",
-   "rawTitle": "[MV] KWON IN SEO(권인서) _ Cotton Candy(솜사탕)(Drama Ver.)",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -3266,6 +3237,26 @@
    "rawTitle": "Brody (브로디) - Why (Feat. JENNA SUHL)",
    "embedOk": true,
    "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "DweXLUAHKXU",
+   "title": "MV KWON IN SEO(권인서) _ Cotton Candy(솜사탕)(Lip Ver.)",
+   "artist": "Various Artists",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/DweXLUAHKXU/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "최신 K-POP · 1theK",
+   "moods": [
+    "신나는",
+    "청량"
+   ],
+   "views": 8504,
+   "publishedAt": "2026-11-19",
+   "channel": "1theK (원더케이)",
+   "rawTitle": "[MV] KWON IN SEO(권인서) _ Cotton Candy(솜사탕)(Lip Ver.)",
+   "embedOk": true,
+   "embedCheck": "rss"
   },
   {
    "videoId": "VTUaMldkA5A",
@@ -3320,7 +3311,7 @@
     "신나는",
     "청량"
    ],
-   "views": 4846,
+   "views": 4945,
    "publishedAt": "2026-11-23",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] Chun Beom Seok(천범석) _ A Picture We Become(어떤 그림)",
@@ -3340,7 +3331,7 @@
     "신나는",
     "청량"
    ],
-   "views": 4801,
+   "views": 4894,
    "publishedAt": "2026-11-23",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] TRAVELLER(트래블러) _ Have You Eaten?(밥 먹었어?)",
@@ -3360,7 +3351,7 @@
     "신나는",
     "청량"
    ],
-   "views": 4348,
+   "views": 4694,
    "publishedAt": "2026-11-23",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] Kassy(케이시) _ It Hurts(왜 이별은 아프기만 할까요)",
@@ -3560,7 +3551,7 @@
     "신나는",
     "청량"
    ],
-   "views": 1382,
+   "views": 1433,
    "publishedAt": "2026-11-23",
    "channel": "1theK (원더케이)",
    "rawTitle": "[COMEBACK LINE-UP] ✨11월 컴백 라인업✨| November – Part 4",
@@ -3640,232 +3631,12 @@
     "신나는",
     "청량"
    ],
-   "views": 628,
+   "views": 644,
    "publishedAt": "2026-11-23",
    "channel": "1theK (원더케이)",
    "rawTitle": "KISS OF LIFE _ LITTLE WORLD, BIG WISH",
    "embedOk": true,
    "embedCheck": "rss"
-  },
-  {
-   "videoId": "zG9aJPIcX3Q",
-   "title": "핫핑크를 술자리에서 부른다면?",
-   "artist": "EXID",
-   "duration": "3:47",
-   "durationSec": 227,
-   "thumbnail": "https://i.ytimg.com/vi/zG9aJPIcX3Q/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 5647673,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] EXID - 핫핑크를 술자리에서 부른다면?",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "8RIPOR-ASVY",
-   "title": "Why So Lonely",
-   "artist": "원더걸스",
-   "duration": "3:51",
-   "durationSec": 231,
-   "thumbnail": "https://i.ytimg.com/vi/8RIPOR-ASVY/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 4207266,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 원더걸스 - Why So Lonely",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "5NuMSon9xrE",
-   "title": "그리워하다 Missing You",
-   "artist": "BTOB",
-   "duration": "7:01",
-   "durationSec": 421,
-   "thumbnail": "https://i.ytimg.com/vi/5NuMSon9xrE/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 3820487,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 비투비 BTOB - 그리워하다 Missing You",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "ludzY2d0SUQ",
-   "title": "EVERYDAY",
-   "artist": "WINNER",
-   "duration": "5:24",
-   "durationSec": 324,
-   "thumbnail": "https://i.ytimg.com/vi/ludzY2d0SUQ/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 2560025,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 위너(WINNER) - EVERYDAY ㅣ Tipsy Live",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "fm1__3PgT0M",
-   "title": "My Love",
-   "artist": "버즈",
-   "duration": "1:57",
-   "durationSec": 117,
-   "thumbnail": "https://i.ytimg.com/vi/fm1__3PgT0M/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 1907666,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 버즈 - My Love",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "SKJvjLELrLA",
-   "title": "Garosugil At Dawn",
-   "artist": "Baek Ji Young",
-   "duration": "3:19",
-   "durationSec": 199,
-   "thumbnail": "https://i.ytimg.com/vi/SKJvjLELrLA/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 1595139,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[TIPSY live] Baek Ji Young - Garosugil At Dawn",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "OQ1MdnLVogU",
-   "title": "ㅋ",
-   "artist": "장기하와 얼굴들",
-   "duration": "3:40",
-   "durationSec": 220,
-   "thumbnail": "https://i.ytimg.com/vi/OQ1MdnLVogU/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 1520160,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 장기하와 얼굴들 - ㅋ",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "B5dTY9ToFVo",
-   "title": "Thinking Out Loud (Ed sheeran)",
-   "artist": "존박&곽진언",
-   "duration": "3:24",
-   "durationSec": 204,
-   "thumbnail": "https://i.ytimg.com/vi/B5dTY9ToFVo/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 1266216,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 존박&곽진언 - Thinking Out Loud (Ed sheeran)",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "1fKCUzeWOSQ",
-   "title": "위잉위잉(Wi Ing Wi Ing)",
-   "artist": "Hyukoh",
-   "duration": "3:51",
-   "durationSec": 231,
-   "thumbnail": "https://i.ytimg.com/vi/1fKCUzeWOSQ/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 1264543,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 혁오(Hyukoh) - 위잉위잉(Wi Ing Wi Ing) | TIPSY Live",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "2DFZFcgj3ZM",
-   "title": "미워도 사랑하니까",
-   "artist": "다비치",
-   "duration": "4:04",
-   "durationSec": 244,
-   "thumbnail": "https://i.ytimg.com/vi/2DFZFcgj3ZM/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 1253927,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 다비치 - 미워도 사랑하니까",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "SiCbj3z3KK4",
-   "title": "나에게로 떠나는 여행",
-   "artist": "버즈",
-   "duration": "3:56",
-   "durationSec": 236,
-   "thumbnail": "https://i.ytimg.com/vi/SiCbj3z3KK4/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 1208109,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 버즈 - 나에게로 떠나는 여행",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
   },
   {
    "videoId": "hal7M_k5t7E",
@@ -3885,306 +3656,6 @@
    "publishedAt": "",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "방예담 (BANG YEDAM) - 홀로 (스터디그룹 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "5XeDDm8mq4o",
-   "title": "이슬라이브 선미(SUNMI)- 사이렌(Siren)",
-   "artist": "/ dingo music",
-   "duration": "3:29",
-   "durationSec": 209,
-   "thumbnail": "https://i.ytimg.com/vi/5XeDDm8mq4o/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 600051,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 선미(SUNMI)- 사이렌(Siren)",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "1esmu7yuL2c",
-   "title": "Love U",
-   "artist": "CHUNG HA",
-   "duration": "6:04",
-   "durationSec": 364,
-   "thumbnail": "https://i.ytimg.com/vi/1esmu7yuL2c/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 519353,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 청하 CHUNG HA - Love U ㅣ Tipsy Live",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "NpAjwEHSvqU",
-   "title": "롤린(ROLLIN')",
-   "artist": "B1A4",
-   "duration": "5:35",
-   "durationSec": 335,
-   "thumbnail": "https://i.ytimg.com/vi/NpAjwEHSvqU/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 482279,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 비원에이포(B1A4) - 롤린(ROLLIN')",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "AT1DPDZNce4",
-   "title": "날 그만 잊어요",
-   "artist": "거미",
-   "duration": "3:40",
-   "durationSec": 220,
-   "thumbnail": "https://i.ytimg.com/vi/AT1DPDZNce4/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 481491,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 거미 - 날 그만 잊어요",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "bLbZBpfxebs",
-   "title": "Promise",
-   "artist": "2PM",
-   "duration": "4:12",
-   "durationSec": 252,
-   "thumbnail": "https://i.ytimg.com/vi/bLbZBpfxebs/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 395320,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 2PM - Promise",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "DCMXDm9QUIY",
-   "title": "향(Scentist)",
-   "artist": "VIXX",
-   "duration": "4:55",
-   "durationSec": 295,
-   "thumbnail": "https://i.ytimg.com/vi/DCMXDm9QUIY/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 374235,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 빅스(VIXX) - 향(Scentist)",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "wnb8MTw409g",
-   "title": "Hands UP",
-   "artist": "2PM",
-   "duration": "3:56",
-   "durationSec": 236,
-   "thumbnail": "https://i.ytimg.com/vi/wnb8MTw409g/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 366181,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 2PM - Hands UP",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "N7F4xAXq7NQ",
-   "title": "기억을 걷는 시간",
-   "artist": "넬",
-   "duration": "4:22",
-   "durationSec": 262,
-   "thumbnail": "https://i.ytimg.com/vi/N7F4xAXq7NQ/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 358440,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 넬 - 기억을 걷는 시간",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "ngdR_lFq8D4",
-   "title": "지켜줄게",
-   "artist": "김재중",
-   "duration": "4:35",
-   "durationSec": 275,
-   "thumbnail": "https://i.ytimg.com/vi/ngdR_lFq8D4/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 349504,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 김재중 - 지켜줄게",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "RO-Y6um770s",
-   "title": "널 생각해",
-   "artist": "박원",
-   "duration": "3:47",
-   "durationSec": 227,
-   "thumbnail": "https://i.ytimg.com/vi/RO-Y6um770s/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 311187,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 박원 - 널 생각해",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "L-J96uwwCCo",
-   "title": "촛불하나",
-   "artist": "GOD.",
-   "duration": "3:37",
-   "durationSec": 217,
-   "thumbnail": "https://i.ytimg.com/vi/L-J96uwwCCo/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 301251,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 지오디 GOD. - 촛불하나",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "fY_oCNwCbK0",
-   "title": "이 소설의 끝을 다시 써보려 해 , 그대라는 사치",
-   "artist": "Han Dong Geun",
-   "duration": "7:04",
-   "durationSec": 424,
-   "thumbnail": "https://i.ytimg.com/vi/fY_oCNwCbK0/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 270159,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 한동근 (Han Dong Geun) - 이 소설의 끝을 다시 써보려 해 , 그대라는 사치",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "1N1TggUaHeU",
-   "title": "미련X빗속의여인",
-   "artist": "김건모",
-   "duration": "2:21",
-   "durationSec": 141,
-   "thumbnail": "https://i.ytimg.com/vi/1N1TggUaHeU/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 224511,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 김건모 - 미련X빗속의여인",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "s2PKy_LZ_tk",
-   "title": "그날에 우리",
-   "artist": "Urbanzakapa",
-   "duration": "4:43",
-   "durationSec": 283,
-   "thumbnail": "https://i.ytimg.com/vi/s2PKy_LZ_tk/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 194449,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 어반자카파 (Urbanzakapa) - 그날에 우리",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "epb_Oo_83hY",
-   "title": "봄날의소나기",
-   "artist": "예성",
-   "duration": "6:44",
-   "durationSec": 404,
-   "thumbnail": "https://i.ytimg.com/vi/epb_Oo_83hY/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 162656,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 예성 - 봄날의소나기",
    "embedOk": true,
    "embedCheck": "player+oembed"
   },
@@ -4210,26 +3681,6 @@
    "embedCheck": "player+oembed"
   },
   {
-   "videoId": "Kr06I9PosGE",
-   "title": "다 당신 덕분이라오",
-   "artist": "김건모",
-   "duration": "4:11",
-   "durationSec": 251,
-   "thumbnail": "https://i.ytimg.com/vi/Kr06I9PosGE/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 137904,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 김건모 - 다 당신 덕분이라오",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
    "videoId": "a-Ttrk_9TZY",
    "title": "Eternal Maze (선의의 경쟁 OST)",
    "artist": "일레인",
@@ -4247,66 +3698,6 @@
    "publishedAt": "",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "일레인 - Eternal Maze (선의의 경쟁 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "TXXhR6vQDn4",
-   "title": "Lies",
-   "artist": "GOD",
-   "duration": "3:17",
-   "durationSec": 197,
-   "thumbnail": "https://i.ytimg.com/vi/TXXhR6vQDn4/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 108713,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 지오디 GOD - Lies",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "teyRLVfwY_Q",
-   "title": "서울밤 (SEOUL NIGHT)",
-   "artist": "TEEN TOP",
-   "duration": "4:56",
-   "durationSec": 296,
-   "thumbnail": "https://i.ytimg.com/vi/teyRLVfwY_Q/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 86459,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 틴탑(TEEN TOP) - 서울밤 (SEOUL NIGHT)",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "EFkXKzzTzNc",
-   "title": "Miss You | 이슬라이브(Tipsy Live)",
-   "artist": "Eric Nam",
-   "duration": "4:31",
-   "durationSec": 271,
-   "thumbnail": "https://i.ytimg.com/vi/EFkXKzzTzNc/hqdefault.jpg",
-   "genre": "발라드",
-   "playlist": "이슬라이브 (Tipsy Live)",
-   "moods": [
-    "잔잔한",
-    "새벽"
-   ],
-   "views": 42945,
-   "publishedAt": "",
-   "channel": "딩고 뮤직 / dingo music",
-   "rawTitle": "[이슬라이브] 에릭남 Eric Nam - Miss You | 이슬라이브(Tipsy Live) | LIVE",
    "embedOk": true,
    "embedCheck": "player+oembed"
   },
@@ -5869,7 +5260,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 17377949,
+   "views": 17377997,
    "publishedAt": "2023-03-30",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "VOID",
@@ -6021,7 +5412,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 6593847,
+   "views": 6593859,
    "publishedAt": "2023-03-30",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "BATTLE OF THE LARYNX",
@@ -6135,7 +5526,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 4587538,
+   "views": 4587546,
    "publishedAt": "2017-01-29",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Soap",
@@ -6230,7 +5621,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 4048924,
+   "views": 4048934,
    "publishedAt": "2017-02-18",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Carousel",
@@ -6268,7 +5659,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 3804101,
+   "views": 3804099,
    "publishedAt": "2019-09-05",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Drama Club",
@@ -6420,7 +5811,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 1975238,
+   "views": 1975242,
    "publishedAt": "2022-03-17",
    "channel": "GAYLE - Topic",
    "rawTitle": "ur just horny",
@@ -6515,7 +5906,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 1259829,
+   "views": 1259837,
    "publishedAt": "2019-09-05",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Strawberry Shortcake",
@@ -6591,7 +5982,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 883572,
+   "views": 883574,
    "publishedAt": "2019-09-05",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Recess",
@@ -6610,7 +6001,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 798534,
+   "views": 798536,
    "publishedAt": "2019-09-05",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Orange Juice",
@@ -6918,7 +6309,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 2316,
+   "views": 2317,
    "publishedAt": "2026-11-21",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "이날(YNR) - 지금은 내일의 꿈 (Memory Room) [Lyric Video]",
@@ -6958,7 +6349,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 1381,
+   "views": 1391,
    "publishedAt": "2026-11-23",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "Jaenax - donkyo [Music Video]",
@@ -7058,7 +6449,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 971,
+   "views": 979,
    "publishedAt": "2026-11-23",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "Jaenax - hiyin [Music Video]",

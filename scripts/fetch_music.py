@@ -131,8 +131,6 @@ SOURCES = [
     # ---------------- 발라드 ----------------
     {"key": "warner-3am", "playlistId": "PLX3cI5NYkjAjOv3GWtV5rtV4FH8zdhw67",
      "playlist": "잔잔한 새벽감성 가요", "genre": "발라드", "moods": ["잔잔한", "새벽", "이별"], "maxVideos": 40},
-    {"key": "dingo-tipsy", "playlistId": "PLmxVF8ick5cS8ywQrE-4l6871ZfRxSDj_",
-     "playlist": "이슬라이브 (Tipsy Live)", "genre": "발라드", "moods": ["잔잔한", "새벽"], "maxVideos": 30},
     # ---------------- 힙합·R&B ----------------
     {"key": "warner-khiphop", "playlistId": "PLX3cI5NYkjAhseGCrJdRVy7JjnzIn7IZP",
      "playlist": "턴업하기 좋은 국내 힙합", "genre": "힙합·R&B", "moods": ["신나는", "운동"], "maxVideos": 34},
@@ -206,7 +204,7 @@ EXCLUDE_WORDS = [
     "live clip", "라이브 클립", "full album", "정규앨범", "compilation", "모음집", "메들리",
     "medley", "shorts", "쇼츠", "광고", "게임", "movie", "영화 예고",
     "stage", "무대", "커버", "cover", "remix", "리믹스", "sped up", "slowed", "8d",
-    "story ver", "drama ver", "prologue", "film ver",
+    "story ver", "drama ver", "prologue", "film ver", "이슬라이브", "tipsy live", "세로라이브",
     "mashup", "매시업", "skzflix", "documentary", "다큐", "vlog", "브이로그",
     "jacket", "concept photo", "spoiler", "캐스팅", "현장", "리허설", "unveil",
     "loading", "track video", "special clip", "preview", "미리보기", "무대 영상",
