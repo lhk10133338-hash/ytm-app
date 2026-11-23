@@ -57,13 +57,13 @@ a { color: inherit; text-decoration: none; }
 
 .topbar {
   position: sticky; top: 0; z-index: 20;
-  height: 56px;
-  display: flex; align-items: center; gap: 10px;
-  padding: var(--safe-t) 14px 0;
-  background: rgba(3, 3, 3, .82);
+  min-height: calc(60px + var(--safe-t));
+  display: flex; align-items: center; gap: 8px;
+  padding: calc(var(--safe-t) + 6px) 14px 6px;
+  background: rgba(3, 3, 3, .86);
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
-  border-bottom: 1px solid rgba(255, 255, 255, .04);
+  border-bottom: 1px solid rgba(255, 255, 255, .05);
 }
 .brand { display: flex; align-items: center; gap: 9px; margin-right: auto; }
 .brand-mark {
@@ -76,13 +76,22 @@ a { color: inherit; text-decoration: none; }
 .brand-name { font-size: 17px; font-weight: 800; letter-spacing: -.4px; }
 .brand-name em { font-style: normal; color: var(--accent); }
 .icon-btn {
-  width: 40px; height: 40px; border-radius: 50%;
+  width: 44px; height: 44px; border-radius: 50%;
   display: grid; place-items: center;
   color: var(--muted);
   transition: background .15s, color .15s;
 }
-.icon-btn:hover, .icon-btn:active { background: rgba(255, 255, 255, .08); color: #fff; }
-.icon-btn svg { width: 21px; height: 21px; fill: currentColor; }
+.icon-btn:hover, .icon-btn:active { background: rgba(255, 255, 255, .1); color: #fff; }
+.icon-btn svg { width: 22px; height: 22px; fill: currentColor; }
+
+.home-search-btn {
+  display: flex; align-items: center; gap: 10px;
+  width: 100%; height: 46px; padding: 0 14px; margin: 10px 0 6px;
+  border-radius: 12px; background: var(--card); border: 1px solid var(--line);
+  color: var(--muted); font-size: 14px; text-align: left;
+}
+.home-search-btn:active { background: var(--card-hi); }
+.home-search-btn svg { width: 19px; height: 19px; fill: var(--muted); flex: 0 0 auto; }
 
 .view { padding: 6px 14px 26px; max-width: 1180px; margin: 0 auto; }
 

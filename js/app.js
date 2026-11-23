@@ -450,6 +450,7 @@
     var html = '';
     html += '<h1 class="page-title">오늘은 어떤 음악?</h1>';
     html += '<p class="page-sub">' + (state.data.count || allSongs().length) + '곡 · YouTube 공식 채널 플레이리스트</p>';
+    html += '<button class="home-search-btn" data-act="go-explore">' + ICON.search + '<span>곡, 아티스트, 플레이리스트 검색</span></button>';
     html += chipsHTML();
 
     var recentSongs = (state.recent || []).map(function (r) { return songFromVideoId(r.videoId); }).filter(Boolean).slice(0, 12);
@@ -1538,7 +1539,10 @@
 
     switch (act) {
       case 'tab': go('#/' + id); break;
-      case 'go-explore': go('#/explore'); break;
+      case 'go-explore':
+        go('#/explore');
+        setTimeout(function () { var si = $('search-input'); if (si) si.focus(); }, 60);
+        break;
       case 'go-library':
         state.libraryTab = id || 'liked';
         go('#/library');
