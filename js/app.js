@@ -596,10 +596,24 @@
       '&videoCategoryId=10&maxResults=20&regionCode=KR&relevanceLanguage=ko&q=' +
       encodeURIComponent(q) + '&key=' + encodeURIComponent(key);
     return fetch(searchUrl).then(function (r) {
-      if (!r.ok) throw new Error('search ' + r.status);
-      return r.json();
+      return r.json().catch(function () { return {}; }).then(function (data) {
+        if (!r.ok || data.error) {
+          var reason = (data.error && data.error.errors && data.error.errors[0] && data.error.errors[0].reason) || '';
+          var msg = (data.error && data.error.message) || ('search ' + r.status);
+          if (reason === 'accessNotConfigured' || msg.indexOf('has not been used') >= 0) {
+            throw new Error('YouTube Data API v3 사용(ENABLE)이 꺼져 있음');
+          }
+          if (reason === 'ipRefererBlocked' || msg.indexOf('referer') >= 0 || msg.indexOf('referrer') >= 0) {
+            throw new Error('API 키 제한사항(리퍼러)에 막힘 — 제한을 "없음"으로 변경');
+          }
+          if (msg.indexOf('API key not valid') >= 0) {
+            throw new Error('API 키 오타/잘못된 키');
+          }
+          throw new Error('search ' + r.status + ': ' + msg);
+        }
+        return data;
+      });
     }).then(function (data) {
-      if (data.error) throw new Error(data.error.message || 'API 오류');
       var ids = (data.items || []).map(function (it) { return it.id && it.id.videoId; }).filter(Boolean);
       if (!ids.length) return [];
       var vUrl = 'https://www.googleapis.com/youtube/v3/videos?part=snippet,contentDetails,status' +
