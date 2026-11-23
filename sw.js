@@ -2,7 +2,7 @@
  * 등록은 js/app.js 에서 { updateViaCache: 'none' } 로 하며,
  * 새 워커가 controllerchange 를 일으키면 앱이 자동으로 한 번 새로고침된다.
  */
-const CACHE = 'ymusic-v1.0.3';
+const CACHE = 'ymusic-v1.0.4';
 const SHELL = [
   './',
   './index.html',

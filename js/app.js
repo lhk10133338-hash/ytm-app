@@ -242,6 +242,10 @@
     if (state.cache[id]) return state.cache[id];
     var songs = state.data.songs || [];
     for (var i = 0; i < songs.length; i++) if (songs[i].videoId === id) { state.cache[id] = songs[i]; return songs[i]; }
+    var ex = (state.explore && state.explore.results) || [];
+    for (var j = 0; j < ex.length; j++) if (ex[j].videoId === id) { state.cache[id] = ex[j]; return ex[j]; }
+    var q = state.queue || [];
+    for (var k = 0; k < q.length; k++) if (q[k].videoId === id) { state.cache[id] = q[k]; return q[k]; }
     return null;
   }
 
@@ -643,7 +647,7 @@
           if (!sec || sec > 3600) return;
           var sn = it.snippet || {};
           var thumbs = sn.thumbnails || {};
-          out.push({
+          var songObj = {
             videoId: it.id,
             title: sn.title || '',
             artist: sn.channelTitle || '',
@@ -655,7 +659,9 @@
             moods: [],
             views: 0,
             source: 'api'
-          });
+          };
+          state.cache[songObj.videoId] = songObj;
+          out.push(songObj);
         });
         return out;
       });
