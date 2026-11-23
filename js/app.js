@@ -46,7 +46,7 @@
     songStore: {},
     playlists: [],
     recent: [],
-    settings: { apiKey: '', quality: 'highres', externalPlay: true },
+    settings: { apiKey: '', quality: 'highres', externalPlay: true, preferAudio: true },
     yt: null,
     ytReady: false,
     pendingSong: null,
@@ -198,7 +198,8 @@
     state.settings = {
       apiKey: settings.apiKey || '',
       quality: settings.quality || 'highres',
-      externalPlay: settings.externalPlay !== false
+      externalPlay: settings.externalPlay !== false,
+      preferAudio: settings.preferAudio !== false
     };
     var prefs = readJSON(STORE.prefs, {}) || {};
     state.shuffle = !!prefs.shuffle;
@@ -216,7 +217,8 @@
     writeJSON(STORE.settings, {
       apiKey: state.settings.apiKey,
       quality: state.settings.quality || 'highres',
-      externalPlay: state.settings.externalPlay !== false
+      externalPlay: state.settings.externalPlay !== false,
+      preferAudio: state.settings.preferAudio !== false
     });
   }
 
@@ -573,15 +575,31 @@
   /* =====================================================================
    * 8. 탐색
    * ===================================================================== */
+  function audioPriorityScore(song) {
+    if (!song || state.settings.preferAudio === false) return 0;
+    var ch = String(song.channel || '').toLowerCase();
+    var t = String(song.rawTitle || song.title || '').toLowerCase();
+    var sc = 0;
+    if (/- topic$/.test(ch) || ch.indexOf('topic') >= 0) sc += 120;
+    if (/official audio|\baudio\b|topic|lyrics|가사|음원/.test(t)) sc += 80;
+    if (/live|라이브|이슬라이브|killing voice|it's live/.test(t)) sc += 35;
+    if (/official\s*m\/?v|music video|\bmv\b|m\/v|스토리|story|drama ver/.test(t)) sc -= 30;
+    return sc;
+  }
+
   function localSearch(q) {
     q = String(q || '').trim().toLowerCase();
     if (!q) return [];
-    return allSongs().filter(function (s) {
+    var hits = allSongs().filter(function (s) {
       return (s.title || '').toLowerCase().indexOf(q) >= 0 ||
         (s.artist || '').toLowerCase().indexOf(q) >= 0 ||
         (s.playlist || '').toLowerCase().indexOf(q) >= 0 ||
         (s.genre || '').toLowerCase().indexOf(q) >= 0;
     });
+    if (state.settings.preferAudio !== false) {
+      hits.sort(function (a, b) { return audioPriorityScore(b) - audioPriorityScore(a); });
+    }
+    return hits;
   }
 
   function searchResultsHTML() {
@@ -760,6 +778,9 @@
           state.cache[songObj.videoId] = songObj;
           out.push(songObj);
         });
+        if (state.settings.preferAudio !== false) {
+          out.sort(function (a, b) { return audioPriorityScore(b) - audioPriorityScore(a); });
+        }
         return out;
       });
     });
@@ -1600,7 +1621,9 @@
       '<div class="field"><span>재생 방식</span>' +
       '<div class="hint" style="margin:0">' + (state.settings.externalPlay !== false ? '곡을 누르면 바로 외부 앱(ReVanced)으로 열어요.' : 'YMUSIC 앱 안에서 바로 재생해요.') + '</div></div>' +
       '<div class="btn-row"><button class="btn ' + (state.settings.externalPlay !== false ? 'primary' : 'ghost') + '" data-act="toggle-external-mode">' +
-      (state.settings.externalPlay !== false ? '외부 앱 바로 연결: 켜짐' : '외부 앱 바로 연결: 꺼짐') + '</button></div>' +
+      (state.settings.externalPlay !== false ? '외부 앱 바로 연결: 켜짐' : '외부 앱 바로 연결: 꺼짐') + '</button> ' +
+      '<button class="btn ' + (state.settings.preferAudio !== false ? 'primary' : 'ghost') + '" data-act="toggle-prefer-audio">' +
+      (state.settings.preferAudio !== false ? '음원 우선 정렬: 켜짐' : '음원 우선 정렬: 꺼짐') + '</button></div>' +
       '</div>' +
       '<div class="sect" style="margin-top:20px">' +
       '<div class="field"><span>내장 라이브러리</span>' +
@@ -1718,6 +1741,13 @@
         if (!extId) break;
         if (state.sheet) closeSheet();
         launchExternal(extId);
+        break;
+      }
+      case 'toggle-prefer-audio': {
+        state.settings.preferAudio = state.settings.preferAudio === false;
+        saveSettings();
+        toast(state.settings.preferAudio ? '음원(Topic·Audio) 우선 정렬 켜짐' : '음원 우선 정렬 꺼짐');
+        openSettings();
         break;
       }
       case 'toggle-external-mode': {
