@@ -281,6 +281,22 @@
     return list.slice().sort(function (a, b) { return (b.views || 0) - (a.views || 0); });
   }
 
+  function sortedTrending(list) {
+    var nowMs = Date.now();
+    return (list || []).slice().sort(function (a, b) {
+      function score(s) {
+        var v = Math.log10((s.views || 0) + 10);
+        var rec = 0;
+        if (s.publishedAt) {
+          var days = Math.max(1, (nowMs - Date.parse(s.publishedAt)) / 86400000);
+          if (!isNaN(days)) rec = Math.max(0, 6 - Math.log10(days) * 2.2);
+        }
+        return v + rec;
+      }
+      return score(b) - score(a);
+    });
+  }
+
   function playlistGroups() {
     var groups = {}, order = [];
     var songs = sortedByViews(allSongs());
@@ -309,7 +325,9 @@
 
     var topGenres = Object.keys(gScore).sort(function (a, b) { return gScore[b] - gScore[a]; });
     var topArtists = Object.keys(aScore).sort(function (a, b) { return aScore[b] - aScore[a]; });
-    var scored = allSongs().filter(function (s) { return !seen[s.videoId]; }).map(function (s) {
+    var pool = filteredSongs().filter(function (s) { return !seen[s.videoId]; });
+    if (!pool.length) pool = filteredSongs();
+    var scored = pool.map(function (s) {
       var sc = (gScore[s.genre] || 0) * 10 + (aScore[s.artist] || 0) * 15 + Math.log10((s.views || 0) + 10);
       return { song: s, score: sc };
     });
@@ -487,23 +505,42 @@
       html += '<div class="hscroll">' + recentSongs.map(function (s) { return cardHTML(s, ''); }).join('') + '</div></section>';
     }
 
+    var fTag = state.homeFilter !== 'all' ? ' · ' + state.homeFilter : '';
     var taste = tasteRecommendations(16);
     if (taste.songs.length) {
-      html += '<section class="sect">' + sectionHead('내 취향 맞춤 추천',
-        '<button class="more" data-act="play-taste">전체 재생</button>');
+      html += '<section class="sect">' + sectionHead('내 취향 맞춤 추천' + fTag,
+        '<button class="more accent" data-act="play-taste">전체 재생</button>');
       if (taste.label) html += '<p class="page-sub" style="margin:-6px 2px 10px">' + esc(taste.label) + '</p>';
       html += '<div class="hscroll">' + taste.songs.map(function (s) { return cardHTML(s, ''); }).join('') + '</div></section>';
     }
 
-    var latest = songs.slice().sort(function (a, b) {
+    var latest = songs.filter(function (s) { return !!s.publishedAt; }).slice().sort(function (a, b) {
       return String(b.publishedAt || '').localeCompare(String(a.publishedAt || ''));
     }).slice(0, 14);
-    html += '<section class="sect">' + sectionHead('최신 발매 가요 · 신곡', '<button class="more" data-act="play-latest">전체 재생</button>');
-    html += '<div class="hscroll">' + latest.map(function (s) { return cardHTML(s, 'NEW'); }).join('') + '</div></section>';
+    if (!latest.length) latest = songs.slice(0, 14);
+    html += '<section class="sect">' + sectionHead('최신 발매 가요 · 신곡' + fTag, '<button class="more accent" data-act="play-latest">전체 재생</button>');
+    html += '<div class="hscroll">' + latest.map(function (s) {
+      var d = s.publishedAt ? s.publishedAt.slice(5).replace('-', '.') : 'NEW';
+      return cardHTML(s, d);
+    }).join('') + '</div></section>';
+
+    var situations = [
+      { id: '드라이브', title: '🚗 드라이브 · 출퇴근', sub: '달릴 때 듣기 좋은 리듬' },
+      { id: '새벽', title: '☔ 감성 · 새벽 발라드', sub: '조용한 밤 감성 채우기' },
+      { id: '운동', title: '🔥 운동 · 텐션 업', sub: '에너지 끌어올리는 비트' },
+      { id: '집중', title: '☕ 집중 · 공부 · 카페', sub: '방해 없는 로파이·피아노' },
+      { id: 'OST', title: '🎬 드라마 OST 정주행', sub: '명장면 속 그 노래들' },
+      { id: '청량', title: '✨ 청량 · 기분전환', sub: '가볍고 산뜻한 트랙' },
+    ];
+    html += '<section class="sect">' + sectionHead('상황별 맞춤 음악');
+    html += '<div class="situ-grid">' + situations.map(function (st) {
+      return '<button class="situ-card" data-act="play-situation" data-id="' + esc(st.id) + '">' +
+        '<div class="t">' + esc(st.title) + '</div><div class="a">' + esc(st.sub) + '</div></button>';
+    }).join('') + '</div></section>';
 
     var chartLimit = state.homeChartExpanded ? 100 : 10;
-    var chart = sortedByViews(songs).slice(0, chartLimit);
-    html += '<section class="sect">' + sectionHead('인기 차트 TOP 100',
+    var chart = sortedTrending(songs).slice(0, chartLimit);
+    html += '<section class="sect">' + sectionHead('인기 차트 TOP 100' + fTag,
       '<div style="margin-left:auto;display:flex;gap:12px">' +
       '<button class="more" data-act="toggle-chart-more">' + (state.homeChartExpanded ? '접기' : '100곡 보기') + '</button>' +
       '<button class="more accent" data-act="play-chart">전체 재생</button></div>');
@@ -1775,10 +1812,17 @@
         break;
       }
       case 'play-latest': {
-        var lList = filteredSongs().slice().sort(function (a, b) {
+        var lList = filteredSongs().filter(function (s) { return !!s.publishedAt; }).slice().sort(function (a, b) {
           return String(b.publishedAt || '').localeCompare(String(a.publishedAt || ''));
         }).slice(0, 30);
-        playList(lList, 0);
+        playList(lList.length ? lList : filteredSongs().slice(0, 30), 0);
+        break;
+      }
+      case 'play-situation': {
+        var sit = allSongs().filter(function (s) {
+          return s.genre === id || (s.moods || []).indexOf(id) >= 0;
+        });
+        playList(sortedTrending(sit).slice(0, 30), 0);
         break;
       }
       case 'toggle-chart-more': {
@@ -1787,7 +1831,7 @@
         break;
       }
       case 'play-chart': {
-        playList(sortedByViews(filteredSongs()).slice(0, 100), 0);
+        playList(sortedTrending(filteredSongs()).slice(0, 100), 0);
         break;
       }
       case 'play-search-all': {

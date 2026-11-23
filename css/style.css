@@ -107,6 +107,18 @@ a { color: inherit; text-decoration: none; }
 .track .num { font-variant-numeric: tabular-nums; }
 .track:nth-child(-n+3) .num { color: #00cd3c; font-weight: 800; }
 
+.situ-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.situ-card {
+  padding: 13px 14px; border-radius: 12px;
+  background: linear-gradient(135deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+  border: 1px solid var(--line); text-align: left;
+  transition: background .15s, transform .12s;
+}
+.situ-card:active { transform: scale(.98); background: var(--card-hi); }
+.situ-card .t { font-size: 14px; font-weight: 700; color: #fff; }
+.situ-card .a { font-size: 12px; color: var(--muted); margin-top: 3px; }
+@media (min-width: 720px) { .situ-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+
 .chips {
   display: flex; gap: 8px; overflow-x: auto; padding: 8px 2px 4px;
   scrollbar-width: none; -webkit-overflow-scrolling: touch;

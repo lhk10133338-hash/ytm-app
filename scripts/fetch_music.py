@@ -56,6 +56,56 @@ CACHE_PATH = os.path.join(DATA_DIR, "probe_cache.json")
 #   playlist : 앱에 표시할 플레이리스트/차트 이름
 #   moods    : 홈 필터 칩에 쓰는 분위기 태그
 # ---------------------------------------------------------------------------
+RSS_CHANNELS = [
+    {"channelId": "UCweOkPb1wVVH0Q0Tlj4a5Pw", "playlist": "최신 K-POP · 1theK", "genre": "K-POP", "moods": ["신나는", "청량"]},
+    {"channelId": "UCgsa86LyjWBd3j9fQ4zmHuQ", "playlist": "최신 가요 · Stone Music", "genre": "발라드", "moods": ["감성", "잔잔한"]},
+    {"channelId": "UCsEHEHE0vQhvIxq95_eTNdA", "playlist": "최신 라이브 · Dingo Music", "genre": "발라드", "moods": ["감성", "잔잔한"]},
+    {"channelId": "UC3IZKseVpdzPSBaWxBxundA", "playlist": "최신 K-POP · HYBE", "genre": "K-POP", "moods": ["신나는"]},
+    {"channelId": "UCEf_Bc-KVd7onSeifS3py9g", "playlist": "최신 K-POP · SMTOWN", "genre": "K-POP", "moods": ["신나는"]},
+    {"channelId": "UCaO6TYtlC8U5ttz62hTrZgg", "playlist": "최신 K-POP · JYP", "genre": "K-POP", "moods": ["신나는"]},
+    {"channelId": "UCQi67q4kGdmnJaRzX81uK5g", "playlist": "최신 K-POP · YG", "genre": "K-POP", "moods": ["신나는"]},
+    {"channelId": "UCLvhr40dgoBcV4XBlOhauNw", "playlist": "최신 가요 · Warner", "genre": "팝송", "moods": ["드라이브", "청량"]},
+]
+
+
+def fetch_rss_entries(kind: str, target_id: str):
+    """YouTube RSS 피드(channel_id 또는 playlist_id)에서 최신 15개 영상의 publishedAt/views를 가져온다."""
+    import xml.etree.ElementTree as ET
+    url = f"{BASE}/feeds/videos.xml?{kind}={target_id}"
+    try:
+        raw = http_get(url).encode("utf-8")
+        root = ET.fromstring(raw)
+    except Exception:
+        return []
+    ns = {
+        "a": "http://www.w3.org/2005/Atom",
+        "yt": "http://www.youtube.com/xml/schemas/2015",
+        "media": "http://search.yahoo.com/mrss/",
+    }
+    out = []
+    for ent in root.findall("a:entry", ns):
+        vid_el = ent.find("yt:videoId", ns)
+        title_el = ent.find("a:title", ns)
+        pub_el = ent.find("a:published", ns)
+        author_el = ent.find("a:author/a:name", ns)
+        views = 0
+        stat = ent.find("media:group/media:community/media:statistics", ns)
+        if stat is not None and stat.attrib.get("views"):
+            try:
+                views = int(stat.attrib["views"])
+            except ValueError:
+                views = 0
+        if vid_el is not None and title_el is not None:
+            out.append({
+                "videoId": vid_el.text.strip(),
+                "title": title_el.text.strip(),
+                "publishedAt": (pub_el.text.strip()[:10] if pub_el is not None and pub_el.text else ""),
+                "author": (author_el.text.strip() if author_el is not None and author_el.text else ""),
+                "views": views,
+            })
+    return out
+
+
 SOURCES = [
     # ---------------- K-POP ----------------
     {"key": "newjeans", "playlistId": "PL_Cqw69_m_ywY88NJ5SlpuaO_rmpKXO0D",
@@ -451,6 +501,9 @@ def probe_watch(video_id: str):
             views = re.search(r'"viewCount":"([\d,]+)"', html)
             if views:
                 out["views"] = int(views.group(1).replace(",", ""))
+            pdate = re.search(r'"publishDate":"(\d{4}-\d{2}-\d{2})', html)
+            if pdate:
+                out["publishedAt"] = pdate.group(1)
             initial = extract_json_var(html, "ytInitialData")
             if initial:
                 for node in walk_key(initial, "videoPrimaryInfoRenderer"):
@@ -696,6 +749,7 @@ def collect_source(src: dict, cache: dict, probe: bool, verbose: bool = False):
         print(f"  ! {src['key']} 재생목록 실패: {err}", file=sys.stderr)
         return [], []
 
+    rss_dates = {e["videoId"]: e for e in fetch_rss_entries("playlist_id", src["playlistId"])}
     long_ok = bool(src.get("longOk"))
     picked, rejected = [], []
 
@@ -758,7 +812,8 @@ def collect_source(src: dict, cache: dict, probe: bool, verbose: bool = False):
                 "genre": src["genre"],
                 "playlist": src["playlist"],
                 "moods": list(src.get("moods") or []),
-                "views": int(info.get("views") or video.get("views") or 0),
+                "views": int(info.get("views") or video.get("views") or (rss_dates.get(vid) or {}).get("views") or 0),
+                "publishedAt": info.get("publishedAt") or (rss_dates.get(vid) or {}).get("publishedAt") or "",
                 "channel": channel,
                 "rawTitle": raw_title,
                 "embedOk": info.get("ok"),
@@ -768,34 +823,45 @@ def collect_source(src: dict, cache: dict, probe: bool, verbose: bool = False):
     return songs, rejected
 
 
-def fetch_view_count(video_id: str):
-    """시청 페이지 HTML 에서 조회수만 뽑는다(봇 확인과 무관하게 남아 있다)."""
+def fetch_watch_meta(video_id: str):
+    """시청 페이지 HTML 에서 조회수와 publishDate 를 뽑는다."""
     try:
         html = http_get(f"{BASE}/watch?v={video_id}&hl=ko&gl=KR")
     except Exception:  # noqa: BLE001
-        return None
+        return None, None
+    views = None
     m = re.search(r'"viewCount":"([\d,]+)"', html)
-    if not m:
-        return None
-    try:
-        return int(m.group(1).replace(",", ""))
-    except ValueError:
-        return None
+    if m:
+        try:
+            views = int(m.group(1).replace(",", ""))
+        except ValueError:
+            views = None
+    pd = None
+    pm = re.search(r'"publishDate":"(\d{4}-\d{2}-\d{2})', html)
+    if pm:
+        pd = pm.group(1)
+    return views, pd
 
 
 def fill_views(path: str = OUT_PATH, verbose: bool = False) -> int:
-    """조회수가 비어 있는 곡들의 조회수를 채워 넣는다(인기 차트 정렬용)."""
+    """조회수나 발행일이 비어 있는 곡들의 메타를 채워 넣는다."""
     with open(path, encoding="utf-8") as fh:
         data = json.load(fh)
     songs = data.get("songs", [])
-    targets = [s for s in songs if not s.get("views")]
-    print(f"조회수 보강 대상: {len(targets)}곡", file=sys.stderr)
+    targets = [s for s in songs if not s.get("views") or not s.get("publishedAt")]
+    print(f"메타 보강 대상: {len(targets)}곡", file=sys.stderr)
     filled = 0
-    with ThreadPoolExecutor(max_workers=6) as pool:
-        results = list(pool.map(lambda s: (s, fetch_view_count(s["videoId"])), targets))
-    for song, views in results:
-        if views:
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        results = list(pool.map(lambda s: (s, fetch_watch_meta(s["videoId"])), targets))
+    for song, (views, pd) in results:
+        changed = False
+        if views and not song.get("views"):
             song["views"] = views
+            changed = True
+        if pd and not song.get("publishedAt"):
+            song["publishedAt"] = pd
+            changed = True
+        if changed:
             filled += 1
             if verbose:
                 print(f"  {song['videoId']} → {views:,}", file=sys.stderr)
@@ -828,6 +894,45 @@ def main(argv=None) -> int:
 
     all_songs, seen_ids, seen_keys = [], set(), set()
     report = []
+
+    print("[0] 공식 채널 RSS 최신 신곡 수집 …", file=sys.stderr)
+    rss_added = 0
+    for rch in RSS_CHANNELS:
+        entries = fetch_rss_entries("channel_id", rch["channelId"])
+        for ent in entries:
+            vid = ent["videoId"]
+            if vid in seen_ids or is_excluded(ent["title"]):
+                continue
+            low_t = ent["title"].lower()
+            if any(x in low_t for x in ("4 earth", "vlog", "ep.", "ep ", "behind", "making", "reaction", "challenge", "shorts", "highlight medley", "track video")):
+                continue
+            title, artist = split_title(ent["title"], ent["author"], ent["author"])
+            if not title:
+                continue
+            key = (artist.lower(), title_key(title))
+            if key in seen_keys:
+                continue
+            seen_ids.add(vid)
+            seen_keys.add(key)
+            all_songs.append({
+                "videoId": vid,
+                "title": title,
+                "artist": artist,
+                "duration": "3:30",
+                "durationSec": 210,
+                "thumbnail": f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg",
+                "genre": rch["genre"],
+                "playlist": rch["playlist"],
+                "moods": list(rch["moods"]),
+                "views": ent["views"],
+                "publishedAt": ent["publishedAt"],
+                "channel": ent["author"],
+                "rawTitle": ent["title"],
+                "embedOk": True,
+                "embedCheck": "rss",
+            })
+            rss_added += 1
+    print(f"    → RSS 최신곡 {rss_added}곡 추가", file=sys.stderr)
 
     for i, src in enumerate(sources, 1):
         print(f"[{i}/{len(sources)}] {src['playlist']} ({src['genre']}) …", file=sys.stderr)
