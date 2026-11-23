@@ -293,6 +293,34 @@
     return order.map(function (k) { return groups[k]; });
   }
 
+  function tasteRecommendations(limit) {
+    var recents = (state.recent || []).map(function (r) { return songFromVideoId(r.videoId); }).filter(Boolean);
+    var likes = likedSongs();
+    var seeds = likes.concat(recents);
+    if (!seeds.length) return { songs: [], label: '' };
+
+    var gScore = {}, aScore = {}, seen = {};
+    seeds.forEach(function (s, idx) {
+      var w = idx < likes.length ? 3 : 1;
+      if (s.genre && s.genre !== '실시간 검색') gScore[s.genre] = (gScore[s.genre] || 0) + w;
+      if (s.artist) aScore[s.artist] = (aScore[s.artist] || 0) + w;
+      seen[s.videoId] = true;
+    });
+
+    var topGenres = Object.keys(gScore).sort(function (a, b) { return gScore[b] - gScore[a]; });
+    var topArtists = Object.keys(aScore).sort(function (a, b) { return aScore[b] - aScore[a]; });
+    var scored = allSongs().filter(function (s) { return !seen[s.videoId]; }).map(function (s) {
+      var sc = (gScore[s.genre] || 0) * 10 + (aScore[s.artist] || 0) * 15 + Math.log10((s.views || 0) + 10);
+      return { song: s, score: sc };
+    });
+    scored.sort(function (a, b) { return b.score - a.score; });
+    var picks = scored.slice(0, limit || 16).map(function (x) { return x.song; });
+    var label = topGenres.length
+      ? topGenres.slice(0, 2).join(' · ') + (topArtists.length ? ' · ' + topArtists[0] + ' 취향 반영' : ' 취향 반영')
+      : '최근 감상한 곡 기반 추천';
+    return { songs: picks, label: label };
+  }
+
   function similarSongs(song, limit) {
     limit = limit || 14;
     if (!song) return [];
@@ -459,6 +487,14 @@
       html += '<div class="hscroll">' + recentSongs.map(function (s) { return cardHTML(s, ''); }).join('') + '</div></section>';
     }
 
+    var taste = tasteRecommendations(16);
+    if (taste.songs.length) {
+      html += '<section class="sect">' + sectionHead('내 취향 맞춤 추천',
+        '<button class="more" data-act="play-taste">전체 재생</button>');
+      if (taste.label) html += '<p class="page-sub" style="margin:-6px 2px 10px">' + esc(taste.label) + '</p>';
+      html += '<div class="hscroll">' + taste.songs.map(function (s) { return cardHTML(s, ''); }).join('') + '</div></section>';
+    }
+
     var quick = sortedByViews(songs).slice(0, isMobileNarrow() ? 8 : 12);
     html += '<section class="sect">' + sectionHead('빠른 선곡', '<button class="more" data-act="shuffle-all">셔플 재생</button>');
     if (quick.length) {
@@ -469,7 +505,7 @@
     html += '</section>';
 
     var chart = sortedByViews(songs).slice(0, 12);
-    html += '<section class="sect">' + sectionHead('인기 차트', '<span class="more">조회수 기준</span>');
+    html += '<section class="sect">' + sectionHead('인기 차트', '<button class="more" data-act="play-chart">전체 재생</button>');
     html += '<div class="track-list">' + chart.map(function (s, i) { return trackRowHTML(s, i, { menu: true }); }).join('') + '</div>';
     html += '</section>';
 
@@ -507,6 +543,9 @@
     if (ex.loading) html += '검색 중…';
     else if (ex.source === 'api') html += 'YouTube 실시간 검색 결과' + (ex.results ? ' · ' + ex.results.length + '곡' : '');
     else html += '내장 라이브러리 검색 결과' + (ex.results ? ' · ' + ex.results.length + '곡' : '');
+    if (!ex.loading && ex.results && ex.results.length) {
+      html += ' <button class="more" data-act="play-search-all" style="margin-left:8px;color:#fff;font-weight:700">전체 재생</button>';
+    }
     html += '</div>';
     if (ex.loading) {
       html += '<div class="empty"><div class="spinner" style="margin:0 auto 10px"></div>찾고 있어요…</div>';
@@ -565,7 +604,7 @@
     if (state.route.genre && state.route.genre !== 'all') {
       var g = state.route.genre;
       var all = sortedByViews(allSongs().filter(function (s) { return s.genre === g; }));
-      html += '<section class="sect">' + sectionHead(g + ' 전체') + '<div class="track-list">' +
+      html += '<section class="sect">' + sectionHead(g + ' 전체', '<button class="more" data-act="play-genre" data-id="' + esc(g) + '">전체 재생</button>') + '<div class="track-list">' +
         all.map(function (s, i) { return trackRowHTML(s, i, { menu: true }); }).join('') + '</div></section>';
     }
     html += '</div>';
@@ -1705,6 +1744,24 @@
         break;
       }
       case 'play-liked': playList(likedSongs(), 0); break;
+      case 'play-taste': {
+        var tList = tasteRecommendations(30).songs;
+        playList(tList, 0);
+        break;
+      }
+      case 'play-chart': {
+        playList(sortedByViews(filteredSongs()).slice(0, 30), 0);
+        break;
+      }
+      case 'play-search-all': {
+        if (state.explore.results && state.explore.results.length) playList(state.explore.results, 0);
+        break;
+      }
+      case 'play-genre': {
+        var gList = sortedByViews(allSongs().filter(function (s) { return s.genre === id; }));
+        playList(gList, 0);
+        break;
+      }
       case 'save-key': {
         var ki = $('api-key-input');
         state.settings.apiKey = ki ? ki.value.trim() : '';
