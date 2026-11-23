@@ -1259,6 +1259,7 @@
       (title ? '<div class="sheet-head"><h3>' + esc(title) + '</h3><button class="icon-btn" data-act="close-sheet">' + ICON.close + '</button></div>' : '') +
       html;
     el.hidden = false;
+    showBackdrop(true);
     state.sheet = title || 'open';
   }
 
@@ -1266,6 +1267,7 @@
     var el = $('sheet');
     if (el) { el.hidden = true; el.innerHTML = ''; }
     state.sheet = null;
+    if (!state.modal) showBackdrop(false);
   }
 
   function openModal(html) {
@@ -1273,6 +1275,7 @@
     if (!el) return;
     el.innerHTML = html;
     el.hidden = false;
+    showBackdrop(true);
     state.modal = 'open';
   }
 
@@ -1280,6 +1283,12 @@
     var el = $('modal');
     if (el) { el.hidden = true; el.innerHTML = ''; }
     state.modal = null;
+    if (!state.sheet) showBackdrop(false);
+  }
+
+  function showBackdrop(on) {
+    var el = $('backdrop');
+    if (el) el.hidden = !on;
   }
 
   function openQueue() {
@@ -1472,6 +1481,10 @@
       case 'open-settings': openSettings(); break;
       case 'close-modal': closeModal(); break;
       case 'close-sheet': closeSheet(); break;
+      case 'close-overlay':
+        if (state.modal) closeModal();
+        else if (state.sheet) closeSheet();
+        break;
       case 'lib-tab': state.libraryTab = id; render(); break;
       case 'open-queue': openQueue(); break;
       case 'open-similar': openSimilar(); break;
