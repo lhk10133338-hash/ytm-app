@@ -206,6 +206,7 @@ EXCLUDE_WORDS = [
     "live clip", "라이브 클립", "full album", "정규앨범", "compilation", "모음집", "메들리",
     "medley", "shorts", "쇼츠", "광고", "게임", "movie", "영화 예고",
     "stage", "무대", "커버", "cover", "remix", "리믹스", "sped up", "slowed", "8d",
+    "story ver", "drama ver", "prologue", "film ver",
     "mashup", "매시업", "skzflix", "documentary", "다큐", "vlog", "브이로그",
     "jacket", "concept photo", "spoiler", "캐스팅", "현장", "리허설", "unveil",
     "loading", "track video", "special clip", "preview", "미리보기", "무대 영상",
