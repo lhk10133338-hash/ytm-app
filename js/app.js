@@ -46,7 +46,7 @@
     songStore: {},
     playlists: [],
     recent: [],
-    settings: { apiKey: '' },
+    settings: { apiKey: '', quality: 'highres' },
     yt: null,
     ytReady: false,
     pendingSong: null,
@@ -195,7 +195,7 @@
     state.playlists = readJSON(STORE.playlists, []) || [];
     state.recent = readJSON(STORE.recent, []) || [];
     var settings = readJSON(STORE.settings, {}) || {};
-    state.settings = { apiKey: settings.apiKey || '' };
+    state.settings = { apiKey: settings.apiKey || '', quality: settings.quality || 'highres' };
     var prefs = readJSON(STORE.prefs, {}) || {};
     state.shuffle = !!prefs.shuffle;
     state.repeat = prefs.repeat || 'off';
@@ -208,7 +208,7 @@
   function savePrefs() {
     writeJSON(STORE.prefs, { shuffle: state.shuffle, repeat: state.repeat, mode: state.mode });
   }
-  function saveSettings() { writeJSON(STORE.settings, { apiKey: state.settings.apiKey }); }
+  function saveSettings() { writeJSON(STORE.settings, { apiKey: state.settings.apiKey, quality: state.settings.quality || 'highres' }); }
 
   /* =====================================================================
    * 4. 카탈로그
@@ -768,6 +768,7 @@
       '<div class="p-tabs">' +
       '<button data-act="open-queue">' + ICON.queue + '다음 트랙</button>' +
       '<button data-act="open-similar">' + ICON.music + '비슷한 곡</button>' +
+      '<button data-act="open-quality">' + qualityLabelShort(state.settings.quality) + '</button>' +
       '<button class="oled-btn" data-act="open-oled" aria-label="OLED 절전 모드">' + ICON.moon + '</button>' +
       '</div></div></div>';
 
@@ -836,6 +837,50 @@
     });
   }
 
+  function qualityLabelShort(q) {
+    if (q === 'hd720') return '고음질 720p';
+    if (q === 'large') return '보통 480p';
+    if (q === 'medium') return '절약 360p';
+    if (q === 'auto') return '자동 음질';
+    return '최고음질';
+  }
+
+  function applyAudioQuality(player) {
+    if (!player || !player.setPlaybackQuality) return;
+    try {
+      var pref = state.settings.quality || 'highres';
+      if (pref === 'highres') {
+        var levels = player.getAvailableQualityLevels ? player.getAvailableQualityLevels() : [];
+        player.setPlaybackQuality(levels && levels.length ? levels[0] : 'hd1080');
+      } else {
+        player.setPlaybackQuality(pref);
+      }
+    } catch (e) {}
+  }
+
+  function openQualitySheet() {
+    var cur = state.settings.quality || 'highres';
+    var opts = [
+      ['highres', '최고음질 우선 (1080p+)', '가장 선명한 음질과 화질로 요청'],
+      ['hd720', '고음질 (720p)', '모바일에서 안정적인 고음질'],
+      ['large', '보통 (480p)', '데이터와 배터리 균형'],
+      ['medium', '데이터 절약 (360p)', '와이파이 없는 환경 절약'],
+      ['auto', '자동', '네트워크 상태에 따라 유튜브 자동']
+    ];
+    openSheet(
+      '<h3>음질 · 화질 설정</h3>' +
+      '<p class="hint" style="margin-bottom:10px">유튜브 스트림의 음질·화질 기준을 선택해요. (네트워크 상태에 따라 유튜브가 일시 조정할 수 있음)</p>' +
+      '<div class="sheet-list">' +
+      opts.map(function (o) {
+        return '<button class="sheet-row' + (cur === o[0] ? ' on' : '') + '" data-act="set-quality" data-id="' + o[0] + '">' +
+          '<div class="txt"><div class="t">' + o[1] + '</div><div class="a">' + o[2] + '</div></div>' +
+          (cur === o[0] ? '<span class="badge-on">선택됨</span>' : '') +
+          '</button>';
+      }).join('') +
+      '</div>'
+    );
+  }
+
   function onPlayerReady(ev) {
     state.ytReady = true;
     var song = state.pendingSong || currentSong();
@@ -846,6 +891,7 @@
         else ev.target.cueVideoById(song.videoId);
       } catch (e) {}
     }
+    applyAudioQuality(ev.target);
     layoutVideoHost();
   }
 
@@ -854,6 +900,7 @@
     var S = YTNS.PlayerState || { ENDED: 0, PLAYING: 1, PAUSED: 2, BUFFERING: 3, CUED: 5 };
     if (ev.data === S.PLAYING) {
       state.playing = true;
+      applyAudioQuality(ev.target);
       requestWakeLock();
       startTick();
       refreshPlayIcons();
@@ -1488,6 +1535,16 @@
       case 'lib-tab': state.libraryTab = id; render(); break;
       case 'open-queue': openQueue(); break;
       case 'open-similar': openSimilar(); break;
+      case 'open-quality': openQualitySheet(); break;
+      case 'set-quality': {
+        state.settings.quality = id || 'highres';
+        saveSettings();
+        applyAudioQuality(state.yt);
+        toast('음질 설정: ' + qualityLabelShort(state.settings.quality));
+        closeSheet();
+        renderPlayer();
+        break;
+      }
       case 'open-playlist': openPlaylistGroup(id); break;
       case 'open-my-playlist': openMyPlaylist(id); break;
       case 'play-mine': {
