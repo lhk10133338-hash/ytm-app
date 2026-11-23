@@ -495,6 +495,32 @@
       html += '<div class="hscroll">' + taste.songs.map(function (s) { return cardHTML(s, ''); }).join('') + '</div></section>';
     }
 
+    var latest = songs.slice().sort(function (a, b) {
+      return String(b.publishedAt || '').localeCompare(String(a.publishedAt || ''));
+    }).slice(0, 14);
+    html += '<section class="sect">' + sectionHead('최신 발매 가요 · 신곡', '<button class="more" data-act="play-latest">전체 재생</button>');
+    html += '<div class="hscroll">' + latest.map(function (s) { return cardHTML(s, 'NEW'); }).join('') + '</div></section>';
+
+    var chartLimit = state.homeChartExpanded ? 100 : 10;
+    var chart = sortedByViews(songs).slice(0, chartLimit);
+    html += '<section class="sect">' + sectionHead('인기 차트 TOP 100',
+      '<div style="margin-left:auto;display:flex;gap:12px">' +
+      '<button class="more" data-act="toggle-chart-more">' + (state.homeChartExpanded ? '접기' : '100곡 보기') + '</button>' +
+      '<button class="more accent" data-act="play-chart">전체 재생</button></div>');
+    html += '<div class="track-list">' + chart.map(function (s, i) { return trackRowHTML(s, i, { menu: true, melonRank: true }); }).join('') + '</div>';
+    html += '</section>';
+
+    var groups = playlistGroups();
+    if (state.homeFilter !== 'all') {
+      groups = groups.filter(function (g) { return g.genre === state.homeFilter || (state.data.genres || []).indexOf(state.homeFilter) < 0; });
+    }
+    html += '<section class="sect">' + sectionHead('테마 · 추천 플레이리스트');
+    html += '<div class="hscroll">' + groups.slice(0, 16).map(function (g) {
+      return '<button class="pl-card" data-act="open-playlist" data-id="' + esc(g.name) + '">' +
+        '<div class="cover">' + imgTag(g.songs[0]) + '<span>' + g.songs.length + '곡</span></div>' +
+        '<div class="t">' + esc(g.name) + '</div><div class="a">' + esc(g.genre) + '</div></button>';
+    }).join('') + '</div></section>';
+
     var quick = sortedByViews(songs).slice(0, isMobileNarrow() ? 8 : 12);
     html += '<section class="sect">' + sectionHead('빠른 선곡', '<button class="more" data-act="shuffle-all">셔플 재생</button>');
     if (quick.length) {
@@ -503,22 +529,6 @@
       html += '<div class="empty">이 분위기의 곡이 아직 없어요. 다른 칩을 눌러 보세요.</div>';
     }
     html += '</section>';
-
-    var chart = sortedByViews(songs).slice(0, 12);
-    html += '<section class="sect">' + sectionHead('인기 차트', '<button class="more" data-act="play-chart">전체 재생</button>');
-    html += '<div class="track-list">' + chart.map(function (s, i) { return trackRowHTML(s, i, { menu: true }); }).join('') + '</div>';
-    html += '</section>';
-
-    var groups = playlistGroups();
-    if (state.homeFilter !== 'all') {
-      groups = groups.filter(function (g) { return g.genre === state.homeFilter || (state.data.genres || []).indexOf(state.homeFilter) < 0; });
-    }
-    html += '<section class="sect">' + sectionHead('추천 플레이리스트');
-    html += '<div class="hscroll">' + groups.slice(0, 14).map(function (g) {
-      return '<button class="pl-card" data-act="open-playlist" data-id="' + esc(g.name) + '">' +
-        '<div class="cover">' + imgTag(g.songs[0]) + '<span>' + g.songs.length + '곡</span></div>' +
-        '<div class="t">' + esc(g.name) + '</div><div class="a">' + esc(g.genre) + '</div></button>';
-    }).join('') + '</div></section>';
 
     return html;
   }
@@ -1118,6 +1128,21 @@
   function togglePlay() {
     var song = currentSong();
     if (!song) { toast('먼저 곡을 선택해 주세요'); return; }
+    if (state.yt) {
+      try {
+        var st = typeof state.yt.getPlayerState === 'function' ? state.yt.getPlayerState() : -1;
+        if (state.playing || st === 1) {
+          state.yt.pauseVideo(); state.playing = false; releaseWakeLock(); stopTick();
+          render();
+          return;
+        }
+        if (state.settings.externalPlay === false) {
+          state.yt.playVideo(); state.playing = true; requestWakeLock(); startTick();
+          render();
+          return;
+        }
+      } catch (e) {}
+    }
     if (state.settings.externalPlay !== false) {
       launchExternal(song.videoId);
       return;
@@ -1749,8 +1774,20 @@
         playList(tList, 0);
         break;
       }
+      case 'play-latest': {
+        var lList = filteredSongs().slice().sort(function (a, b) {
+          return String(b.publishedAt || '').localeCompare(String(a.publishedAt || ''));
+        }).slice(0, 30);
+        playList(lList, 0);
+        break;
+      }
+      case 'toggle-chart-more': {
+        state.homeChartExpanded = !state.homeChartExpanded;
+        render();
+        break;
+      }
       case 'play-chart': {
-        playList(sortedByViews(filteredSongs()).slice(0, 30), 0);
+        playList(sortedByViews(filteredSongs()).slice(0, 100), 0);
         break;
       }
       case 'play-search-all': {

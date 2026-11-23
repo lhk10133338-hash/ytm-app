@@ -102,7 +102,10 @@ a { color: inherit; text-decoration: none; }
 .sect-head { display: flex; align-items: baseline; gap: 8px; margin: 0 2px 12px; }
 .sect-head h2 { font-size: 19px; font-weight: 800; letter-spacing: -.4px; margin: 0; }
 .sect-head .more { margin-left: auto; color: var(--muted); font-size: 12.5px; font-weight: 600; }
+.sect-head .more.accent { color: #00cd3c; font-weight: 700; }
 .sect-head .more:hover { color: #fff; }
+.track .num { font-variant-numeric: tabular-nums; }
+.track:nth-child(-n+3) .num { color: #00cd3c; font-weight: 800; }
 
 .chips {
   display: flex; gap: 8px; overflow-x: auto; padding: 8px 2px 4px;
