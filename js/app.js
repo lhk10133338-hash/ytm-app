@@ -46,7 +46,7 @@
     songStore: {},
     playlists: [],
     recent: [],
-    settings: { apiKey: '', quality: 'highres' },
+    settings: { apiKey: '', quality: 'highres', externalPlay: true },
     yt: null,
     ytReady: false,
     pendingSong: null,
@@ -195,7 +195,11 @@
     state.playlists = readJSON(STORE.playlists, []) || [];
     state.recent = readJSON(STORE.recent, []) || [];
     var settings = readJSON(STORE.settings, {}) || {};
-    state.settings = { apiKey: settings.apiKey || '', quality: settings.quality || 'highres' };
+    state.settings = {
+      apiKey: settings.apiKey || '',
+      quality: settings.quality || 'highres',
+      externalPlay: settings.externalPlay !== false
+    };
     var prefs = readJSON(STORE.prefs, {}) || {};
     state.shuffle = !!prefs.shuffle;
     state.repeat = prefs.repeat || 'off';
@@ -208,7 +212,13 @@
   function savePrefs() {
     writeJSON(STORE.prefs, { shuffle: state.shuffle, repeat: state.repeat, mode: state.mode });
   }
-  function saveSettings() { writeJSON(STORE.settings, { apiKey: state.settings.apiKey, quality: state.settings.quality || 'highres' }); }
+  function saveSettings() {
+    writeJSON(STORE.settings, {
+      apiKey: state.settings.apiKey,
+      quality: state.settings.quality || 'highres',
+      externalPlay: state.settings.externalPlay !== false
+    });
+  }
 
   /* =====================================================================
    * 4. 카탈로그
@@ -1023,9 +1033,28 @@
     updateMediaSession(song);
   }
 
+  function launchExternal(videoId) {
+    if (!videoId) return;
+    if (state.playing && state.yt && state.yt.pauseVideo) {
+      try { state.yt.pauseVideo(); state.playing = false; releaseWakeLock(); stopTick(); refreshPlayIcons(); } catch (err) {}
+    }
+    var isAndroid = /Android/i.test(navigator.userAgent || '');
+    if (isAndroid) {
+      location.href = 'vnd.youtube:' + encodeURIComponent(videoId);
+    } else if (typeof window.open === 'function') {
+      window.open('https://youtu.be/' + encodeURIComponent(videoId), '_blank', 'noopener');
+    }
+  }
+
   function playSong(song, queue, index) {
     if (!song) return;
     setCurrent(song, queue, index);
+    if (state.settings.externalPlay !== false) {
+      state.playing = false;
+      render();
+      launchExternal(song.videoId);
+      return;
+    }
     state.playing = true;
     ensurePlayer(song);
     if (state.yt && state.yt.loadVideoById) {
@@ -1457,6 +1486,12 @@
       '<div class="btn-row"><button class="btn ghost" data-act="test-key">연결 테스트</button>' +
       '<button class="btn primary" data-act="save-key">저장</button></div>' +
       '<div id="key-note"></div>' +
+      '<div class="sect" style="margin-top:16px">' +
+      '<div class="field"><span>재생 방식</span>' +
+      '<div class="hint" style="margin:0">' + (state.settings.externalPlay !== false ? '곡을 누르면 바로 외부 앱(ReVanced)으로 열어요.' : 'YMUSIC 앱 안에서 바로 재생해요.') + '</div></div>' +
+      '<div class="btn-row"><button class="btn ' + (state.settings.externalPlay !== false ? 'primary' : 'ghost') + '" data-act="toggle-external-mode">' +
+      (state.settings.externalPlay !== false ? '외부 앱 바로 연결: 켜짐' : '외부 앱 바로 연결: 꺼짐') + '</button></div>' +
+      '</div>' +
       '<div class="sect" style="margin-top:20px">' +
       '<div class="field"><span>내장 라이브러리</span>' +
       '<div class="hint" style="margin:0">' + (state.data.count || allSongs().length) + '곡 · ' + esc((state.data.generatedAt || '').slice(0, 10)) + ' 수집<br>' +
@@ -1568,16 +1603,15 @@
       case 'open-external': {
         var extId = id || (currentSong() && currentSong().videoId);
         if (!extId) break;
-        if (state.playing && state.yt && state.yt.pauseVideo) {
-          try { state.yt.pauseVideo(); state.playing = false; releaseWakeLock(); stopTick(); refreshPlayIcons(); } catch (err) {}
-        }
         if (state.sheet) closeSheet();
-        var isAndroid = /Android/i.test(navigator.userAgent || '');
-        if (isAndroid) {
-          location.href = 'vnd.youtube:' + encodeURIComponent(extId);
-        } else {
-          window.open('https://youtu.be/' + encodeURIComponent(extId), '_blank', 'noopener');
-        }
+        launchExternal(extId);
+        break;
+      }
+      case 'toggle-external-mode': {
+        state.settings.externalPlay = !(state.settings.externalPlay !== false);
+        saveSettings();
+        toast(state.settings.externalPlay ? '외부 앱 바로 연결 켜짐' : '앱 내부 재생 모드로 전환');
+        openSettings();
         break;
       }
       case 'set-quality': {
@@ -1779,7 +1813,7 @@
     state.liked = {};
     state.playlists = [];
     state.recent = [];
-    state.settings = { apiKey: '' };
+    state.settings = { apiKey: '', quality: 'highres', externalPlay: true };
     closeModal();
     render();
     toast('저장된 데이터를 초기화했어요');
