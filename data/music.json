@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-24T03:10:47+00:00",
+ "generatedAt": "2026-11-24T09:10:37+00:00",
  "count": 462,
  "genres": [
   "K-POP",
@@ -1058,7 +1058,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 27429947,
+   "views": 27459210,
    "publishedAt": "2026-11-09",
    "channel": "SMTOWN",
    "rawTitle": "NCT DREAM 엔시티 드림 'Boogie Woogie' MV",
@@ -1116,7 +1116,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 25267010,
+   "views": 25272692,
    "publishedAt": "2026-10-12",
    "channel": "SMTOWN",
    "rawTitle": "NCT WISH 엔시티 위시 'I SPY' MV",
@@ -1161,25 +1161,6 @@
    "rawTitle": "ITZY(있지) \"Imaginary Friend\" M/V",
    "embedOk": true,
    "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "dE_Ro8Sac2M",
-   "title": "I Want You",
-   "artist": "ENHYPEN",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/dE_Ro8Sac2M/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "최신 K-POP · HYBE",
-   "moods": [
-    "신나는"
-   ],
-   "views": 23167710,
-   "publishedAt": "2026-11-13",
-   "channel": "HYBE LABELS",
-   "rawTitle": "ENHYPEN (엔하이픈) 'I Want You' Official MV",
-   "embedOk": true,
-   "embedCheck": "rss"
   },
   {
    "videoId": "TamDOXponnM",
@@ -1371,7 +1352,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 15230939,
+   "views": 15240679,
    "publishedAt": "2026-10-25",
    "channel": "SMTOWN",
    "rawTitle": "RIIZE 라이즈 'Insomnia' MV",
@@ -1390,7 +1371,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 14454708,
+   "views": 14454742,
    "publishedAt": "2026-02-08",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "2026 YG SPECIAL AUDITION : GO! DEBUT",
@@ -1448,29 +1429,10 @@
    "moods": [
     "신나는"
    ],
-   "views": 12664320,
+   "views": 12664329,
    "publishedAt": "2025-08-17",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "TREASURE & BABYMONSTER | YG ANNOUNCEMENT",
-   "embedOk": true,
-   "embedCheck": "rss"
-  },
-  {
-   "videoId": "It1JR0u2eVE",
-   "title": "young & dumb",
-   "artist": "GIRLSET",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/It1JR0u2eVE/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "최신 K-POP · JYP",
-   "moods": [
-    "신나는"
-   ],
-   "views": 12663759,
-   "publishedAt": "2026-11-13",
-   "channel": "JYP Entertainment",
-   "rawTitle": "GIRLSET \"young & dumb\" Music Video",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -1545,7 +1507,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 11205111,
+   "views": 11205123,
    "publishedAt": "2026-02-12",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "2026 YG SPECIAL AUDITION : GO! DEBUT #2",
@@ -1573,6 +1535,25 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "j_Z3_4aFQxQ",
+   "title": "ORIGAMI",
+   "artist": "SANTOS BRAVOS x &TEAM",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/j_Z3_4aFQxQ/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "최신 K-POP · HYBE",
+   "moods": [
+    "신나는"
+   ],
+   "views": 10722667,
+   "publishedAt": "2026-11-20",
+   "channel": "HYBE LABELS",
+   "rawTitle": "SANTOS BRAVOS x &TEAM - “ORIGAMI” OFFICIAL MV",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
    "videoId": "lewIsCDK0hE",
    "title": "YG ANNOUNCEMENT",
    "artist": "2026 YG PLAN",
@@ -1584,7 +1565,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 10471950,
+   "views": 10471968,
    "publishedAt": "2026-03-03",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "2026 YG PLAN | YG ANNOUNCEMENT",
@@ -1612,25 +1593,6 @@
    "embedCheck": "player+oembed"
   },
   {
-   "videoId": "j_Z3_4aFQxQ",
-   "title": "ORIGAMI",
-   "artist": "SANTOS BRAVOS x &TEAM",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/j_Z3_4aFQxQ/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "최신 K-POP · HYBE",
-   "moods": [
-    "신나는"
-   ],
-   "views": 10133300,
-   "publishedAt": "2026-11-20",
-   "channel": "HYBE LABELS",
-   "rawTitle": "SANTOS BRAVOS x &TEAM - “ORIGAMI” OFFICIAL MV",
-   "embedOk": true,
-   "embedCheck": "rss"
-  },
-  {
    "videoId": "wsiGUcSDGgg",
    "title": "YG ANNOUNCEMENT",
    "artist": "Various Artists",
@@ -1642,7 +1604,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 8553192,
+   "views": 8553293,
    "publishedAt": "2025-05-25",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "BLACKPINK, BABYMONSTER, TREASURE, AND UPCOMING ROOKIES | YG ANNOUNCEMENT",
@@ -1699,7 +1661,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 7241956,
+   "views": 7242176,
    "publishedAt": "2026-04-29",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "BABYMONSTER, TREASURE, AND UPCOMING ROOKIES | YG ANNOUNCEMENT",
@@ -1737,7 +1699,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 5963749,
+   "views": 5963928,
    "publishedAt": "2026-03-13",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "TREASURE - 2025-26 TOUR [PULSE ON] IN OSAKA ‘쾌지나 칭칭 + VolKno' LIVE PERFORMANCE",
@@ -1756,7 +1718,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 5899427,
+   "views": 5899753,
    "publishedAt": "2026-02-27",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "TREASURE - 2025-26 TOUR [PULSE ON] IN KANAGAWA ‘KING KONG’ JP Ver. LIVE PERFORMANCE",
@@ -1775,7 +1737,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 5779903,
+   "views": 5780263,
    "publishedAt": "2026-02-20",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "TREASURE - 2025-26 TOUR [PULSE ON] IN KANAGAWA ‘음 (MMM)’ JP Ver. LIVE PERFORMANCE",
@@ -1833,7 +1795,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 5277210,
+   "views": 5277666,
    "publishedAt": "2026-10-26",
    "channel": "SMTOWN",
    "rawTitle": "XIAOJUN 샤오쥔 'Hey, Somebody (English Ver.)' MV",
@@ -2024,7 +1986,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 3413781,
+   "views": 3414143,
    "publishedAt": "2026-10-19",
    "channel": "SMTOWN",
    "rawTitle": "MAX CHANGMIN 최강창민 'All Of My Life' MV",
@@ -2217,7 +2179,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 2270801,
+   "views": 2274598,
    "publishedAt": "2026-10-19",
    "channel": "SMTOWN",
    "rawTitle": "NCT DREAM 엔시티 드림 'The Sun' MV",
@@ -2333,7 +2295,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 1673250,
+   "views": 1675906,
    "publishedAt": "2026-11-03",
    "channel": "SMTOWN",
    "rawTitle": "Red Velvet - IRENE & SEULGI 'Cheetah' MV",
@@ -2448,7 +2410,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 1302271,
+   "views": 1318907,
    "publishedAt": "2026-11-20",
    "channel": "HYBE LABELS",
    "rawTitle": "The Wildcard Club 'Click Flick' Official MV  |  AmaLee, Dokibird, ironmouse, Rin Penrose",
@@ -2467,7 +2429,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 1261856,
+   "views": 1264237,
    "publishedAt": "2026-10-18",
    "channel": "SMTOWN",
    "rawTitle": "Hearts2Hearts 하츠투하츠 'ICONIC HEART (Korean Ver.)' MV",
@@ -2505,7 +2467,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 975404,
+   "views": 975685,
    "publishedAt": "2026-08-10",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "2026 YG GLOBAL AUDITION",
@@ -2728,25 +2690,6 @@
    "embedCheck": "player+oembed"
   },
   {
-   "videoId": "33y6zq8f9JU",
-   "title": "Cheat Code (KENZIE RE:WORKS)",
-   "artist": "KENZIE X NCT WISH",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/33y6zq8f9JU/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "최신 K-POP · SMTOWN",
-   "moods": [
-    "신나는"
-   ],
-   "views": 281221,
-   "publishedAt": "2026-10-08",
-   "channel": "SMTOWN",
-   "rawTitle": "KENZIE X NCT WISH 'Cheat Code (KENZIE RE:WORKS)' MV",
-   "embedOk": true,
-   "embedCheck": "rss"
-  },
-  {
    "videoId": "RMwQqCARszk",
    "title": "TUNNEL VISION",
    "artist": "ITZY",
@@ -2856,7 +2799,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 169226,
+   "views": 170130,
    "publishedAt": "2026-11-16",
    "channel": "HYBE LABELS",
    "rawTitle": "TXT (투모로우바이투게더) ‘Angel Bite’ Official MV",
@@ -2915,7 +2858,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 141086,
+   "views": 142701,
    "publishedAt": "2026-11-19",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "[Playlist] 고작 이별하기 위해 널 사랑한 건 아닌데 (Singing My Blues)",
@@ -2934,10 +2877,29 @@
    "moods": [
     "신나는"
    ],
-   "views": 140167,
+   "views": 140601,
    "publishedAt": "2026-11-13",
    "channel": "HYBE LABELS",
    "rawTitle": "#ENHYPEN (#엔하이픈) 'I Want You' Official MV",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
+   "videoId": "hCr078-dhx4",
+   "title": "BABY ANGEL",
+   "artist": "NAYEON",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/hCr078-dhx4/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "최신 K-POP · JYP",
+   "moods": [
+    "신나는"
+   ],
+   "views": 128635,
+   "publishedAt": "2026-11-20",
+   "channel": "JYP Entertainment",
+   "rawTitle": "NAYEON \"BABY ANGEL\" M/V",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -2962,25 +2924,6 @@
    "embedCheck": "player+oembed"
   },
   {
-   "videoId": "hCr078-dhx4",
-   "title": "BABY ANGEL",
-   "artist": "NAYEON",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/hCr078-dhx4/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "최신 K-POP · JYP",
-   "moods": [
-    "신나는"
-   ],
-   "views": 127649,
-   "publishedAt": "2026-11-20",
-   "channel": "JYP Entertainment",
-   "rawTitle": "NAYEON \"BABY ANGEL\" M/V",
-   "embedOk": true,
-   "embedCheck": "rss"
-  },
-  {
    "videoId": "DBZIHZedpL8",
    "title": "NA-sty",
    "artist": "Various Artists",
@@ -2992,10 +2935,29 @@
    "moods": [
     "신나는"
    ],
-   "views": 93859,
+   "views": 94023,
    "publishedAt": "2026-11-13",
    "channel": "JYP Entertainment",
    "rawTitle": "NAYEON SINGLE “NA-sty” SNEAK PEEK Track 03. BOY #TWICE #NAYEON #나연 #NA_sty #BABY_ANGEL",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
+   "videoId": "7DEfcJ1kzGg",
+   "title": "2026 BIGHIT MUSIC GLOBAL AUDITION Message From #CORTIS",
+   "artist": "Various Artists",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/7DEfcJ1kzGg/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "최신 K-POP · HYBE",
+   "moods": [
+    "신나는"
+   ],
+   "views": 62930,
+   "publishedAt": "2026-11-24",
+   "channel": "HYBE LABELS",
+   "rawTitle": "[2026 BIGHIT MUSIC GLOBAL AUDITION] 🌟 Message From #CORTIS",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -3051,7 +3013,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 51257,
+   "views": 51528,
    "publishedAt": "2026-11-16",
    "channel": "JYP Entertainment",
    "rawTitle": "YAOCHEN(야오천) - \"WONDERFUL\" M/V",
@@ -3091,7 +3053,7 @@
     "신나는",
     "청량"
    ],
-   "views": 19639,
+   "views": 20237,
    "publishedAt": "2026-11-19",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] Hong Sung Yun(홍성윤) _ It's still love(그래도 사랑입니다)",
@@ -3131,10 +3093,49 @@
     "신나는",
     "청량"
    ],
-   "views": 13455,
+   "views": 13686,
    "publishedAt": "2026-11-19",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] WE GO-6 _ First and Last(처음이자 마지막으로)",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
+   "videoId": "ZdfyhBNw8uA",
+   "title": "우리 오늘부터 1일!",
+   "artist": "우정으로 지키는 나무 l NEXZ l",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/ZdfyhBNw8uA/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "최신 K-POP · JYP",
+   "moods": [
+    "신나는"
+   ],
+   "views": 12549,
+   "publishedAt": "2026-11-24",
+   "channel": "JYP Entertainment",
+   "rawTitle": "우정으로 지키는 나무 l NEXZ l \"우리 오늘부터 1일!\" 열정 만렙 신입들의 우당탕탕 클럽 적응기",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
+   "videoId": "tsdMXwet2AY",
+   "title": "MV Tophyun(탑현), Hwang inhyeock(황인혁) _ Hot Pack in My Pocket(주머니에 핫팩 하나)",
+   "artist": "Various Artists",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/tsdMXwet2AY/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "최신 K-POP · 1theK",
+   "moods": [
+    "신나는",
+    "청량"
+   ],
+   "views": 12497,
+   "publishedAt": "2026-11-22",
+   "channel": "1theK (원더케이)",
+   "rawTitle": "[MV] Tophyun(탑현), Hwang inhyeock(황인혁) _ Hot Pack in My Pocket(주머니에 핫팩 하나)",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -3151,10 +3152,30 @@
     "신나는",
     "청량"
    ],
-   "views": 11883,
+   "views": 12010,
    "publishedAt": "2026-11-21",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] Huie(휴이) _ I Guess It's Goodbye, We're Breaking Up(이별인가 봐 헤어지나 봐)",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
+   "videoId": "zaqRcnSZgYY",
+   "title": "MV Kassy(케이시) _ It Hurts(왜 이별은 아프기만 할까요)",
+   "artist": "Various Artists",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/zaqRcnSZgYY/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "최신 K-POP · 1theK",
+   "moods": [
+    "신나는",
+    "청량"
+   ],
+   "views": 11642,
+   "publishedAt": "2026-11-23",
+   "channel": "1theK (원더케이)",
+   "rawTitle": "[MV] Kassy(케이시) _ It Hurts(왜 이별은 아프기만 할까요)",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -3171,7 +3192,7 @@
     "신나는",
     "청량"
    ],
-   "views": 11581,
+   "views": 11633,
    "publishedAt": "2026-11-18",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] sunwoojunga(선우정아) _ A Long Walk(동반)",
@@ -3191,50 +3212,10 @@
     "신나는",
     "청량"
    ],
-   "views": 11041,
+   "views": 11180,
    "publishedAt": "2026-11-19",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] Kassy(케이시) _ By Tomorrow(기어코)",
-   "embedOk": true,
-   "embedCheck": "rss"
-  },
-  {
-   "videoId": "tsdMXwet2AY",
-   "title": "MV Tophyun(탑현), Hwang inhyeock(황인혁) _ Hot Pack in My Pocket(주머니에 핫팩 하나)",
-   "artist": "Various Artists",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/tsdMXwet2AY/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "최신 K-POP · 1theK",
-   "moods": [
-    "신나는",
-    "청량"
-   ],
-   "views": 10626,
-   "publishedAt": "2026-11-22",
-   "channel": "1theK (원더케이)",
-   "rawTitle": "[MV] Tophyun(탑현), Hwang inhyeock(황인혁) _ Hot Pack in My Pocket(주머니에 핫팩 하나)",
-   "embedOk": true,
-   "embedCheck": "rss"
-  },
-  {
-   "videoId": "zaqRcnSZgYY",
-   "title": "MV Kassy(케이시) _ It Hurts(왜 이별은 아프기만 할까요)",
-   "artist": "Various Artists",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/zaqRcnSZgYY/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "최신 K-POP · 1theK",
-   "moods": [
-    "신나는",
-    "청량"
-   ],
-   "views": 10080,
-   "publishedAt": "2026-11-23",
-   "channel": "1theK (원더케이)",
-   "rawTitle": "[MV] Kassy(케이시) _ It Hurts(왜 이별은 아프기만 할까요)",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -3251,7 +3232,7 @@
     "신나는",
     "청량"
    ],
-   "views": 8653,
+   "views": 8714,
    "publishedAt": "2026-11-19",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] KWON IN SEO(권인서) _ Cotton Candy(솜사탕)(Lip Ver.)",
@@ -3279,6 +3260,25 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "j_oLe1BFQVo",
+   "title": "Recap Video",
+   "artist": "SMTOWN RUN CLUB 26",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/j_oLe1BFQVo/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "최신 K-POP · SMTOWN",
+   "moods": [
+    "신나는"
+   ],
+   "views": 8399,
+   "publishedAt": "2026-11-24",
+   "channel": "SMTOWN",
+   "rawTitle": "SMTOWN RUN CLUB 26 | Recap Video",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
    "videoId": "7t1UDIE1Kn8",
    "title": "MV Chun Beom Seok(천범석) _ A Picture We Become(어떤 그림)",
    "artist": "Various Artists",
@@ -3291,30 +3291,10 @@
     "신나는",
     "청량"
    ],
-   "views": 6671,
+   "views": 7240,
    "publishedAt": "2026-11-23",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] Chun Beom Seok(천범석) _ A Picture We Become(어떤 그림)",
-   "embedOk": true,
-   "embedCheck": "rss"
-  },
-  {
-   "videoId": "VTUaMldkA5A",
-   "title": "MV DUPAMO(듀파모) _ DUPAMO Multiverse(듀파모 멀티버스)",
-   "artist": "Various Artists",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/VTUaMldkA5A/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "최신 K-POP · 1theK",
-   "moods": [
-    "신나는",
-    "청량"
-   ],
-   "views": 6218,
-   "publishedAt": "2026-11-19",
-   "channel": "1theK (원더케이)",
-   "rawTitle": "[MV] DUPAMO(듀파모) _ DUPAMO Multiverse(듀파모 멀티버스)",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -3331,10 +3311,30 @@
     "신나는",
     "청량"
    ],
-   "views": 5993,
+   "views": 6281,
    "publishedAt": "2026-11-23",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] TRAVELLER(트래블러) _ Have You Eaten?(밥 먹었어?)",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
+   "videoId": "VTUaMldkA5A",
+   "title": "MV DUPAMO(듀파모) _ DUPAMO Multiverse(듀파모 멀티버스)",
+   "artist": "Various Artists",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/VTUaMldkA5A/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "최신 K-POP · 1theK",
+   "moods": [
+    "신나는",
+    "청량"
+   ],
+   "views": 6271,
+   "publishedAt": "2026-11-19",
+   "channel": "1theK (원더케이)",
+   "rawTitle": "[MV] DUPAMO(듀파모) _ DUPAMO Multiverse(듀파모 멀티버스)",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -3399,6 +3399,26 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "iKYjajHP5wk",
+   "title": "Part 4",
+   "artist": "COMEBACK LINE-UP 11| November",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/iKYjajHP5wk/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "최신 K-POP · 1theK",
+   "moods": [
+    "신나는",
+    "청량"
+   ],
+   "views": 2308,
+   "publishedAt": "2026-11-23",
+   "channel": "1theK (원더케이)",
+   "rawTitle": "[COMEBACK LINE-UP] ✨11월 컴백 라인업✨| November – Part 4",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
    "videoId": "JsT445NqkMk",
    "title": "Waiting For The Sunshine",
    "artist": "AYOUNG",
@@ -3457,26 +3477,6 @@
    "rawTitle": "13Found (13파운드) - 사실, 준비한 게 많은데 [Music Video]",
    "embedOk": true,
    "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "iKYjajHP5wk",
-   "title": "Part 4",
-   "artist": "COMEBACK LINE-UP 11| November",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/iKYjajHP5wk/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "최신 K-POP · 1theK",
-   "moods": [
-    "신나는",
-    "청량"
-   ],
-   "views": 2061,
-   "publishedAt": "2026-11-23",
-   "channel": "1theK (원더케이)",
-   "rawTitle": "[COMEBACK LINE-UP] ✨11월 컴백 라인업✨| November – Part 4",
-   "embedOk": true,
-   "embedCheck": "rss"
   },
   {
    "videoId": "Z7yIQ4MCsgU",
@@ -3631,7 +3631,7 @@
     "신나는",
     "청량"
    ],
-   "views": 1007,
+   "views": 1055,
    "publishedAt": "2026-11-23",
    "channel": "1theK (원더케이)",
    "rawTitle": "KISS OF LIFE _ LITTLE WORLD, BIG WISH",
@@ -5260,7 +5260,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 17381521,
+   "views": 17382783,
    "publishedAt": "2023-03-30",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "VOID",
@@ -5355,7 +5355,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 7769469,
+   "views": 7769518,
    "publishedAt": "2019-08-29",
    "channel": "Tones And I - Topic",
    "rawTitle": "Johnny Run Away",
@@ -5412,7 +5412,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 6595395,
+   "views": 6595970,
    "publishedAt": "2023-03-30",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "BATTLE OF THE LARYNX",
@@ -5526,7 +5526,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 4588565,
+   "views": 4588890,
    "publishedAt": "2017-01-29",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Soap",
@@ -5621,7 +5621,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 4049742,
+   "views": 4050030,
    "publishedAt": "2017-02-18",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Carousel",
@@ -5659,7 +5659,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 3804359,
+   "views": 3804427,
    "publishedAt": "2019-09-05",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Drama Club",
@@ -5811,7 +5811,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 1975682,
+   "views": 1975849,
    "publishedAt": "2022-03-17",
    "channel": "GAYLE - Topic",
    "rawTitle": "ur just horny",
@@ -5887,7 +5887,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 1340582,
+   "views": 1340603,
    "publishedAt": "2019-09-05",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Wheels on the Bus",
@@ -5906,7 +5906,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 1259916,
+   "views": 1259929,
    "publishedAt": "2019-09-05",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Strawberry Shortcake",
@@ -5982,7 +5982,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 883689,
+   "views": 883738,
    "publishedAt": "2019-09-05",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Recess",
@@ -6001,7 +6001,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 798579,
+   "views": 798596,
    "publishedAt": "2019-09-05",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Orange Juice",
@@ -6020,7 +6020,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 724387,
+   "views": 724409,
    "publishedAt": "2023-07-20",
    "channel": "GAYLE - Topic",
    "rawTitle": "butterflies",
@@ -6039,7 +6039,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 607360,
+   "views": 607383,
    "publishedAt": "2022-03-17",
    "channel": "GAYLE - Topic",
    "rawTitle": "luv starved",
@@ -6058,7 +6058,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 558612,
+   "views": 558623,
    "publishedAt": "2024-02-01",
    "channel": "Tones And I - Topic",
    "rawTitle": "Dreaming",
@@ -6077,7 +6077,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 439989,
+   "views": 440081,
    "publishedAt": "2023-03-30",
    "channel": "Tones And I - Topic",
    "rawTitle": "I Am Free",
@@ -6096,7 +6096,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 439091,
+   "views": 439141,
    "publishedAt": "2024-02-15",
    "channel": "Royal & the Serpent - Topic",
    "rawTitle": "kinda smacks",
@@ -6115,7 +6115,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 424389,
+   "views": 424396,
    "publishedAt": "2022-10-06",
    "channel": "GAYLE - Topic",
    "rawTitle": "ALEX",
@@ -6134,7 +6134,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 408482,
+   "views": 408513,
    "publishedAt": "2022-08-25",
    "channel": "GAYLE - Topic",
    "rawTitle": "god has a sense of humor",
@@ -6153,7 +6153,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 366823,
+   "views": 366827,
    "publishedAt": "2024-03-11",
    "channel": "Tones And I - Topic",
    "rawTitle": "I Get High",
@@ -6172,7 +6172,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 271478,
+   "views": 271492,
    "publishedAt": "2022-03-17",
    "channel": "GAYLE - Topic",
    "rawTitle": "sleeping with my friends",
@@ -6210,7 +6210,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 219862,
+   "views": 219871,
    "publishedAt": "2022-03-17",
    "channel": "GAYLE - Topic",
    "rawTitle": "e-z (feat. UPSAHL & Blu DeTiger)",
@@ -6249,7 +6249,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 3126,
+   "views": 3182,
    "publishedAt": "2026-11-21",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "[라이어 OST Part 1] ABOUT(어바웃) - Icarus",
@@ -6269,7 +6269,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 2954,
+   "views": 3070,
    "publishedAt": "2026-11-22",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "Haeroiki (해로이키) - 평가절하의 그녀 (The Diminished Girl) [Music Video]",
@@ -6309,7 +6309,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 2384,
+   "views": 2400,
    "publishedAt": "2026-11-21",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "이날(YNR) - 지금은 내일의 꿈 (Memory Room) [Lyric Video]",
@@ -6329,7 +6329,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 1712,
+   "views": 1790,
    "publishedAt": "2026-11-23",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "Jaenax - donkyo [Music Video]",
@@ -6349,7 +6349,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 1516,
+   "views": 1517,
    "publishedAt": "2026-11-18",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "차트 짱 먹은 노래 : 스탑 더 웨딩✋✋",
@@ -6369,7 +6369,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 1394,
+   "views": 1402,
    "publishedAt": "2026-11-21",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "내 수영이가 불안핑이라니..🥹💗",
@@ -6409,7 +6409,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 1287,
+   "views": 1288,
    "publishedAt": "2026-11-18",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "#EVENT 제이슨 므라즈 친필 사인 CD 증정 이벤트🤠🤎",
@@ -6429,7 +6429,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 1231,
+   "views": 1271,
    "publishedAt": "2026-11-23",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "Jaenax - hiyin [Music Video]",
@@ -6437,22 +6437,42 @@
    "embedCheck": "rss"
   },
   {
-   "videoId": "Ci0xrX8AnRY",
-   "title": "난 돈 톨리버랑 파티하고 싶긴 해",
+   "videoId": "cG0QqK4Hl-c",
+   "title": "인생 노잼 시기 극복하는 법 댓글로 알려줘",
    "artist": "Various Artists",
    "duration": "3:30",
    "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/Ci0xrX8AnRY/hqdefault.jpg",
+   "thumbnail": "https://i.ytimg.com/vi/cG0QqK4Hl-c/hqdefault.jpg",
    "genre": "팝송",
    "playlist": "최신 가요 · Warner",
    "moods": [
     "드라이브",
     "청량"
    ],
-   "views": 1184,
-   "publishedAt": "2026-11-16",
+   "views": 1094,
+   "publishedAt": "2026-11-24",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "난 돈 톨리버랑 파티하고 싶긴 해🍸",
+   "rawTitle": "인생 노잼 시기 극복하는 법 댓글로 알려줘🥱",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
+   "videoId": "oyRZi5TI-CM",
+   "title": "Almost Lonely 가사 번역",
+   "artist": "aimyon",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/oyRZi5TI-CM/hqdefault.jpg",
+   "genre": "팝송",
+   "playlist": "최신 가요 · Warner",
+   "moods": [
+    "드라이브",
+    "청량"
+   ],
+   "views": 827,
+   "publishedAt": "2026-11-24",
+   "channel": "워너뮤직코리아 (Warner Music Korea)",
+   "rawTitle": "아이묭 (aimyon) - Almost Lonely 가사 번역 뮤직비디오",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -6469,30 +6489,10 @@
     "드라이브",
     "청량"
    ],
-   "views": 506,
+   "views": 563,
    "publishedAt": "2026-11-23",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "WELCOME TO VICE CITY🌴 Grand Theft Auto VI: THE ALBUM LISTENING PARTY💜",
-   "embedOk": true,
-   "embedCheck": "rss"
-  },
-  {
-   "videoId": "7Re69orRy6Q",
-   "title": "POKAPOKA (Feat. Mabinc)",
-   "artist": "공기남",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/7Re69orRy6Q/hqdefault.jpg",
-   "genre": "팝송",
-   "playlist": "최신 가요 · Warner",
-   "moods": [
-    "드라이브",
-    "청량"
-   ],
-   "views": 310,
-   "publishedAt": "2026-11-17",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "공기남 - POKAPOKA (Feat. Mabinc) [Lyric Video]",
    "embedOk": true,
    "embedCheck": "rss"
   },
