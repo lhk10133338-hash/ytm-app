@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-24T21:11:09+00:00",
- "count": 459,
+ "generatedAt": "2026-11-25T03:11:42+00:00",
+ "count": 437,
  "genres": [
   "K-POP",
   "발라드",
@@ -43,9 +43,9 @@
    "playlist": "aespa",
    "genre": "K-POP",
    "playlistId": "PLA91TLEzZINvfD-ToXanRYXVlcVdy4CDI",
-   "found": 30,
-   "added": 22,
-   "rejected": 47
+   "found": 0,
+   "added": 0,
+   "rejected": 0
   },
   {
    "key": "straykids",
@@ -241,25 +241,6 @@
    "embedCheck": "player+oembed"
   },
   {
-   "videoId": "jWQx2f-CErU",
-   "title": "Whiplash",
-   "artist": "aespa",
-   "duration": "3:11",
-   "durationSec": 191,
-   "thumbnail": "https://i.ytimg.com/vi/jWQx2f-CErU/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "aespa",
-   "moods": [
-    "신나는"
-   ],
-   "views": 330001103,
-   "publishedAt": "",
-   "channel": "SMTOWN",
-   "rawTitle": "aespa 에스파 'Whiplash' MV",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
    "videoId": "ArmDp-zijuc",
    "title": "Super Shy",
    "artist": "NewJeans",
@@ -280,25 +261,6 @@
    "embedCheck": "player+oembed"
   },
   {
-   "videoId": "phuiiNCxRMg",
-   "title": "Supernova",
-   "artist": "aespa",
-   "duration": "3:14",
-   "durationSec": 194,
-   "thumbnail": "https://i.ytimg.com/vi/phuiiNCxRMg/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "aespa",
-   "moods": [
-    "신나는"
-   ],
-   "views": 260060534,
-   "publishedAt": "",
-   "channel": "SMTOWN",
-   "rawTitle": "aespa 에스파 'Supernova' MV",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
    "videoId": "0P0aQreFs8w",
    "title": "Chk Chk Boom",
    "artist": "Stray Kids",
@@ -315,25 +277,6 @@
    "publishedAt": "",
    "channel": "JYP Entertainment",
    "rawTitle": "Stray Kids(스트레이 키즈) \"Chk Chk Boom\" M/V",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "Os_heh8vPfs",
-   "title": "Spicy",
-   "artist": "aespa",
-   "duration": "3:25",
-   "durationSec": 205,
-   "thumbnail": "https://i.ytimg.com/vi/Os_heh8vPfs/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "aespa",
-   "moods": [
-    "신나는"
-   ],
-   "views": 193526632,
-   "publishedAt": "",
-   "channel": "SMTOWN",
-   "rawTitle": "aespa 에스파 'Spicy' MV",
    "embedOk": true,
    "embedCheck": "player+oembed"
   },
@@ -1058,31 +1001,12 @@
    "moods": [
     "신나는"
    ],
-   "views": 27511296,
+   "views": 27526818,
    "publishedAt": "2026-11-09",
    "channel": "SMTOWN",
    "rawTitle": "NCT DREAM 엔시티 드림 'Boogie Woogie' MV",
    "embedOk": true,
    "embedCheck": "rss"
-  },
-  {
-   "videoId": "0xdB_vo4r2c",
-   "title": "Welcome To MY World (Feat. nævis)",
-   "artist": "aespa",
-   "duration": "3:32",
-   "durationSec": 212,
-   "thumbnail": "https://i.ytimg.com/vi/0xdB_vo4r2c/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "aespa",
-   "moods": [
-    "신나는"
-   ],
-   "views": 27289437,
-   "publishedAt": "",
-   "channel": "SMTOWN",
-   "rawTitle": "aespa 에스파 'Welcome To MY World (Feat. nævis)' MV",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
   },
   {
    "videoId": "zGsj0fDHB_s",
@@ -1116,31 +1040,12 @@
    "moods": [
     "신나는"
    ],
-   "views": 25285376,
+   "views": 25290064,
    "publishedAt": "2026-10-12",
    "channel": "SMTOWN",
    "rawTitle": "NCT WISH 엔시티 위시 'I SPY' MV",
    "embedOk": true,
    "embedCheck": "rss"
-  },
-  {
-   "videoId": "2iK3ccCsI6s",
-   "title": "Hot Mess",
-   "artist": "aespa エスパ",
-   "duration": "3:27",
-   "durationSec": 207,
-   "thumbnail": "https://i.ytimg.com/vi/2iK3ccCsI6s/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "aespa",
-   "moods": [
-    "신나는"
-   ],
-   "views": 24965007,
-   "publishedAt": "",
-   "channel": "SMTOWN",
-   "rawTitle": "aespa エスパ 'Hot Mess' MV",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
   },
   {
    "videoId": "NrUlydECU-8",
@@ -1322,25 +1227,6 @@
    "embedCheck": "player+oembed"
   },
   {
-   "videoId": "fvtzZFhrKLE",
-   "title": "Hold On Tight",
-   "artist": "aespa",
-   "duration": "2:30",
-   "durationSec": 150,
-   "thumbnail": "https://i.ytimg.com/vi/fvtzZFhrKLE/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "aespa",
-   "moods": [
-    "신나는"
-   ],
-   "views": 16492851,
-   "publishedAt": "",
-   "channel": "aespa",
-   "rawTitle": "aespa 'Hold On Tight' (Tetris Motion Picture Soundtrack) Visualizer",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
    "videoId": "RgkoXU4BlOE",
    "title": "Insomnia",
    "artist": "RIIZE",
@@ -1352,7 +1238,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 15260180,
+   "views": 15266434,
    "publishedAt": "2026-10-25",
    "channel": "SMTOWN",
    "rawTitle": "RIIZE 라이즈 'Insomnia' MV",
@@ -1371,31 +1257,12 @@
    "moods": [
     "신나는"
    ],
-   "views": 14454862,
+   "views": 14454895,
    "publishedAt": "2026-02-08",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "2026 YG SPECIAL AUDITION : GO! DEBUT",
    "embedOk": true,
    "embedCheck": "rss"
-  },
-  {
-   "videoId": "hb73cGFLzKk",
-   "title": "Better Things",
-   "artist": "aespa",
-   "duration": "3:25",
-   "durationSec": 205,
-   "thumbnail": "https://i.ytimg.com/vi/hb73cGFLzKk/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "aespa",
-   "moods": [
-    "신나는"
-   ],
-   "views": 14226229,
-   "publishedAt": "",
-   "channel": "aespa",
-   "rawTitle": "aespa 에스파 'Better Things' Performance Video",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
   },
   {
    "videoId": "DY4ckIx94xw",
@@ -1418,6 +1285,25 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "j_Z3_4aFQxQ",
+   "title": "ORIGAMI",
+   "artist": "SANTOS BRAVOS x &TEAM",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/j_Z3_4aFQxQ/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "최신 K-POP · HYBE",
+   "moods": [
+    "신나는"
+   ],
+   "views": 12957196,
+   "publishedAt": "2026-11-20",
+   "channel": "HYBE LABELS",
+   "rawTitle": "SANTOS BRAVOS x &TEAM - “ORIGAMI” OFFICIAL MV",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
    "videoId": "Wtad28yB-7s",
    "title": "YG ANNOUNCEMENT",
    "artist": "TREASURE & BABYMONSTER",
@@ -1429,7 +1315,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 12664357,
+   "views": 12664363,
    "publishedAt": "2025-08-17",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "TREASURE & BABYMONSTER | YG ANNOUNCEMENT",
@@ -1476,25 +1362,6 @@
    "embedCheck": "player+oembed"
   },
   {
-   "videoId": "j_Z3_4aFQxQ",
-   "title": "ORIGAMI",
-   "artist": "SANTOS BRAVOS x &TEAM",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/j_Z3_4aFQxQ/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "최신 K-POP · HYBE",
-   "moods": [
-    "신나는"
-   ],
-   "views": 11887545,
-   "publishedAt": "2026-11-20",
-   "channel": "HYBE LABELS",
-   "rawTitle": "SANTOS BRAVOS x &TEAM - “ORIGAMI” OFFICIAL MV",
-   "embedOk": true,
-   "embedCheck": "rss"
-  },
-  {
    "videoId": "Dbxfo8YBkYE",
    "title": "Count To Love",
    "artist": "BOYNEXTDOOR",
@@ -1526,7 +1393,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 11205199,
+   "views": 11205221,
    "publishedAt": "2026-02-12",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "2026 YG SPECIAL AUDITION : GO! DEBUT #2",
@@ -1565,7 +1432,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 10472086,
+   "views": 10472096,
    "publishedAt": "2026-03-03",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "2026 YG PLAN | YG ANNOUNCEMENT",
@@ -1604,7 +1471,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 8553719,
+   "views": 8553794,
    "publishedAt": "2025-05-25",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "BLACKPINK, BABYMONSTER, TREASURE, AND UPCOMING ROOKIES | YG ANNOUNCEMENT",
@@ -1642,7 +1509,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 7454087,
+   "views": 7454089,
    "publishedAt": "2026-01-05",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "2025-26 TREASURE TOUR [PULSE ON] - SPOT VIDEO",
@@ -1661,7 +1528,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 7242642,
+   "views": 7242784,
    "publishedAt": "2026-04-29",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "BABYMONSTER, TREASURE, AND UPCOMING ROOKIES | YG ANNOUNCEMENT",
@@ -1699,7 +1566,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 5964347,
+   "views": 5964473,
    "publishedAt": "2026-03-13",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "TREASURE - 2025-26 TOUR [PULSE ON] IN OSAKA ‘쾌지나 칭칭 + VolKno' LIVE PERFORMANCE",
@@ -1718,7 +1585,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 5900405,
+   "views": 5900561,
    "publishedAt": "2026-02-27",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "TREASURE - 2025-26 TOUR [PULSE ON] IN KANAGAWA ‘KING KONG’ JP Ver. LIVE PERFORMANCE",
@@ -1737,31 +1604,12 @@
    "moods": [
     "신나는"
    ],
-   "views": 5781086,
+   "views": 5781364,
    "publishedAt": "2026-02-20",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "TREASURE - 2025-26 TOUR [PULSE ON] IN KANAGAWA ‘음 (MMM)’ JP Ver. LIVE PERFORMANCE",
    "embedOk": true,
    "embedCheck": "rss"
-  },
-  {
-   "videoId": "Mk-lWh31BK4",
-   "title": "Dark Arts",
-   "artist": "aespa x PUBG",
-   "duration": "3:08",
-   "durationSec": 188,
-   "thumbnail": "https://i.ytimg.com/vi/Mk-lWh31BK4/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "aespa",
-   "moods": [
-    "신나는"
-   ],
-   "views": 5554579,
-   "publishedAt": "",
-   "channel": "aespa",
-   "rawTitle": "aespa x PUBG 'Dark Arts' Collaboration Film",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
   },
   {
    "videoId": "B93veLfx3aU",
@@ -1795,7 +1643,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 5278669,
+   "views": 5279037,
    "publishedAt": "2026-10-26",
    "channel": "SMTOWN",
    "rawTitle": "XIAOJUN 샤오쥔 'Hey, Somebody (English Ver.)' MV",
@@ -1841,63 +1689,6 @@
    "embedCheck": "player+oembed"
   },
   {
-   "videoId": "PLsEfyfJFbo",
-   "title": "Sun and Moon",
-   "artist": "aespa エスパ",
-   "duration": "3:23",
-   "durationSec": 203,
-   "thumbnail": "https://i.ytimg.com/vi/PLsEfyfJFbo/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "aespa",
-   "moods": [
-    "신나는"
-   ],
-   "views": 4551908,
-   "publishedAt": "",
-   "channel": "aespa",
-   "rawTitle": "aespa エスパ 'Sun and Moon' Lyric Video",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "USr5C0QXMVw",
-   "title": "Long Chat (# )",
-   "artist": "aespa",
-   "duration": "3:13",
-   "durationSec": 193,
-   "thumbnail": "https://i.ytimg.com/vi/USr5C0QXMVw/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "aespa",
-   "moods": [
-    "신나는"
-   ],
-   "views": 4448113,
-   "publishedAt": "",
-   "channel": "aespa",
-   "rawTitle": "aespa 에스파 'Long Chat (#♥)' Universe",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "sU0FVs9Enq8",
-   "title": "Licorice",
-   "artist": "aespa",
-   "duration": "2:35",
-   "durationSec": 155,
-   "thumbnail": "https://i.ytimg.com/vi/sU0FVs9Enq8/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "aespa",
-   "moods": [
-    "신나는"
-   ],
-   "views": 4372824,
-   "publishedAt": "",
-   "channel": "aespa",
-   "rawTitle": "aespa 에스파 'Licorice' Universe",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
    "videoId": "bgKZC7BgG-M",
    "title": "Fxxxboy",
    "artist": "BLACKPINK",
@@ -1913,25 +1704,6 @@
    "publishedAt": "2026-03-01",
    "channel": "BLACKPINK",
    "rawTitle": "BLACKPINK - ‘Fxxxboy’ (Official Audio)",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "HJYetAS7cVs",
-   "title": "Jingle Bell Rock",
-   "artist": "aespa",
-   "duration": "2:17",
-   "durationSec": 137,
-   "thumbnail": "https://i.ytimg.com/vi/HJYetAS7cVs/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "aespa",
-   "moods": [
-    "신나는"
-   ],
-   "views": 3708274,
-   "publishedAt": "",
-   "channel": "aespa",
-   "rawTitle": "aespa 에스파 'Jingle Bell Rock' Lyric Video",
    "embedOk": true,
    "embedCheck": "player+oembed"
   },
@@ -1956,25 +1728,6 @@
    "embedCheck": "player+oembed"
   },
   {
-   "videoId": "f-LQoNN3hIk",
-   "title": "Armageddon",
-   "artist": "aespa",
-   "duration": "1:31",
-   "durationSec": 91,
-   "thumbnail": "https://i.ytimg.com/vi/f-LQoNN3hIk/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "aespa",
-   "moods": [
-    "신나는"
-   ],
-   "views": 3426100,
-   "publishedAt": "",
-   "channel": "aespa",
-   "rawTitle": "aespa 에스파 'Armageddon' Launch Code",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
    "videoId": "7XMkfsmNeNg",
    "title": "All Of My Life",
    "artist": "MAX CHANGMIN",
@@ -1986,31 +1739,12 @@
    "moods": [
     "신나는"
    ],
-   "views": 3414859,
+   "views": 3415145,
    "publishedAt": "2026-10-19",
    "channel": "SMTOWN",
    "rawTitle": "MAX CHANGMIN 최강창민 'All Of My Life' MV",
    "embedOk": true,
    "embedCheck": "rss"
-  },
-  {
-   "videoId": "gvLxTveCHzk",
-   "title": "Live My Life",
-   "artist": "aespa",
-   "duration": "2:00",
-   "durationSec": 120,
-   "thumbnail": "https://i.ytimg.com/vi/gvLxTveCHzk/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "aespa",
-   "moods": [
-    "신나는"
-   ],
-   "views": 3385519,
-   "publishedAt": "",
-   "channel": "aespa",
-   "rawTitle": "aespa 에스파 'Live My Life' Universe",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
   },
   {
    "videoId": "rQSDEVfYFnE",
@@ -2072,63 +1806,6 @@
    "embedCheck": "player+oembed"
   },
   {
-   "videoId": "HwDxuWPFHsc",
-   "title": "I'M THE DRAMA #GISELLE",
-   "artist": "aespa",
-   "duration": "1:36",
-   "durationSec": 96,
-   "thumbnail": "https://i.ytimg.com/vi/HwDxuWPFHsc/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "aespa",
-   "moods": [
-    "신나는"
-   ],
-   "views": 2708558,
-   "publishedAt": "",
-   "channel": "aespa",
-   "rawTitle": "I'M THE DRAMA #GISELLE",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "vGv73cfMcTs",
-   "title": "I'M THE DRAMA #WINTER",
-   "artist": "aespa",
-   "duration": "1:27",
-   "durationSec": 87,
-   "thumbnail": "https://i.ytimg.com/vi/vGv73cfMcTs/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "aespa",
-   "moods": [
-    "신나는"
-   ],
-   "views": 2681319,
-   "publishedAt": "",
-   "channel": "aespa",
-   "rawTitle": "I'M THE DRAMA #WINTER",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "pjMYA2UMF_M",
-   "title": "I'M THE DRAMA #KARINA",
-   "artist": "aespa",
-   "duration": "1:35",
-   "durationSec": 95,
-   "thumbnail": "https://i.ytimg.com/vi/pjMYA2UMF_M/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "aespa",
-   "moods": [
-    "신나는"
-   ],
-   "views": 2654720,
-   "publishedAt": "",
-   "channel": "aespa",
-   "rawTitle": "I'M THE DRAMA #KARINA",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
    "videoId": "k8fSPMXWAR4",
    "title": "We Are NewJeans",
    "artist": "NewJeans",
@@ -2179,7 +1856,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 2280900,
+   "views": 2282821,
    "publishedAt": "2026-10-19",
    "channel": "SMTOWN",
    "rawTitle": "NCT DREAM 엔시티 드림 'The Sun' MV",
@@ -2295,31 +1972,12 @@
    "moods": [
     "신나는"
    ],
-   "views": 1680747,
+   "views": 1682951,
    "publishedAt": "2026-11-03",
    "channel": "SMTOWN",
    "rawTitle": "Red Velvet - IRENE & SEULGI 'Cheetah' MV",
    "embedOk": true,
    "embedCheck": "rss"
-  },
-  {
-   "videoId": "UDaYOw22TYc",
-   "title": "Dirty Work",
-   "artist": "aespa",
-   "duration": "1:24",
-   "durationSec": 84,
-   "thumbnail": "https://i.ytimg.com/vi/UDaYOw22TYc/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "aespa",
-   "moods": [
-    "신나는"
-   ],
-   "views": 1614114,
-   "publishedAt": "",
-   "channel": "aespa",
-   "rawTitle": "aespa 에스파 'Dirty Work' Dirty Code",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
   },
   {
    "videoId": "TL5dFyAuUKU",
@@ -2371,31 +2029,12 @@
    "moods": [
     "신나는"
    ],
-   "views": 1545299,
+   "views": 1562812,
    "publishedAt": "2026-11-20",
    "channel": "HYBE LABELS",
    "rawTitle": "The Wildcard Club 'Click Flick' Official MV  |  AmaLee, Dokibird, ironmouse, Rin Penrose",
    "embedOk": true,
    "embedCheck": "rss"
-  },
-  {
-   "videoId": "wPnjKZFgeiE",
-   "title": "Get Goin",
-   "artist": "aespa X Fraggle Rock",
-   "duration": "2:36",
-   "durationSec": 156,
-   "thumbnail": "https://i.ytimg.com/vi/wPnjKZFgeiE/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "aespa",
-   "moods": [
-    "신나는"
-   ],
-   "views": 1506546,
-   "publishedAt": "",
-   "channel": "aespa",
-   "rawTitle": "aespa X Fraggle Rock 'Get Goin'' MV (Apple TV+)",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
   },
   {
    "videoId": "0CEg8nz_I9U",
@@ -2429,31 +2068,12 @@
    "moods": [
     "신나는"
    ],
-   "views": 1269962,
+   "views": 1271655,
    "publishedAt": "2026-10-18",
    "channel": "SMTOWN",
    "rawTitle": "Hearts2Hearts 하츠투하츠 'ICONIC HEART (Korean Ver.)' MV",
    "embedOk": true,
    "embedCheck": "rss"
-  },
-  {
-   "videoId": "3eAOnazUdkM",
-   "title": "I'M THE DRAMA #NINGNING",
-   "artist": "aespa",
-   "duration": "1:43",
-   "durationSec": 103,
-   "thumbnail": "https://i.ytimg.com/vi/3eAOnazUdkM/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "aespa",
-   "moods": [
-    "신나는"
-   ],
-   "views": 1204456,
-   "publishedAt": "",
-   "channel": "aespa",
-   "rawTitle": "I'M THE DRAMA #NINGNING",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
   },
   {
    "videoId": "gWU4TAtoy-k",
@@ -2467,50 +2087,12 @@
    "moods": [
     "신나는"
    ],
-   "views": 976547,
+   "views": 976745,
    "publishedAt": "2026-08-10",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "2026 YG GLOBAL AUDITION",
    "embedOk": true,
    "embedCheck": "rss"
-  },
-  {
-   "videoId": "QeTNjrmsUwc",
-   "title": "Til We Meet Again",
-   "artist": "aespa",
-   "duration": "2:38",
-   "durationSec": 158,
-   "thumbnail": "https://i.ytimg.com/vi/QeTNjrmsUwc/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "aespa",
-   "moods": [
-    "신나는"
-   ],
-   "views": 936612,
-   "publishedAt": "",
-   "channel": "aespa",
-   "rawTitle": "aespa 에스파 '‘Til We Meet Again' Special Video",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "OaVqEy8FmPk",
-   "title": "Drama",
-   "artist": "aespa",
-   "duration": "2:23",
-   "durationSec": 143,
-   "thumbnail": "https://i.ytimg.com/vi/OaVqEy8FmPk/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "aespa",
-   "moods": [
-    "신나는"
-   ],
-   "views": 785281,
-   "publishedAt": "",
-   "channel": "aespa",
-   "rawTitle": "aespa 에스파 'Drama' Track Poster",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
   },
   {
    "videoId": "hX0UECbzDSY",
@@ -2710,6 +2292,25 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "7DEfcJ1kzGg",
+   "title": "2026 BIGHIT MUSIC GLOBAL AUDITION Message From #CORTIS",
+   "artist": "Various Artists",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/7DEfcJ1kzGg/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "최신 K-POP · HYBE",
+   "moods": [
+    "신나는"
+   ],
+   "views": 206272,
+   "publishedAt": "2026-11-24",
+   "channel": "HYBE LABELS",
+   "rawTitle": "[2026 BIGHIT MUSIC GLOBAL AUDITION] 🌟 Message From #CORTIS",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
    "videoId": "SDoAcxlVYQw",
    "title": "Make no sense",
    "artist": "16",
@@ -2788,25 +2389,6 @@
    "embedCheck": "player+oembed"
   },
   {
-   "videoId": "7DEfcJ1kzGg",
-   "title": "2026 BIGHIT MUSIC GLOBAL AUDITION Message From #CORTIS",
-   "artist": "Various Artists",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/7DEfcJ1kzGg/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "최신 K-POP · HYBE",
-   "moods": [
-    "신나는"
-   ],
-   "views": 177707,
-   "publishedAt": "2026-11-24",
-   "channel": "HYBE LABELS",
-   "rawTitle": "[2026 BIGHIT MUSIC GLOBAL AUDITION] 🌟 Message From #CORTIS",
-   "embedOk": true,
-   "embedCheck": "rss"
-  },
-  {
    "videoId": "Cf3daiQ4lBU",
    "title": "Angel Bite",
    "artist": "TXT",
@@ -2818,7 +2400,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 172261,
+   "views": 173028,
    "publishedAt": "2026-11-16",
    "channel": "HYBE LABELS",
    "rawTitle": "TXT (투모로우바이투게더) ‘Angel Bite’ Official MV",
@@ -2877,7 +2459,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 145712,
+   "views": 146317,
    "publishedAt": "2026-11-19",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "[Playlist] 고작 이별하기 위해 널 사랑한 건 아닌데 (Singing My Blues)",
@@ -2896,7 +2478,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 141599,
+   "views": 142020,
    "publishedAt": "2026-11-13",
    "channel": "HYBE LABELS",
    "rawTitle": "#ENHYPEN (#엔하이픈) 'I Want You' Official MV",
@@ -2915,7 +2497,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 130968,
+   "views": 131770,
    "publishedAt": "2026-11-20",
    "channel": "JYP Entertainment",
    "rawTitle": "NAYEON \"BABY ANGEL\" M/V",
@@ -2954,7 +2536,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 94300,
+   "views": 94390,
    "publishedAt": "2026-11-13",
    "channel": "JYP Entertainment",
    "rawTitle": "NAYEON SINGLE “NA-sty” SNEAK PEEK Track 03. BOY #TWICE #NAYEON #나연 #NA_sty #BABY_ANGEL",
@@ -3013,7 +2595,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 51860,
+   "views": 52043,
    "publishedAt": "2026-11-16",
    "channel": "JYP Entertainment",
    "rawTitle": "YAOCHEN(야오천) - \"WONDERFUL\" M/V",
@@ -3032,7 +2614,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 38537,
+   "views": 42413,
    "publishedAt": "2026-11-24",
    "channel": "JYP Entertainment",
    "rawTitle": "우정으로 지키는 나무 l NEXZ l \"우리 오늘부터 1일!\" 열정 만렙 신입들의 우당탕탕 클럽 적응기",
@@ -3071,7 +2653,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 24519,
+   "views": 27042,
    "publishedAt": "2026-11-24",
    "channel": "SMTOWN",
    "rawTitle": "SMTOWN RUN CLUB 26 | Recap Video",
@@ -3111,7 +2693,7 @@
     "신나는",
     "청량"
    ],
-   "views": 13760,
+   "views": 14478,
    "publishedAt": "2026-11-23",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] Kassy(케이시) _ It Hurts(왜 이별은 아프기만 할까요)",
@@ -3131,30 +2713,10 @@
     "신나는",
     "청량"
    ],
-   "views": 13442,
+   "views": 13822,
    "publishedAt": "2026-11-22",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] Tophyun(탑현), Hwang inhyeock(황인혁) _ Hot Pack in My Pocket(주머니에 핫팩 하나)",
-   "embedOk": true,
-   "embedCheck": "rss"
-  },
-  {
-   "videoId": "KK0-TbybY7s",
-   "title": "s Goodbye, We",
-   "artist": "Various Artists",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/KK0-TbybY7s/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "최신 K-POP · 1theK",
-   "moods": [
-    "신나는",
-    "청량"
-   ],
-   "views": 12172,
-   "publishedAt": "2026-11-21",
-   "channel": "1theK (원더케이)",
-   "rawTitle": "[MV] Huie(휴이) _ I Guess It's Goodbye, We're Breaking Up(이별인가 봐 헤어지나 봐)",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -3171,7 +2733,7 @@
     "신나는",
     "청량"
    ],
-   "views": 9830,
+   "views": 12057,
    "publishedAt": "2026-11-24",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] Jang Min Ho(장민호) _ Mountain, Life(산, 삶)",
@@ -3211,7 +2773,7 @@
     "신나는",
     "청량"
    ],
-   "views": 7872,
+   "views": 7956,
    "publishedAt": "2026-11-23",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] Chun Beom Seok(천범석) _ A Picture We Become(어떤 그림)",
@@ -3219,22 +2781,22 @@
    "embedCheck": "rss"
   },
   {
-   "videoId": "4ubfBuGCDew",
-   "title": "MV TRAVELLER(트래블러) _ Have You Eaten?(밥 먹었어?)",
+   "videoId": "lUe5loRJiRc",
+   "title": "MV WONDER ATTACK _ Ready To Dive",
    "artist": "Various Artists",
    "duration": "3:30",
    "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/4ubfBuGCDew/hqdefault.jpg",
+   "thumbnail": "https://i.ytimg.com/vi/lUe5loRJiRc/hqdefault.jpg",
    "genre": "K-POP",
    "playlist": "최신 K-POP · 1theK",
    "moods": [
     "신나는",
     "청량"
    ],
-   "views": 6562,
-   "publishedAt": "2026-11-23",
+   "views": 7137,
+   "publishedAt": "2026-11-24",
    "channel": "1theK (원더케이)",
-   "rawTitle": "[MV] TRAVELLER(트래블러) _ Have You Eaten?(밥 먹었어?)",
+   "rawTitle": "[MV] WONDER ATTACK _ Ready To Dive",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -3251,10 +2813,30 @@
     "신나는",
     "청량"
    ],
-   "views": 5883,
+   "views": 6724,
    "publishedAt": "2026-11-24",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] Lee Ye ji(이예지) _ Critical Love",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
+   "videoId": "4ubfBuGCDew",
+   "title": "MV TRAVELLER(트래블러) _ Have You Eaten?(밥 먹었어?)",
+   "artist": "Various Artists",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/4ubfBuGCDew/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "최신 K-POP · 1theK",
+   "moods": [
+    "신나는",
+    "청량"
+   ],
+   "views": 6650,
+   "publishedAt": "2026-11-23",
+   "channel": "1theK (원더케이)",
+   "rawTitle": "[MV] TRAVELLER(트래블러) _ Have You Eaten?(밥 먹었어?)",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -3277,26 +2859,6 @@
    "rawTitle": "8TURN (에잇턴) - 'LEGGO' [Music Video]",
    "embedOk": true,
    "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "lUe5loRJiRc",
-   "title": "MV WONDER ATTACK _ Ready To Dive",
-   "artist": "Various Artists",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/lUe5loRJiRc/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "최신 K-POP · 1theK",
-   "moods": [
-    "신나는",
-    "청량"
-   ],
-   "views": 4662,
-   "publishedAt": "2026-11-24",
-   "channel": "1theK (원더케이)",
-   "rawTitle": "[MV] WONDER ATTACK _ Ready To Dive",
-   "embedOk": true,
-   "embedCheck": "rss"
   },
   {
    "videoId": "g6-lbfBGP9w",
@@ -3351,7 +2913,7 @@
     "신나는",
     "청량"
    ],
-   "views": 2823,
+   "views": 2967,
    "publishedAt": "2026-11-23",
    "channel": "1theK (원더케이)",
    "rawTitle": "[COMEBACK LINE-UP] ✨11월 컴백 라인업✨| November – Part 4",
@@ -3551,7 +3113,7 @@
     "신나는",
     "청량"
    ],
-   "views": 1261,
+   "views": 1296,
    "publishedAt": "2026-11-23",
    "channel": "1theK (원더케이)",
    "rawTitle": "KISS OF LIFE _ LITTLE WORLD, BIG WISH",
@@ -3577,6 +3139,26 @@
    "rawTitle": "Macker & Filip Grönlund - Promise [Music Video]",
    "embedOk": true,
    "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "AjI7r6BoqvU",
+   "title": "MV ClueAt(클루엣) _ Cozy Room With You",
+   "artist": "Various Artists",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/AjI7r6BoqvU/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "최신 K-POP · 1theK",
+   "moods": [
+    "신나는",
+    "청량"
+   ],
+   "views": 12,
+   "publishedAt": "2026-11-25",
+   "channel": "1theK (원더케이)",
+   "rawTitle": "[MV] ClueAt(클루엣) _ Cozy Room With You",
+   "embedOk": true,
+   "embedCheck": "rss"
   },
   {
    "videoId": "hal7M_k5t7E",
@@ -5200,7 +4782,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 17385338,
+   "views": 17387336,
    "publishedAt": "2023-03-30",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "VOID",
@@ -5295,7 +4877,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 7769775,
+   "views": 7769965,
    "publishedAt": "2019-08-29",
    "channel": "Tones And I - Topic",
    "rawTitle": "Johnny Run Away",
@@ -5352,7 +4934,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 6597149,
+   "views": 6597976,
    "publishedAt": "2023-03-30",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "BATTLE OF THE LARYNX",
@@ -5466,7 +5048,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 4589715,
+   "views": 4590247,
    "publishedAt": "2017-01-29",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Soap",
@@ -5561,7 +5143,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 4050675,
+   "views": 4051139,
    "publishedAt": "2017-02-18",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Carousel",
@@ -5599,7 +5181,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 3804582,
+   "views": 3804691,
    "publishedAt": "2019-09-05",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Drama Club",
@@ -5751,7 +5333,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 1976168,
+   "views": 1976449,
    "publishedAt": "2022-03-17",
    "channel": "GAYLE - Topic",
    "rawTitle": "ur just horny",
@@ -5827,7 +5409,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 1340663,
+   "views": 1340695,
    "publishedAt": "2019-09-05",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Wheels on the Bus",
@@ -5846,7 +5428,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 1259964,
+   "views": 1259993,
    "publishedAt": "2019-09-05",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Strawberry Shortcake",
@@ -5922,7 +5504,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 883800,
+   "views": 883865,
    "publishedAt": "2019-09-05",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Recess",
@@ -5941,7 +5523,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 798616,
+   "views": 798636,
    "publishedAt": "2019-09-05",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Orange Juice",
@@ -5960,7 +5542,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 724522,
+   "views": 724557,
    "publishedAt": "2023-07-20",
    "channel": "GAYLE - Topic",
    "rawTitle": "butterflies",
@@ -5979,7 +5561,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 607441,
+   "views": 607469,
    "publishedAt": "2022-03-17",
    "channel": "GAYLE - Topic",
    "rawTitle": "luv starved",
@@ -5998,7 +5580,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 558654,
+   "views": 558661,
    "publishedAt": "2024-02-01",
    "channel": "Tones And I - Topic",
    "rawTitle": "Dreaming",
@@ -6017,7 +5599,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 440301,
+   "views": 440422,
    "publishedAt": "2023-03-30",
    "channel": "Tones And I - Topic",
    "rawTitle": "I Am Free",
@@ -6036,7 +5618,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 439392,
+   "views": 439478,
    "publishedAt": "2024-02-15",
    "channel": "Royal & the Serpent - Topic",
    "rawTitle": "kinda smacks",
@@ -6055,7 +5637,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 424430,
+   "views": 424446,
    "publishedAt": "2022-10-06",
    "channel": "GAYLE - Topic",
    "rawTitle": "ALEX",
@@ -6074,7 +5656,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 408566,
+   "views": 408587,
    "publishedAt": "2022-08-25",
    "channel": "GAYLE - Topic",
    "rawTitle": "god has a sense of humor",
@@ -6093,7 +5675,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 366837,
+   "views": 366846,
    "publishedAt": "2024-03-11",
    "channel": "Tones And I - Topic",
    "rawTitle": "I Get High",
@@ -6112,7 +5694,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 271513,
+   "views": 271526,
    "publishedAt": "2022-03-17",
    "channel": "GAYLE - Topic",
    "rawTitle": "sleeping with my friends",
@@ -6150,7 +5732,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 219900,
+   "views": 219914,
    "publishedAt": "2022-03-17",
    "channel": "GAYLE - Topic",
    "rawTitle": "e-z (feat. UPSAHL & Blu DeTiger)",
@@ -6189,7 +5771,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 3308,
+   "views": 3460,
    "publishedAt": "2026-11-22",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "Haeroiki (해로이키) - 평가절하의 그녀 (The Diminished Girl) [Music Video]",
@@ -6209,7 +5791,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 3263,
+   "views": 3275,
    "publishedAt": "2026-11-21",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "[라이어 OST Part 1] ABOUT(어바웃) - Icarus",
@@ -6229,7 +5811,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 2648,
+   "views": 2650,
    "publishedAt": "2026-11-18",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "#ONTHISDAY Bruno Mars [24K Magic]",
@@ -6249,7 +5831,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 2433,
+   "views": 2437,
    "publishedAt": "2026-11-21",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "이날(YNR) - 지금은 내일의 꿈 (Memory Room) [Lyric Video]",
@@ -6269,7 +5851,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 2055,
+   "views": 2270,
    "publishedAt": "2026-11-24",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "아이묭 (aimyon) - Almost Lonely 가사 번역 뮤직비디오",
@@ -6289,7 +5871,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 1878,
+   "views": 1887,
    "publishedAt": "2026-11-23",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "Jaenax - donkyo [Music Video]",
@@ -6309,7 +5891,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 1518,
+   "views": 1522,
    "publishedAt": "2026-11-18",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "차트 짱 먹은 노래 : 스탑 더 웨딩✋✋",
@@ -6329,7 +5911,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 1466,
+   "views": 1515,
    "publishedAt": "2026-11-24",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "인생 노잼 시기 극복하는 법 댓글로 알려줘🥱",
@@ -6349,7 +5931,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 1444,
+   "views": 1451,
    "publishedAt": "2026-11-21",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "내 수영이가 불안핑이라니..🥹💗",
@@ -6369,30 +5951,10 @@
     "드라이브",
     "청량"
    ],
-   "views": 1368,
+   "views": 1379,
    "publishedAt": "2026-11-23",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "Jaenax - hiyin [Music Video]",
-   "embedOk": true,
-   "embedCheck": "rss"
-  },
-  {
-   "videoId": "QrfcL0u1Srs",
-   "title": "1g도 사라지지 마",
-   "artist": "Various Artists",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/QrfcL0u1Srs/hqdefault.jpg",
-   "genre": "팝송",
-   "playlist": "최신 가요 · Warner",
-   "moods": [
-    "드라이브",
-    "청량"
-   ],
-   "views": 1360,
-   "publishedAt": "2026-11-17",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "1g도 사라지지 마⛄️🫠❤️‍🔥",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -6409,7 +5971,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 1289,
+   "views": 1295,
    "publishedAt": "2026-11-18",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "#EVENT 제이슨 므라즈 친필 사인 CD 증정 이벤트🤠🤎",
@@ -6429,10 +5991,30 @@
     "드라이브",
     "청량"
    ],
-   "views": 668,
+   "views": 825,
    "publishedAt": "2026-11-23",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "WELCOME TO VICE CITY🌴 Grand Theft Auto VI: THE ALBUM LISTENING PARTY💜",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
+   "videoId": "DvyvYXkfDNo",
+   "title": "Earrings (Feat. Oh Yun)",
+   "artist": "뎁트",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/DvyvYXkfDNo/hqdefault.jpg",
+   "genre": "팝송",
+   "playlist": "최신 가요 · Warner",
+   "moods": [
+    "드라이브",
+    "청량"
+   ],
+   "views": 13,
+   "publishedAt": "2026-11-25",
+   "channel": "워너뮤직코리아 (Warner Music Korea)",
+   "rawTitle": "뎁트 - Earrings (Feat. Oh Yun) [Lyric Video]",
    "embedOk": true,
    "embedCheck": "rss"
   },
