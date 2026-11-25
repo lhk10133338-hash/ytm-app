@@ -1,13 +1,12 @@
 {
- "generatedAt": "2026-11-25T03:11:42+00:00",
- "count": 437,
+ "generatedAt": "2026-11-25T09:12:02+00:00",
+ "count": 407,
  "genres": [
   "K-POP",
   "발라드",
   "힙합·R&B",
   "팝송",
   "드라이브",
-  "OST",
   "로파이·집중"
  ],
  "sources": [
@@ -43,9 +42,9 @@
    "playlist": "aespa",
    "genre": "K-POP",
    "playlistId": "PLA91TLEzZINvfD-ToXanRYXVlcVdy4CDI",
-   "found": 0,
-   "added": 0,
-   "rejected": 0
+   "found": 30,
+   "added": 22,
+   "rejected": 47
   },
   {
    "key": "straykids",
@@ -151,8 +150,8 @@
    "playlist": "Melanie Martinez 필청 트랙",
    "genre": "팝송",
    "playlistId": "PLX3cI5NYkjAh2BOZBNhwsq6klIi6UnODd",
-   "found": 12,
-   "added": 12,
+   "found": 0,
+   "added": 0,
    "rejected": 0
   },
   {
@@ -169,9 +168,9 @@
    "playlist": "최애 드라마 속 그 노래",
    "genre": "OST",
    "playlistId": "PLX3cI5NYkjAhDT1dpeflfbjOKTVrqNnLD",
-   "found": 40,
-   "added": 40,
-   "rejected": 8
+   "found": 0,
+   "added": 0,
+   "rejected": 0
   },
   {
    "key": "lofi-synthwave",
@@ -241,6 +240,25 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "jWQx2f-CErU",
+   "title": "Whiplash",
+   "artist": "aespa",
+   "duration": "3:11",
+   "durationSec": 191,
+   "thumbnail": "https://i.ytimg.com/vi/jWQx2f-CErU/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "aespa",
+   "moods": [
+    "신나는"
+   ],
+   "views": 330001103,
+   "publishedAt": "",
+   "channel": "SMTOWN",
+   "rawTitle": "aespa 에스파 'Whiplash' MV",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
    "videoId": "ArmDp-zijuc",
    "title": "Super Shy",
    "artist": "NewJeans",
@@ -261,6 +279,25 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "phuiiNCxRMg",
+   "title": "Supernova",
+   "artist": "aespa",
+   "duration": "3:14",
+   "durationSec": 194,
+   "thumbnail": "https://i.ytimg.com/vi/phuiiNCxRMg/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "aespa",
+   "moods": [
+    "신나는"
+   ],
+   "views": 260060534,
+   "publishedAt": "",
+   "channel": "SMTOWN",
+   "rawTitle": "aespa 에스파 'Supernova' MV",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
    "videoId": "0P0aQreFs8w",
    "title": "Chk Chk Boom",
    "artist": "Stray Kids",
@@ -277,6 +314,25 @@
    "publishedAt": "",
    "channel": "JYP Entertainment",
    "rawTitle": "Stray Kids(스트레이 키즈) \"Chk Chk Boom\" M/V",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "Os_heh8vPfs",
+   "title": "Spicy",
+   "artist": "aespa",
+   "duration": "3:25",
+   "durationSec": 205,
+   "thumbnail": "https://i.ytimg.com/vi/Os_heh8vPfs/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "aespa",
+   "moods": [
+    "신나는"
+   ],
+   "views": 193526632,
+   "publishedAt": "",
+   "channel": "SMTOWN",
+   "rawTitle": "aespa 에스파 'Spicy' MV",
    "embedOk": true,
    "embedCheck": "player+oembed"
   },
@@ -1001,12 +1057,31 @@
    "moods": [
     "신나는"
    ],
-   "views": 27526818,
+   "views": 27555689,
    "publishedAt": "2026-11-09",
    "channel": "SMTOWN",
    "rawTitle": "NCT DREAM 엔시티 드림 'Boogie Woogie' MV",
    "embedOk": true,
    "embedCheck": "rss"
+  },
+  {
+   "videoId": "0xdB_vo4r2c",
+   "title": "Welcome To MY World (Feat. nævis)",
+   "artist": "aespa",
+   "duration": "3:32",
+   "durationSec": 212,
+   "thumbnail": "https://i.ytimg.com/vi/0xdB_vo4r2c/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "aespa",
+   "moods": [
+    "신나는"
+   ],
+   "views": 27289437,
+   "publishedAt": "",
+   "channel": "SMTOWN",
+   "rawTitle": "aespa 에스파 'Welcome To MY World (Feat. nævis)' MV",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
   },
   {
    "videoId": "zGsj0fDHB_s",
@@ -1040,12 +1115,31 @@
    "moods": [
     "신나는"
    ],
-   "views": 25290064,
+   "views": 25296154,
    "publishedAt": "2026-10-12",
    "channel": "SMTOWN",
    "rawTitle": "NCT WISH 엔시티 위시 'I SPY' MV",
    "embedOk": true,
    "embedCheck": "rss"
+  },
+  {
+   "videoId": "2iK3ccCsI6s",
+   "title": "Hot Mess",
+   "artist": "aespa エスパ",
+   "duration": "3:27",
+   "durationSec": 207,
+   "thumbnail": "https://i.ytimg.com/vi/2iK3ccCsI6s/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "aespa",
+   "moods": [
+    "신나는"
+   ],
+   "views": 24965007,
+   "publishedAt": "",
+   "channel": "SMTOWN",
+   "rawTitle": "aespa エスパ 'Hot Mess' MV",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
   },
   {
    "videoId": "NrUlydECU-8",
@@ -1227,6 +1321,25 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "fvtzZFhrKLE",
+   "title": "Hold On Tight",
+   "artist": "aespa",
+   "duration": "2:30",
+   "durationSec": 150,
+   "thumbnail": "https://i.ytimg.com/vi/fvtzZFhrKLE/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "aespa",
+   "moods": [
+    "신나는"
+   ],
+   "views": 16492851,
+   "publishedAt": "",
+   "channel": "aespa",
+   "rawTitle": "aespa 'Hold On Tight' (Tetris Motion Picture Soundtrack) Visualizer",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
    "videoId": "RgkoXU4BlOE",
    "title": "Insomnia",
    "artist": "RIIZE",
@@ -1238,7 +1351,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 15266434,
+   "views": 15276363,
    "publishedAt": "2026-10-25",
    "channel": "SMTOWN",
    "rawTitle": "RIIZE 라이즈 'Insomnia' MV",
@@ -1257,10 +1370,48 @@
    "moods": [
     "신나는"
    ],
-   "views": 14454895,
+   "views": 14454933,
    "publishedAt": "2026-02-08",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "2026 YG SPECIAL AUDITION : GO! DEBUT",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
+   "videoId": "hb73cGFLzKk",
+   "title": "Better Things",
+   "artist": "aespa",
+   "duration": "3:25",
+   "durationSec": 205,
+   "thumbnail": "https://i.ytimg.com/vi/hb73cGFLzKk/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "aespa",
+   "moods": [
+    "신나는"
+   ],
+   "views": 14226229,
+   "publishedAt": "",
+   "channel": "aespa",
+   "rawTitle": "aespa 에스파 'Better Things' Performance Video",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "j_Z3_4aFQxQ",
+   "title": "ORIGAMI",
+   "artist": "SANTOS BRAVOS x &TEAM",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/j_Z3_4aFQxQ/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "최신 K-POP · HYBE",
+   "moods": [
+    "신나는"
+   ],
+   "views": 13520524,
+   "publishedAt": "2026-11-20",
+   "channel": "HYBE LABELS",
+   "rawTitle": "SANTOS BRAVOS x &TEAM - “ORIGAMI” OFFICIAL MV",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -1285,25 +1436,6 @@
    "embedCheck": "player+oembed"
   },
   {
-   "videoId": "j_Z3_4aFQxQ",
-   "title": "ORIGAMI",
-   "artist": "SANTOS BRAVOS x &TEAM",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/j_Z3_4aFQxQ/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "최신 K-POP · HYBE",
-   "moods": [
-    "신나는"
-   ],
-   "views": 12957196,
-   "publishedAt": "2026-11-20",
-   "channel": "HYBE LABELS",
-   "rawTitle": "SANTOS BRAVOS x &TEAM - “ORIGAMI” OFFICIAL MV",
-   "embedOk": true,
-   "embedCheck": "rss"
-  },
-  {
    "videoId": "Wtad28yB-7s",
    "title": "YG ANNOUNCEMENT",
    "artist": "TREASURE & BABYMONSTER",
@@ -1315,7 +1447,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 12664363,
+   "views": 12664381,
    "publishedAt": "2025-08-17",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "TREASURE & BABYMONSTER | YG ANNOUNCEMENT",
@@ -1393,7 +1525,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 11205221,
+   "views": 11205243,
    "publishedAt": "2026-02-12",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "2026 YG SPECIAL AUDITION : GO! DEBUT #2",
@@ -1432,7 +1564,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 10472096,
+   "views": 10472120,
    "publishedAt": "2026-03-03",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "2026 YG PLAN | YG ANNOUNCEMENT",
@@ -1471,7 +1603,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 8553794,
+   "views": 8553875,
    "publishedAt": "2025-05-25",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "BLACKPINK, BABYMONSTER, TREASURE, AND UPCOMING ROOKIES | YG ANNOUNCEMENT",
@@ -1509,7 +1641,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 7454089,
+   "views": 7454092,
    "publishedAt": "2026-01-05",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "2025-26 TREASURE TOUR [PULSE ON] - SPOT VIDEO",
@@ -1528,7 +1660,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 7242784,
+   "views": 7242972,
    "publishedAt": "2026-04-29",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "BABYMONSTER, TREASURE, AND UPCOMING ROOKIES | YG ANNOUNCEMENT",
@@ -1566,7 +1698,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 5964473,
+   "views": 5964666,
    "publishedAt": "2026-03-13",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "TREASURE - 2025-26 TOUR [PULSE ON] IN OSAKA ‘쾌지나 칭칭 + VolKno' LIVE PERFORMANCE",
@@ -1585,7 +1717,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 5900561,
+   "views": 5900801,
    "publishedAt": "2026-02-27",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "TREASURE - 2025-26 TOUR [PULSE ON] IN KANAGAWA ‘KING KONG’ JP Ver. LIVE PERFORMANCE",
@@ -1604,12 +1736,31 @@
    "moods": [
     "신나는"
    ],
-   "views": 5781364,
+   "views": 5781607,
    "publishedAt": "2026-02-20",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "TREASURE - 2025-26 TOUR [PULSE ON] IN KANAGAWA ‘음 (MMM)’ JP Ver. LIVE PERFORMANCE",
    "embedOk": true,
    "embedCheck": "rss"
+  },
+  {
+   "videoId": "Mk-lWh31BK4",
+   "title": "Dark Arts",
+   "artist": "aespa x PUBG",
+   "duration": "3:08",
+   "durationSec": 188,
+   "thumbnail": "https://i.ytimg.com/vi/Mk-lWh31BK4/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "aespa",
+   "moods": [
+    "신나는"
+   ],
+   "views": 5554579,
+   "publishedAt": "",
+   "channel": "aespa",
+   "rawTitle": "aespa x PUBG 'Dark Arts' Collaboration Film",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
   },
   {
    "videoId": "B93veLfx3aU",
@@ -1643,7 +1794,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 5279037,
+   "views": 5279548,
    "publishedAt": "2026-10-26",
    "channel": "SMTOWN",
    "rawTitle": "XIAOJUN 샤오쥔 'Hey, Somebody (English Ver.)' MV",
@@ -1689,6 +1840,63 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "PLsEfyfJFbo",
+   "title": "Sun and Moon",
+   "artist": "aespa エスパ",
+   "duration": "3:23",
+   "durationSec": 203,
+   "thumbnail": "https://i.ytimg.com/vi/PLsEfyfJFbo/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "aespa",
+   "moods": [
+    "신나는"
+   ],
+   "views": 4551908,
+   "publishedAt": "",
+   "channel": "aespa",
+   "rawTitle": "aespa エスパ 'Sun and Moon' Lyric Video",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "USr5C0QXMVw",
+   "title": "Long Chat (# )",
+   "artist": "aespa",
+   "duration": "3:13",
+   "durationSec": 193,
+   "thumbnail": "https://i.ytimg.com/vi/USr5C0QXMVw/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "aespa",
+   "moods": [
+    "신나는"
+   ],
+   "views": 4448113,
+   "publishedAt": "",
+   "channel": "aespa",
+   "rawTitle": "aespa 에스파 'Long Chat (#♥)' Universe",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "sU0FVs9Enq8",
+   "title": "Licorice",
+   "artist": "aespa",
+   "duration": "2:35",
+   "durationSec": 155,
+   "thumbnail": "https://i.ytimg.com/vi/sU0FVs9Enq8/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "aespa",
+   "moods": [
+    "신나는"
+   ],
+   "views": 4372824,
+   "publishedAt": "",
+   "channel": "aespa",
+   "rawTitle": "aespa 에스파 'Licorice' Universe",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
    "videoId": "bgKZC7BgG-M",
    "title": "Fxxxboy",
    "artist": "BLACKPINK",
@@ -1704,6 +1912,25 @@
    "publishedAt": "2026-03-01",
    "channel": "BLACKPINK",
    "rawTitle": "BLACKPINK - ‘Fxxxboy’ (Official Audio)",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "HJYetAS7cVs",
+   "title": "Jingle Bell Rock",
+   "artist": "aespa",
+   "duration": "2:17",
+   "durationSec": 137,
+   "thumbnail": "https://i.ytimg.com/vi/HJYetAS7cVs/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "aespa",
+   "moods": [
+    "신나는"
+   ],
+   "views": 3708274,
+   "publishedAt": "",
+   "channel": "aespa",
+   "rawTitle": "aespa 에스파 'Jingle Bell Rock' Lyric Video",
    "embedOk": true,
    "embedCheck": "player+oembed"
   },
@@ -1728,6 +1955,25 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "f-LQoNN3hIk",
+   "title": "Armageddon",
+   "artist": "aespa",
+   "duration": "1:31",
+   "durationSec": 91,
+   "thumbnail": "https://i.ytimg.com/vi/f-LQoNN3hIk/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "aespa",
+   "moods": [
+    "신나는"
+   ],
+   "views": 3426100,
+   "publishedAt": "",
+   "channel": "aespa",
+   "rawTitle": "aespa 에스파 'Armageddon' Launch Code",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
    "videoId": "7XMkfsmNeNg",
    "title": "All Of My Life",
    "artist": "MAX CHANGMIN",
@@ -1739,12 +1985,31 @@
    "moods": [
     "신나는"
    ],
-   "views": 3415145,
+   "views": 3415520,
    "publishedAt": "2026-10-19",
    "channel": "SMTOWN",
    "rawTitle": "MAX CHANGMIN 최강창민 'All Of My Life' MV",
    "embedOk": true,
    "embedCheck": "rss"
+  },
+  {
+   "videoId": "gvLxTveCHzk",
+   "title": "Live My Life",
+   "artist": "aespa",
+   "duration": "2:00",
+   "durationSec": 120,
+   "thumbnail": "https://i.ytimg.com/vi/gvLxTveCHzk/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "aespa",
+   "moods": [
+    "신나는"
+   ],
+   "views": 3385519,
+   "publishedAt": "",
+   "channel": "aespa",
+   "rawTitle": "aespa 에스파 'Live My Life' Universe",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
   },
   {
    "videoId": "rQSDEVfYFnE",
@@ -1806,6 +2071,63 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "HwDxuWPFHsc",
+   "title": "I'M THE DRAMA #GISELLE",
+   "artist": "aespa",
+   "duration": "1:36",
+   "durationSec": 96,
+   "thumbnail": "https://i.ytimg.com/vi/HwDxuWPFHsc/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "aespa",
+   "moods": [
+    "신나는"
+   ],
+   "views": 2708558,
+   "publishedAt": "",
+   "channel": "aespa",
+   "rawTitle": "I'M THE DRAMA #GISELLE",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "vGv73cfMcTs",
+   "title": "I'M THE DRAMA #WINTER",
+   "artist": "aespa",
+   "duration": "1:27",
+   "durationSec": 87,
+   "thumbnail": "https://i.ytimg.com/vi/vGv73cfMcTs/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "aespa",
+   "moods": [
+    "신나는"
+   ],
+   "views": 2681319,
+   "publishedAt": "",
+   "channel": "aespa",
+   "rawTitle": "I'M THE DRAMA #WINTER",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "pjMYA2UMF_M",
+   "title": "I'M THE DRAMA #KARINA",
+   "artist": "aespa",
+   "duration": "1:35",
+   "durationSec": 95,
+   "thumbnail": "https://i.ytimg.com/vi/pjMYA2UMF_M/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "aespa",
+   "moods": [
+    "신나는"
+   ],
+   "views": 2654720,
+   "publishedAt": "",
+   "channel": "aespa",
+   "rawTitle": "I'M THE DRAMA #KARINA",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
    "videoId": "k8fSPMXWAR4",
    "title": "We Are NewJeans",
    "artist": "NewJeans",
@@ -1856,7 +2178,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 2282821,
+   "views": 2286523,
    "publishedAt": "2026-10-19",
    "channel": "SMTOWN",
    "rawTitle": "NCT DREAM 엔시티 드림 'The Sun' MV",
@@ -1972,12 +2294,31 @@
    "moods": [
     "신나는"
    ],
-   "views": 1682951,
+   "views": 1685341,
    "publishedAt": "2026-11-03",
    "channel": "SMTOWN",
    "rawTitle": "Red Velvet - IRENE & SEULGI 'Cheetah' MV",
    "embedOk": true,
    "embedCheck": "rss"
+  },
+  {
+   "videoId": "UDaYOw22TYc",
+   "title": "Dirty Work",
+   "artist": "aespa",
+   "duration": "1:24",
+   "durationSec": 84,
+   "thumbnail": "https://i.ytimg.com/vi/UDaYOw22TYc/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "aespa",
+   "moods": [
+    "신나는"
+   ],
+   "views": 1614114,
+   "publishedAt": "",
+   "channel": "aespa",
+   "rawTitle": "aespa 에스파 'Dirty Work' Dirty Code",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
   },
   {
    "videoId": "TL5dFyAuUKU",
@@ -2029,12 +2370,31 @@
    "moods": [
     "신나는"
    ],
-   "views": 1562812,
+   "views": 1580419,
    "publishedAt": "2026-11-20",
    "channel": "HYBE LABELS",
    "rawTitle": "The Wildcard Club 'Click Flick' Official MV  |  AmaLee, Dokibird, ironmouse, Rin Penrose",
    "embedOk": true,
    "embedCheck": "rss"
+  },
+  {
+   "videoId": "wPnjKZFgeiE",
+   "title": "Get Goin",
+   "artist": "aespa X Fraggle Rock",
+   "duration": "2:36",
+   "durationSec": 156,
+   "thumbnail": "https://i.ytimg.com/vi/wPnjKZFgeiE/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "aespa",
+   "moods": [
+    "신나는"
+   ],
+   "views": 1506546,
+   "publishedAt": "",
+   "channel": "aespa",
+   "rawTitle": "aespa X Fraggle Rock 'Get Goin'' MV (Apple TV+)",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
   },
   {
    "videoId": "0CEg8nz_I9U",
@@ -2068,12 +2428,31 @@
    "moods": [
     "신나는"
    ],
-   "views": 1271655,
+   "views": 1274315,
    "publishedAt": "2026-10-18",
    "channel": "SMTOWN",
    "rawTitle": "Hearts2Hearts 하츠투하츠 'ICONIC HEART (Korean Ver.)' MV",
    "embedOk": true,
    "embedCheck": "rss"
+  },
+  {
+   "videoId": "3eAOnazUdkM",
+   "title": "I'M THE DRAMA #NINGNING",
+   "artist": "aespa",
+   "duration": "1:43",
+   "durationSec": 103,
+   "thumbnail": "https://i.ytimg.com/vi/3eAOnazUdkM/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "aespa",
+   "moods": [
+    "신나는"
+   ],
+   "views": 1204456,
+   "publishedAt": "",
+   "channel": "aespa",
+   "rawTitle": "I'M THE DRAMA #NINGNING",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
   },
   {
    "videoId": "gWU4TAtoy-k",
@@ -2087,12 +2466,50 @@
    "moods": [
     "신나는"
    ],
-   "views": 976745,
+   "views": 976993,
    "publishedAt": "2026-08-10",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "2026 YG GLOBAL AUDITION",
    "embedOk": true,
    "embedCheck": "rss"
+  },
+  {
+   "videoId": "QeTNjrmsUwc",
+   "title": "Til We Meet Again",
+   "artist": "aespa",
+   "duration": "2:38",
+   "durationSec": 158,
+   "thumbnail": "https://i.ytimg.com/vi/QeTNjrmsUwc/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "aespa",
+   "moods": [
+    "신나는"
+   ],
+   "views": 936612,
+   "publishedAt": "",
+   "channel": "aespa",
+   "rawTitle": "aespa 에스파 '‘Til We Meet Again' Special Video",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "OaVqEy8FmPk",
+   "title": "Drama",
+   "artist": "aespa",
+   "duration": "2:23",
+   "durationSec": 143,
+   "thumbnail": "https://i.ytimg.com/vi/OaVqEy8FmPk/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "aespa",
+   "moods": [
+    "신나는"
+   ],
+   "views": 785281,
+   "publishedAt": "",
+   "channel": "aespa",
+   "rawTitle": "aespa 에스파 'Drama' Track Poster",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
   },
   {
    "videoId": "hX0UECbzDSY",
@@ -2272,6 +2689,25 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "7DEfcJ1kzGg",
+   "title": "2026 BIGHIT MUSIC GLOBAL AUDITION Message From #CORTIS",
+   "artist": "Various Artists",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/7DEfcJ1kzGg/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "최신 K-POP · HYBE",
+   "moods": [
+    "신나는"
+   ],
+   "views": 216049,
+   "publishedAt": "2026-11-24",
+   "channel": "HYBE LABELS",
+   "rawTitle": "[2026 BIGHIT MUSIC GLOBAL AUDITION] 🌟 Message From #CORTIS",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
    "videoId": "RMwQqCARszk",
    "title": "TUNNEL VISION",
    "artist": "ITZY",
@@ -2290,25 +2726,6 @@
    "rawTitle": "ITZY(있지) 'TUNNEL VISION' MIX-TRACK",
    "embedOk": true,
    "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "7DEfcJ1kzGg",
-   "title": "2026 BIGHIT MUSIC GLOBAL AUDITION Message From #CORTIS",
-   "artist": "Various Artists",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/7DEfcJ1kzGg/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "최신 K-POP · HYBE",
-   "moods": [
-    "신나는"
-   ],
-   "views": 206272,
-   "publishedAt": "2026-11-24",
-   "channel": "HYBE LABELS",
-   "rawTitle": "[2026 BIGHIT MUSIC GLOBAL AUDITION] 🌟 Message From #CORTIS",
-   "embedOk": true,
-   "embedCheck": "rss"
   },
   {
    "videoId": "SDoAcxlVYQw",
@@ -2400,7 +2817,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 173028,
+   "views": 173587,
    "publishedAt": "2026-11-16",
    "channel": "HYBE LABELS",
    "rawTitle": "TXT (투모로우바이투게더) ‘Angel Bite’ Official MV",
@@ -2459,7 +2876,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 146317,
+   "views": 147775,
    "publishedAt": "2026-11-19",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "[Playlist] 고작 이별하기 위해 널 사랑한 건 아닌데 (Singing My Blues)",
@@ -2478,7 +2895,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 142020,
+   "views": 142263,
    "publishedAt": "2026-11-13",
    "channel": "HYBE LABELS",
    "rawTitle": "#ENHYPEN (#엔하이픈) 'I Want You' Official MV",
@@ -2497,7 +2914,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 131770,
+   "views": 132393,
    "publishedAt": "2026-11-20",
    "channel": "JYP Entertainment",
    "rawTitle": "NAYEON \"BABY ANGEL\" M/V",
@@ -2536,7 +2953,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 94390,
+   "views": 94464,
    "publishedAt": "2026-11-13",
    "channel": "JYP Entertainment",
    "rawTitle": "NAYEON SINGLE “NA-sty” SNEAK PEEK Track 03. BOY #TWICE #NAYEON #나연 #NA_sty #BABY_ANGEL",
@@ -2595,7 +3012,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 52043,
+   "views": 52170,
    "publishedAt": "2026-11-16",
    "channel": "JYP Entertainment",
    "rawTitle": "YAOCHEN(야오천) - \"WONDERFUL\" M/V",
@@ -2614,10 +3031,30 @@
    "moods": [
     "신나는"
    ],
-   "views": 42413,
+   "views": 45746,
    "publishedAt": "2026-11-24",
    "channel": "JYP Entertainment",
    "rawTitle": "우정으로 지키는 나무 l NEXZ l \"우리 오늘부터 1일!\" 열정 만렙 신입들의 우당탕탕 클럽 적응기",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
+   "videoId": "MaCjeHDuRGc",
+   "title": "MV Lee Ye ji(이예지) _ Critical Love",
+   "artist": "Various Artists",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/MaCjeHDuRGc/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "최신 K-POP · 1theK",
+   "moods": [
+    "신나는",
+    "청량"
+   ],
+   "views": 35865,
+   "publishedAt": "2026-11-24",
+   "channel": "1theK (원더케이)",
+   "rawTitle": "[MV] Lee Ye ji(이예지) _ Critical Love",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -2653,10 +3090,30 @@
    "moods": [
     "신나는"
    ],
-   "views": 27042,
+   "views": 29031,
    "publishedAt": "2026-11-24",
    "channel": "SMTOWN",
    "rawTitle": "SMTOWN RUN CLUB 26 | Recap Video",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
+   "videoId": "zaqRcnSZgYY",
+   "title": "MV Kassy(케이시) _ It Hurts(왜 이별은 아프기만 할까요)",
+   "artist": "Various Artists",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/zaqRcnSZgYY/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "최신 K-POP · 1theK",
+   "moods": [
+    "신나는",
+    "청량"
+   ],
+   "views": 15183,
+   "publishedAt": "2026-11-23",
+   "channel": "1theK (원더케이)",
+   "rawTitle": "[MV] Kassy(케이시) _ It Hurts(왜 이별은 아프기만 할까요)",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -2681,22 +3138,22 @@
    "embedCheck": "player+oembed"
   },
   {
-   "videoId": "zaqRcnSZgYY",
-   "title": "MV Kassy(케이시) _ It Hurts(왜 이별은 아프기만 할까요)",
+   "videoId": "eSZiBdwbDH4",
+   "title": "MV Jang Min Ho(장민호) _ Mountain, Life(산, 삶)",
    "artist": "Various Artists",
    "duration": "3:30",
    "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/zaqRcnSZgYY/hqdefault.jpg",
+   "thumbnail": "https://i.ytimg.com/vi/eSZiBdwbDH4/hqdefault.jpg",
    "genre": "K-POP",
    "playlist": "최신 K-POP · 1theK",
    "moods": [
     "신나는",
     "청량"
    ],
-   "views": 14478,
-   "publishedAt": "2026-11-23",
+   "views": 14193,
+   "publishedAt": "2026-11-24",
    "channel": "1theK (원더케이)",
-   "rawTitle": "[MV] Kassy(케이시) _ It Hurts(왜 이별은 아프기만 할까요)",
+   "rawTitle": "[MV] Jang Min Ho(장민호) _ Mountain, Life(산, 삶)",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -2713,30 +3170,10 @@
     "신나는",
     "청량"
    ],
-   "views": 13822,
+   "views": 14139,
    "publishedAt": "2026-11-22",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] Tophyun(탑현), Hwang inhyeock(황인혁) _ Hot Pack in My Pocket(주머니에 핫팩 하나)",
-   "embedOk": true,
-   "embedCheck": "rss"
-  },
-  {
-   "videoId": "eSZiBdwbDH4",
-   "title": "MV Jang Min Ho(장민호) _ Mountain, Life(산, 삶)",
-   "artist": "Various Artists",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/eSZiBdwbDH4/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "최신 K-POP · 1theK",
-   "moods": [
-    "신나는",
-    "청량"
-   ],
-   "views": 12057,
-   "publishedAt": "2026-11-24",
-   "channel": "1theK (원더케이)",
-   "rawTitle": "[MV] Jang Min Ho(장민호) _ Mountain, Life(산, 삶)",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -2761,26 +3198,6 @@
    "embedCheck": "player+oembed"
   },
   {
-   "videoId": "7t1UDIE1Kn8",
-   "title": "MV Chun Beom Seok(천범석) _ A Picture We Become(어떤 그림)",
-   "artist": "Various Artists",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/7t1UDIE1Kn8/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "최신 K-POP · 1theK",
-   "moods": [
-    "신나는",
-    "청량"
-   ],
-   "views": 7956,
-   "publishedAt": "2026-11-23",
-   "channel": "1theK (원더케이)",
-   "rawTitle": "[MV] Chun Beom Seok(천범석) _ A Picture We Become(어떤 그림)",
-   "embedOk": true,
-   "embedCheck": "rss"
-  },
-  {
    "videoId": "lUe5loRJiRc",
    "title": "MV WONDER ATTACK _ Ready To Dive",
    "artist": "Various Artists",
@@ -2793,7 +3210,7 @@
     "신나는",
     "청량"
    ],
-   "views": 7137,
+   "views": 8431,
    "publishedAt": "2026-11-24",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] WONDER ATTACK _ Ready To Dive",
@@ -2801,22 +3218,22 @@
    "embedCheck": "rss"
   },
   {
-   "videoId": "MaCjeHDuRGc",
-   "title": "MV Lee Ye ji(이예지) _ Critical Love",
+   "videoId": "7t1UDIE1Kn8",
+   "title": "MV Chun Beom Seok(천범석) _ A Picture We Become(어떤 그림)",
    "artist": "Various Artists",
    "duration": "3:30",
    "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/MaCjeHDuRGc/hqdefault.jpg",
+   "thumbnail": "https://i.ytimg.com/vi/7t1UDIE1Kn8/hqdefault.jpg",
    "genre": "K-POP",
    "playlist": "최신 K-POP · 1theK",
    "moods": [
     "신나는",
     "청량"
    ],
-   "views": 6724,
-   "publishedAt": "2026-11-24",
+   "views": 8100,
+   "publishedAt": "2026-11-23",
    "channel": "1theK (원더케이)",
-   "rawTitle": "[MV] Lee Ye ji(이예지) _ Critical Love",
+   "rawTitle": "[MV] Chun Beom Seok(천범석) _ A Picture We Become(어떤 그림)",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -2833,7 +3250,7 @@
     "신나는",
     "청량"
    ],
-   "views": 6650,
+   "views": 6747,
    "publishedAt": "2026-11-23",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] TRAVELLER(트래블러) _ Have You Eaten?(밥 먹었어?)",
@@ -2913,7 +3330,7 @@
     "신나는",
     "청량"
    ],
-   "views": 2967,
+   "views": 3144,
    "publishedAt": "2026-11-23",
    "channel": "1theK (원더케이)",
    "rawTitle": "[COMEBACK LINE-UP] ✨11월 컴백 라인업✨| November – Part 4",
@@ -3021,6 +3438,26 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "AjI7r6BoqvU",
+   "title": "MV ClueAt(클루엣) _ Cozy Room With You",
+   "artist": "Various Artists",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/AjI7r6BoqvU/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "최신 K-POP · 1theK",
+   "moods": [
+    "신나는",
+    "청량"
+   ],
+   "views": 1958,
+   "publishedAt": "2026-11-25",
+   "channel": "1theK (원더케이)",
+   "rawTitle": "[MV] ClueAt(클루엣) _ Cozy Room With You",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
    "videoId": "3unZnlnouxU",
    "title": "Neverland (Feat. 이을 (E.ul))",
    "artist": "숨셔",
@@ -3113,7 +3550,7 @@
     "신나는",
     "청량"
    ],
-   "views": 1296,
+   "views": 1361,
    "publishedAt": "2026-11-23",
    "channel": "1theK (원더케이)",
    "rawTitle": "KISS OF LIFE _ LITTLE WORLD, BIG WISH",
@@ -3139,26 +3576,6 @@
    "rawTitle": "Macker & Filip Grönlund - Promise [Music Video]",
    "embedOk": true,
    "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "AjI7r6BoqvU",
-   "title": "MV ClueAt(클루엣) _ Cozy Room With You",
-   "artist": "Various Artists",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/AjI7r6BoqvU/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "최신 K-POP · 1theK",
-   "moods": [
-    "신나는",
-    "청량"
-   ],
-   "views": 12,
-   "publishedAt": "2026-11-25",
-   "channel": "1theK (원더케이)",
-   "rawTitle": "[MV] ClueAt(클루엣) _ Cozy Room With You",
-   "embedOk": true,
-   "embedCheck": "rss"
   },
   {
    "videoId": "hal7M_k5t7E",
@@ -4771,25 +5188,6 @@
    "embedCheck": "player+oembed"
   },
   {
-   "videoId": "rEil8hvXqi0",
-   "title": "VOID",
-   "artist": "Melanie Martinez",
-   "duration": "4:08",
-   "durationSec": 248,
-   "thumbnail": "https://i.ytimg.com/vi/rEil8hvXqi0/hqdefault.jpg",
-   "genre": "팝송",
-   "playlist": "Melanie Martinez 필청 트랙",
-   "moods": [
-    "잔잔한"
-   ],
-   "views": 17387336,
-   "publishedAt": "2023-03-30",
-   "channel": "Melanie Martinez - Topic",
-   "rawTitle": "VOID",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
    "videoId": "R9xWtB0eS1c",
    "title": "NIGHTS LIKE THESE",
    "artist": "Benson Boone",
@@ -4877,7 +5275,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 7769965,
+   "views": 7770044,
    "publishedAt": "2019-08-29",
    "channel": "Tones And I - Topic",
    "rawTitle": "Johnny Run Away",
@@ -4919,25 +5317,6 @@
    "publishedAt": "",
    "channel": "Dua Lipa",
    "rawTitle": "Whatcha Doing",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "iW1djiqFzAk",
-   "title": "BATTLE OF THE LARYNX",
-   "artist": "Melanie Martinez",
-   "duration": "5:29",
-   "durationSec": 329,
-   "thumbnail": "https://i.ytimg.com/vi/iW1djiqFzAk/hqdefault.jpg",
-   "genre": "팝송",
-   "playlist": "Melanie Martinez 필청 트랙",
-   "moods": [
-    "잔잔한"
-   ],
-   "views": 6597976,
-   "publishedAt": "2023-03-30",
-   "channel": "Melanie Martinez - Topic",
-   "rawTitle": "BATTLE OF THE LARYNX",
    "embedOk": true,
    "embedCheck": "player+oembed"
   },
@@ -5037,25 +5416,6 @@
    "embedCheck": "player+oembed"
   },
   {
-   "videoId": "-Oi-5rudfQ4",
-   "title": "Soap",
-   "artist": "Melanie Martinez",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/-Oi-5rudfQ4/hqdefault.jpg",
-   "genre": "팝송",
-   "playlist": "Melanie Martinez 필청 트랙",
-   "moods": [
-    "잔잔한"
-   ],
-   "views": 4590247,
-   "publishedAt": "2017-01-29",
-   "channel": "Melanie Martinez - Topic",
-   "rawTitle": "Soap",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
    "videoId": "gpu4f-8vk-I",
    "title": "Maria",
    "artist": "Dua Lipa",
@@ -5132,25 +5492,6 @@
    "embedCheck": "player+oembed"
   },
   {
-   "videoId": "dSYmojI2i1Q",
-   "title": "Carousel",
-   "artist": "Melanie Martinez",
-   "duration": "3:51",
-   "durationSec": 231,
-   "thumbnail": "https://i.ytimg.com/vi/dSYmojI2i1Q/hqdefault.jpg",
-   "genre": "팝송",
-   "playlist": "Melanie Martinez 필청 트랙",
-   "moods": [
-    "잔잔한"
-   ],
-   "views": 4051139,
-   "publishedAt": "2017-02-18",
-   "channel": "Melanie Martinez - Topic",
-   "rawTitle": "Carousel",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
    "videoId": "I9qxHs761Cg",
    "title": "Be Someone",
    "artist": "Benson Boone",
@@ -5166,25 +5507,6 @@
    "publishedAt": "",
    "channel": "Benson Boone",
    "rawTitle": "Benson Boone - Be Someone (Official Lyric Video)",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "nEcS5DOmiRY",
-   "title": "Drama Club",
-   "artist": "Melanie Martinez",
-   "duration": "3:46",
-   "durationSec": 226,
-   "thumbnail": "https://i.ytimg.com/vi/nEcS5DOmiRY/hqdefault.jpg",
-   "genre": "팝송",
-   "playlist": "Melanie Martinez 필청 트랙",
-   "moods": [
-    "잔잔한"
-   ],
-   "views": 3804691,
-   "publishedAt": "2019-09-05",
-   "channel": "Melanie Martinez - Topic",
-   "rawTitle": "Drama Club",
    "embedOk": true,
    "embedCheck": "player+oembed"
   },
@@ -5333,7 +5655,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 1976449,
+   "views": 1976644,
    "publishedAt": "2022-03-17",
    "channel": "GAYLE - Topic",
    "rawTitle": "ur just horny",
@@ -5398,44 +5720,6 @@
    "embedCheck": "player+oembed"
   },
   {
-   "videoId": "8GgpY2WZkdU",
-   "title": "Wheels on the Bus",
-   "artist": "Melanie Martinez",
-   "duration": "3:41",
-   "durationSec": 221,
-   "thumbnail": "https://i.ytimg.com/vi/8GgpY2WZkdU/hqdefault.jpg",
-   "genre": "팝송",
-   "playlist": "Melanie Martinez 필청 트랙",
-   "moods": [
-    "잔잔한"
-   ],
-   "views": 1340695,
-   "publishedAt": "2019-09-05",
-   "channel": "Melanie Martinez - Topic",
-   "rawTitle": "Wheels on the Bus",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "EyxTm1OZSBI",
-   "title": "Strawberry Shortcake",
-   "artist": "Melanie Martinez",
-   "duration": "3:05",
-   "durationSec": 185,
-   "thumbnail": "https://i.ytimg.com/vi/EyxTm1OZSBI/hqdefault.jpg",
-   "genre": "팝송",
-   "playlist": "Melanie Martinez 필청 트랙",
-   "moods": [
-    "잔잔한"
-   ],
-   "views": 1259993,
-   "publishedAt": "2019-09-05",
-   "channel": "Melanie Martinez - Topic",
-   "rawTitle": "Strawberry Shortcake",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
    "videoId": "KG-5e9_uBkY",
    "title": "Eyes Don’t Lie",
    "artist": "Tones And I",
@@ -5493,44 +5777,6 @@
    "embedCheck": "player+oembed"
   },
   {
-   "videoId": "kBbkkaJI7z4",
-   "title": "Recess",
-   "artist": "Melanie Martinez",
-   "duration": "3:51",
-   "durationSec": 231,
-   "thumbnail": "https://i.ytimg.com/vi/kBbkkaJI7z4/hqdefault.jpg",
-   "genre": "팝송",
-   "playlist": "Melanie Martinez 필청 트랙",
-   "moods": [
-    "잔잔한"
-   ],
-   "views": 883865,
-   "publishedAt": "2019-09-05",
-   "channel": "Melanie Martinez - Topic",
-   "rawTitle": "Recess",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "ZQ6yslKyANI",
-   "title": "Orange Juice",
-   "artist": "Melanie Martinez",
-   "duration": "3:38",
-   "durationSec": 218,
-   "thumbnail": "https://i.ytimg.com/vi/ZQ6yslKyANI/hqdefault.jpg",
-   "genre": "팝송",
-   "playlist": "Melanie Martinez 필청 트랙",
-   "moods": [
-    "잔잔한"
-   ],
-   "views": 798636,
-   "publishedAt": "2019-09-05",
-   "channel": "Melanie Martinez - Topic",
-   "rawTitle": "Orange Juice",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
    "videoId": "7vEe8ZyCpN4",
    "title": "butterflies",
    "artist": "GAYLE",
@@ -5542,7 +5788,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 724557,
+   "views": 724612,
    "publishedAt": "2023-07-20",
    "channel": "GAYLE - Topic",
    "rawTitle": "butterflies",
@@ -5561,7 +5807,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 607469,
+   "views": 607501,
    "publishedAt": "2022-03-17",
    "channel": "GAYLE - Topic",
    "rawTitle": "luv starved",
@@ -5580,7 +5826,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 558661,
+   "views": 558664,
    "publishedAt": "2024-02-01",
    "channel": "Tones And I - Topic",
    "rawTitle": "Dreaming",
@@ -5599,7 +5845,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 440422,
+   "views": 440518,
    "publishedAt": "2023-03-30",
    "channel": "Tones And I - Topic",
    "rawTitle": "I Am Free",
@@ -5618,7 +5864,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 439478,
+   "views": 439582,
    "publishedAt": "2024-02-15",
    "channel": "Royal & the Serpent - Topic",
    "rawTitle": "kinda smacks",
@@ -5637,7 +5883,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 424446,
+   "views": 424466,
    "publishedAt": "2022-10-06",
    "channel": "GAYLE - Topic",
    "rawTitle": "ALEX",
@@ -5656,7 +5902,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 408587,
+   "views": 408619,
    "publishedAt": "2022-08-25",
    "channel": "GAYLE - Topic",
    "rawTitle": "god has a sense of humor",
@@ -5675,7 +5921,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 366846,
+   "views": 366849,
    "publishedAt": "2024-03-11",
    "channel": "Tones And I - Topic",
    "rawTitle": "I Get High",
@@ -5694,7 +5940,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 271526,
+   "views": 271537,
    "publishedAt": "2022-03-17",
    "channel": "GAYLE - Topic",
    "rawTitle": "sleeping with my friends",
@@ -5732,7 +5978,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 219914,
+   "views": 219923,
    "publishedAt": "2022-03-17",
    "channel": "GAYLE - Topic",
    "rawTitle": "e-z (feat. UPSAHL & Blu DeTiger)",
@@ -5771,7 +6017,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 3460,
+   "views": 3564,
    "publishedAt": "2026-11-22",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "Haeroiki (해로이키) - 평가절하의 그녀 (The Diminished Girl) [Music Video]",
@@ -5791,7 +6037,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 3275,
+   "views": 3290,
    "publishedAt": "2026-11-21",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "[라이어 OST Part 1] ABOUT(어바웃) - Icarus",
@@ -5811,7 +6057,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 2650,
+   "views": 2652,
    "publishedAt": "2026-11-18",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "#ONTHISDAY Bruno Mars [24K Magic]",
@@ -5831,7 +6077,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 2437,
+   "views": 2448,
    "publishedAt": "2026-11-21",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "이날(YNR) - 지금은 내일의 꿈 (Memory Room) [Lyric Video]",
@@ -5851,7 +6097,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 2270,
+   "views": 2446,
    "publishedAt": "2026-11-24",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "아이묭 (aimyon) - Almost Lonely 가사 번역 뮤직비디오",
@@ -5871,30 +6117,10 @@
     "드라이브",
     "청량"
    ],
-   "views": 1887,
+   "views": 1902,
    "publishedAt": "2026-11-23",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "Jaenax - donkyo [Music Video]",
-   "embedOk": true,
-   "embedCheck": "rss"
-  },
-  {
-   "videoId": "Pm8ANUYJc94",
-   "title": "스탑 더 웨딩",
-   "artist": "차트 짱 먹은 노래",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/Pm8ANUYJc94/hqdefault.jpg",
-   "genre": "팝송",
-   "playlist": "최신 가요 · Warner",
-   "moods": [
-    "드라이브",
-    "청량"
-   ],
-   "views": 1522,
-   "publishedAt": "2026-11-18",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "차트 짱 먹은 노래 : 스탑 더 웨딩✋✋",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -5911,10 +6137,30 @@
     "드라이브",
     "청량"
    ],
-   "views": 1515,
+   "views": 1556,
    "publishedAt": "2026-11-24",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "인생 노잼 시기 극복하는 법 댓글로 알려줘🥱",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
+   "videoId": "Pm8ANUYJc94",
+   "title": "스탑 더 웨딩",
+   "artist": "차트 짱 먹은 노래",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/Pm8ANUYJc94/hqdefault.jpg",
+   "genre": "팝송",
+   "playlist": "최신 가요 · Warner",
+   "moods": [
+    "드라이브",
+    "청량"
+   ],
+   "views": 1527,
+   "publishedAt": "2026-11-18",
+   "channel": "워너뮤직코리아 (Warner Music Korea)",
+   "rawTitle": "차트 짱 먹은 노래 : 스탑 더 웨딩✋✋",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -5931,7 +6177,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 1451,
+   "views": 1463,
    "publishedAt": "2026-11-21",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "내 수영이가 불안핑이라니..🥹💗",
@@ -5951,30 +6197,10 @@
     "드라이브",
     "청량"
    ],
-   "views": 1379,
+   "views": 1397,
    "publishedAt": "2026-11-23",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "Jaenax - hiyin [Music Video]",
-   "embedOk": true,
-   "embedCheck": "rss"
-  },
-  {
-   "videoId": "Xyl72L2gDyw",
-   "title": "#EVENT 제이슨 므라즈 친필 사인 CD 증정 이벤트",
-   "artist": "Various Artists",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/Xyl72L2gDyw/hqdefault.jpg",
-   "genre": "팝송",
-   "playlist": "최신 가요 · Warner",
-   "moods": [
-    "드라이브",
-    "청량"
-   ],
-   "views": 1295,
-   "publishedAt": "2026-11-18",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "#EVENT 제이슨 므라즈 친필 사인 CD 증정 이벤트🤠🤎",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -5991,10 +6217,30 @@
     "드라이브",
     "청량"
    ],
-   "views": 825,
+   "views": 1354,
    "publishedAt": "2026-11-23",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "WELCOME TO VICE CITY🌴 Grand Theft Auto VI: THE ALBUM LISTENING PARTY💜",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
+   "videoId": "Xyl72L2gDyw",
+   "title": "#EVENT 제이슨 므라즈 친필 사인 CD 증정 이벤트",
+   "artist": "Various Artists",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/Xyl72L2gDyw/hqdefault.jpg",
+   "genre": "팝송",
+   "playlist": "최신 가요 · Warner",
+   "moods": [
+    "드라이브",
+    "청량"
+   ],
+   "views": 1296,
+   "publishedAt": "2026-11-18",
+   "channel": "워너뮤직코리아 (Warner Music Korea)",
+   "rawTitle": "#EVENT 제이슨 므라즈 친필 사인 CD 증정 이벤트🤠🤎",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -6011,69 +6257,12 @@
     "드라이브",
     "청량"
    ],
-   "views": 13,
+   "views": 907,
    "publishedAt": "2026-11-25",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "뎁트 - Earrings (Feat. Oh Yun) [Lyric Video]",
    "embedOk": true,
    "embedCheck": "rss"
-  },
-  {
-   "videoId": "i1M6sGRGY7A",
-   "title": "Dollhouse",
-   "artist": "Melanie Martinez",
-   "duration": "3:52",
-   "durationSec": 232,
-   "thumbnail": "https://i.ytimg.com/vi/i1M6sGRGY7A/hqdefault.jpg",
-   "genre": "팝송",
-   "playlist": "Melanie Martinez 필청 트랙",
-   "moods": [
-    "잔잔한"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "Melanie Martinez - Topic",
-   "rawTitle": "Dollhouse",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "26GJ9gIn820",
-   "title": "Pacify Her",
-   "artist": "Melanie Martinez",
-   "duration": "3:41",
-   "durationSec": 221,
-   "thumbnail": "https://i.ytimg.com/vi/26GJ9gIn820/hqdefault.jpg",
-   "genre": "팝송",
-   "playlist": "Melanie Martinez 필청 트랙",
-   "moods": [
-    "잔잔한"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "Melanie Martinez - Topic",
-   "rawTitle": "Pacify Her",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "bf6hlhpsgsg",
-   "title": "SPIDER WEB",
-   "artist": "Melanie Martinez",
-   "duration": "3:04",
-   "durationSec": 184,
-   "thumbnail": "https://i.ytimg.com/vi/bf6hlhpsgsg/hqdefault.jpg",
-   "genre": "팝송",
-   "playlist": "Melanie Martinez 필청 트랙",
-   "moods": [
-    "잔잔한"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "Melanie Martinez - Topic",
-   "rawTitle": "SPIDER WEB",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
   },
   {
    "videoId": "mjawQTt2zG0",
@@ -6910,806 +7099,6 @@
    "publishedAt": "",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "채루아(CHAE LUA) - 장마(JANGMA) (Feat. 수연이(Soo-Yeony), 7uly Seven) [Lyric Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "JTaqtvWnFUs",
-   "title": "Broken Parts (나의 해피엔드 OST)",
-   "artist": "KIMMUSEUM",
-   "duration": "3:01",
-   "durationSec": 181,
-   "thumbnail": "https://i.ytimg.com/vi/JTaqtvWnFUs/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "김뮤지엄 (KIMMUSEUM) - Broken Parts (나의 해피엔드 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "Q-xF-85rASM",
-   "title": "Burning (신성한, 이혼 OST)",
-   "artist": "수안 (퍼플키스)",
-   "duration": "3:11",
-   "durationSec": 191,
-   "thumbnail": "https://i.ytimg.com/vi/Q-xF-85rASM/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "수안 (퍼플키스) - Burning (신성한, 이혼 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "rosOqmL1Q-U",
-   "title": "Can you feel my love (주류일절 OST)",
-   "artist": "원도현",
-   "duration": "3:37",
-   "durationSec": 217,
-   "thumbnail": "https://i.ytimg.com/vi/rosOqmL1Q-U/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "원도현 - Can you feel my love (주류일절 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "hHCqWj0pV0g",
-   "title": "Come Alive (기적의 형제 OST)",
-   "artist": "TAEWOO",
-   "duration": "4:32",
-   "durationSec": 272,
-   "thumbnail": "https://i.ytimg.com/vi/hHCqWj0pV0g/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "태우(TAEWOO) - Come Alive (기적의 형제 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "g6zV_XD8nRk",
-   "title": "Eyes On You (나의 X같은 스무살 OST)",
-   "artist": "루다",
-   "duration": "3:49",
-   "durationSec": 229,
-   "thumbnail": "https://i.ytimg.com/vi/g6zV_XD8nRk/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "루다 - Eyes On You (나의 X같은 스무살 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "F9rlspqH-Mo",
-   "title": "Falling Down (주류일절 OST)",
-   "artist": "Roshin",
-   "duration": "3:07",
-   "durationSec": 187,
-   "thumbnail": "https://i.ytimg.com/vi/F9rlspqH-Mo/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "로신 (Roshin) - Falling Down (주류일절 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "ksbIL5N6PFQ",
-   "title": "History and Mystery (기적의 형제 OST)",
-   "artist": "Ra.L",
-   "duration": "3:50",
-   "durationSec": 230,
-   "thumbnail": "https://i.ytimg.com/vi/ksbIL5N6PFQ/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "라엘 (Ra.L) - History and Mystery (기적의 형제 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "6Mhm3laEI0M",
-   "title": "I AM (주류일절 OST)",
-   "artist": "박민규",
-   "duration": "3:36",
-   "durationSec": 216,
-   "thumbnail": "https://i.ytimg.com/vi/6Mhm3laEI0M/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "박민규 - I AM (주류일절 OST) [Lyric Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "6vkNSr2ZMLU",
-   "title": "I Don’t Know (순정복서 OST)",
-   "artist": "샘 카터",
-   "duration": "3:28",
-   "durationSec": 208,
-   "thumbnail": "https://i.ytimg.com/vi/6vkNSr2ZMLU/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "샘 카터 - I Don’t Know (순정복서 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "KkCNhey5-nw",
-   "title": "In Some Dreams (나의 해피엔드 OST)",
-   "artist": "수안 (퍼플키스)",
-   "duration": "2:26",
-   "durationSec": 146,
-   "thumbnail": "https://i.ytimg.com/vi/KkCNhey5-nw/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "수안 (퍼플키스) - In Some Dreams (나의 해피엔드 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "jNII9e0YV2k",
-   "title": "LEAD (조선변호사 오리지널 사운드 트랙 2)",
-   "artist": "난아진",
-   "duration": "3:17",
-   "durationSec": 197,
-   "thumbnail": "https://i.ytimg.com/vi/jNII9e0YV2k/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "난아진 - LEAD (조선변호사 오리지널 사운드 트랙 2) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "Ew7ySIo1ULk",
-   "title": "Latte Latte (꼭두의 계절 OST)",
-   "artist": "Weeekly",
-   "duration": "3:19",
-   "durationSec": 199,
-   "thumbnail": "https://i.ytimg.com/vi/Ew7ySIo1ULk/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "지한 (Weeekly) - Latte Latte (꼭두의 계절 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "-rHlCfzWfv8",
-   "title": "Say Again (기적의 형제 OST)",
-   "artist": "더 베인",
-   "duration": "3:17",
-   "durationSec": 197,
-   "thumbnail": "https://i.ytimg.com/vi/-rHlCfzWfv8/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "더 베인 - Say Again (기적의 형제 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "iG-rKkWcIhY",
-   "title": "Shadow Love (사랑의 이해 OST)",
-   "artist": "LAS",
-   "duration": "3:55",
-   "durationSec": 235,
-   "thumbnail": "https://i.ytimg.com/vi/iG-rKkWcIhY/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "LAS (라스) - Shadow Love (사랑의 이해 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "9n8bzgKLGRE",
-   "title": "Slow it down (신성한, 이혼 OST)",
-   "artist": "Yein",
-   "duration": "3:38",
-   "durationSec": 218,
-   "thumbnail": "https://i.ytimg.com/vi/9n8bzgKLGRE/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "정예인 (Yein) - Slow it down (신성한, 이혼 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "bFVRjT_VPhA",
-   "title": "Still Fighting (기적의 형제 OST)",
-   "artist": "LUCY",
-   "duration": "3:38",
-   "durationSec": 218,
-   "thumbnail": "https://i.ytimg.com/vi/bFVRjT_VPhA/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "LUCY - Still Fighting (기적의 형제 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "qmlIz3hRk08",
-   "title": "Take A Rest (나의 해피엔드 OST)",
-   "artist": "O.WHEN",
-   "duration": "3:36",
-   "durationSec": 216,
-   "thumbnail": "https://i.ytimg.com/vi/qmlIz3hRk08/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "오왠 (O.WHEN) - Take A Rest (나의 해피엔드 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "o9Nxbi0SExQ",
-   "title": "Tolerance (신성한, 이혼 OST)",
-   "artist": "AnTasWell (), VVON",
-   "duration": "3:10",
-   "durationSec": 190,
-   "thumbnail": "https://i.ytimg.com/vi/o9Nxbi0SExQ/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "AnTasWell (앤타스웰), VVON (본) - Tolerance (신성한, 이혼 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "T4_UA5KRVLI",
-   "title": "Venom (기적의 형제 OST)",
-   "artist": "임윤성",
-   "duration": "3:41",
-   "durationSec": 221,
-   "thumbnail": "https://i.ytimg.com/vi/T4_UA5KRVLI/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "임윤성 - Venom (기적의 형제 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "xo_eMqdHcgA",
-   "title": "그대 없는 나는 (나의 해피엔드 OST)",
-   "artist": "ALEPH",
-   "duration": "3:39",
-   "durationSec": 219,
-   "thumbnail": "https://i.ytimg.com/vi/xo_eMqdHcgA/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "알레프 (ALEPH) - 그대 없는 나는 (나의 해피엔드 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "EbI6yr1fbHg",
-   "title": "그대와 그대 향기가 (나의 X같은 스무살 OST)",
-   "artist": "다원",
-   "duration": "3:52",
-   "durationSec": 232,
-   "thumbnail": "https://i.ytimg.com/vi/EbI6yr1fbHg/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "다원 - 그대와 그대 향기가 (나의 X같은 스무살 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "IlavFAuzmXw",
-   "title": "낙원 (순정복서 OST)",
-   "artist": "보라 (체리블렛)",
-   "duration": "3:28",
-   "durationSec": 208,
-   "thumbnail": "https://i.ytimg.com/vi/IlavFAuzmXw/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "보라 (체리블렛) - 낙원 (순정복서 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "DwJrlDTjUVk",
-   "title": "낮에 뜨는 달",
-   "artist": "안예은",
-   "duration": "3:49",
-   "durationSec": 229,
-   "thumbnail": "https://i.ytimg.com/vi/DwJrlDTjUVk/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "TOON STUDIO",
-   "rawTitle": "[최초 공개] 안예은 - 낮에 뜨는 달 M/V",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "aBGy0qYpBKc",
-   "title": "내가 너를 사랑하는 이유 (순정복서 OST)",
-   "artist": "CHEEZE",
-   "duration": "3:45",
-   "durationSec": 225,
-   "thumbnail": "https://i.ytimg.com/vi/aBGy0qYpBKc/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "CHEEZE (치즈) - 내가 너를 사랑하는 이유 (순정복서 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "UAvIR3wXQ_k",
-   "title": "네 편이 되줄게 (나의 X같은 스무살 OST)",
-   "artist": "연호",
-   "duration": "4:11",
-   "durationSec": 251,
-   "thumbnail": "https://i.ytimg.com/vi/UAvIR3wXQ_k/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "연호 - 네 편이 되줄게 (나의 X같은 스무살 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "urS1REzHlZ8",
-   "title": "다시 사랑할 수 있게 (나쁜엄마 OST Part.4)",
-   "artist": "멜로망스",
-   "duration": "3:49",
-   "durationSec": 229,
-   "thumbnail": "https://i.ytimg.com/vi/urS1REzHlZ8/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "멜로망스 - 다시 사랑할 수 있게 (나쁜엄마 OST Part.4) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "nu-pVkwWl1w",
-   "title": "둘만의 비밀로 (오늘도 사랑스럽개 OST)",
-   "artist": "멜로망스",
-   "duration": "3:13",
-   "durationSec": 193,
-   "thumbnail": "https://i.ytimg.com/vi/nu-pVkwWl1w/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "멜로망스 - 둘만의 비밀로 (오늘도 사랑스럽개 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "gxAYD5N47KI",
-   "title": "멀리 (신성한, 이혼 OST)",
-   "artist": "선우정아",
-   "duration": "3:26",
-   "durationSec": 206,
-   "thumbnail": "https://i.ytimg.com/vi/gxAYD5N47KI/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "선우정아 - 멀리 (신성한, 이혼 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "Ks3PCYVYoqs",
-   "title": "불러도 (주류일절 OST)",
-   "artist": "레이노얼",
-   "duration": "3:44",
-   "durationSec": 224,
-   "thumbnail": "https://i.ytimg.com/vi/Ks3PCYVYoqs/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "레이노얼 - 불러도 (주류일절 OST) [Lyric Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "xfSrjqbaUSo",
-   "title": "비밀 (꼭두의 계절 OST)",
-   "artist": "한동근",
-   "duration": "4:09",
-   "durationSec": 249,
-   "thumbnail": "https://i.ytimg.com/vi/xfSrjqbaUSo/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "한동근 - 비밀 (꼭두의 계절 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "5Ww-GfXPlYM",
-   "title": "사랑을 말해요 (나쁜엄마 OST Part.6)",
-   "artist": "이문세",
-   "duration": "3:38",
-   "durationSec": 218,
-   "thumbnail": "https://i.ytimg.com/vi/5Ww-GfXPlYM/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "이문세 - 사랑을 말해요 (나쁜엄마 OST Part.6) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "qWJfgyROX5Q",
-   "title": "색칠해줘 (신성한, 이혼 OST)",
-   "artist": "Summer",
-   "duration": "3:12",
-   "durationSec": 192,
-   "thumbnail": "https://i.ytimg.com/vi/qWJfgyROX5Q/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "썸머 (Summer) - 색칠해줘 (신성한, 이혼 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "Bh600PjhIdU",
-   "title": "스무번 스무살 (나의 X같은 스무살 OST)",
-   "artist": "박진주",
-   "duration": "3:52",
-   "durationSec": 232,
-   "thumbnail": "https://i.ytimg.com/vi/Bh600PjhIdU/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "박진주 - 스무번 스무살 (나의 X같은 스무살 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "FQO07-wBO70",
-   "title": "안아줄게 (주류일절 OST)",
-   "artist": "아리",
-   "duration": "3:01",
-   "durationSec": 181,
-   "thumbnail": "https://i.ytimg.com/vi/FQO07-wBO70/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "아리 - 안아줄게 (주류일절 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "WVbOs8a71wE",
-   "title": "참아보자 (기적의 형제 OST)",
-   "artist": "김기태",
-   "duration": "4:10",
-   "durationSec": 250,
-   "thumbnail": "https://i.ytimg.com/vi/WVbOs8a71wE/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "김기태 - 참아보자 (기적의 형제 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "1UecEnegC6k",
-   "title": "처음 순간 (꼭두의 계절 OST)",
-   "artist": "주은",
-   "duration": "3:27",
-   "durationSec": 207,
-   "thumbnail": "https://i.ytimg.com/vi/1UecEnegC6k/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "주은 - 처음 순간 (꼭두의 계절 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "yIV6QGe5-GA",
-   "title": "춤 (나의 해피엔드 OST)",
-   "artist": "다린",
-   "duration": "3:29",
-   "durationSec": 209,
-   "thumbnail": "https://i.ytimg.com/vi/yIV6QGe5-GA/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "다린 - 춤 (나의 해피엔드 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "k8nz-bDSiP0",
-   "title": "한번쯤 따뜻했으니 (신성한, 이혼 OST)",
-   "artist": "이라온",
-   "duration": "4:04",
-   "durationSec": 244,
-   "thumbnail": "https://i.ytimg.com/vi/k8nz-bDSiP0/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "이라온 - 한번쯤 따뜻했으니 (신성한, 이혼 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "YfmIWqEnggo",
-   "title": "휘 (꼭두의 계절 OST)",
-   "artist": "홍이삭",
-   "duration": "4:12",
-   "durationSec": 252,
-   "thumbnail": "https://i.ytimg.com/vi/YfmIWqEnggo/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "홍이삭 - 휘 (꼭두의 계절 OST) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "aTC7KrL-2dg",
-   "title": "흔한 사랑 노래 (Feat.LiNCH of Rempest) (주류일절 OST)",
-   "artist": "김준형",
-   "duration": "3:41",
-   "durationSec": 221,
-   "thumbnail": "https://i.ytimg.com/vi/aTC7KrL-2dg/hqdefault.jpg",
-   "genre": "OST",
-   "playlist": "최애 드라마 속 그 노래",
-   "moods": [
-    "감성",
-    "이별"
-   ],
-   "views": 0,
-   "publishedAt": "",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "김준형 - 흔한 사랑 노래 (Feat.LiNCH of Rempest) (주류일절 OST) [Lyric Video]",
    "embedOk": true,
    "embedCheck": "player+oembed"
   },
