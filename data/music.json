@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-26T21:15:07+00:00",
- "count": 422,
+ "generatedAt": "2026-11-27T03:14:44+00:00",
+ "count": 458,
  "genres": [
   "K-POP",
   "발라드",
@@ -133,8 +133,8 @@
    "playlist": "Benson Boone 필청 트랙",
    "genre": "팝송",
    "playlistId": "PLX3cI5NYkjAgeOQCrJj94fCd1BDWE8k6g",
-   "found": 0,
-   "added": 0,
+   "found": 14,
+   "added": 14,
    "rejected": 0
   },
   {
@@ -196,9 +196,9 @@
    "playlist": "relaxing piano",
    "genre": "로파이·집중",
    "playlistId": "PLBXAKheXvsAM",
-   "found": 0,
-   "added": 0,
-   "rejected": 0
+   "found": 22,
+   "added": 22,
+   "rejected": 1
   },
   {
    "key": "lofi-jazz",
@@ -1058,7 +1058,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 27685847,
+   "views": 27699042,
    "publishedAt": "2026-11-09",
    "channel": "SMTOWN",
    "rawTitle": "NCT DREAM 엔시티 드림 'Boogie Woogie' MV",
@@ -1116,7 +1116,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 25331074,
+   "views": 25335517,
    "publishedAt": "2026-10-12",
    "channel": "SMTOWN",
    "rawTitle": "NCT WISH 엔시티 위시 'I SPY' MV",
@@ -1303,6 +1303,25 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "j_Z3_4aFQxQ",
+   "title": "ORIGAMI",
+   "artist": "SANTOS BRAVOS x &TEAM",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/j_Z3_4aFQxQ/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "최신 K-POP · HYBE",
+   "moods": [
+    "신나는"
+   ],
+   "views": 18110793,
+   "publishedAt": "2026-11-20",
+   "channel": "HYBE LABELS",
+   "rawTitle": "SANTOS BRAVOS x &TEAM - “ORIGAMI” OFFICIAL MV",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
    "videoId": "j6tKIdt9K9M",
    "title": "Run For Roses",
    "artist": "NMIXX",
@@ -1320,25 +1339,6 @@
    "rawTitle": "NMIXX “Run For Roses” Performance Video",
    "embedOk": true,
    "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "j_Z3_4aFQxQ",
-   "title": "ORIGAMI",
-   "artist": "SANTOS BRAVOS x &TEAM",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/j_Z3_4aFQxQ/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "최신 K-POP · HYBE",
-   "moods": [
-    "신나는"
-   ],
-   "views": 17087631,
-   "publishedAt": "2026-11-20",
-   "channel": "HYBE LABELS",
-   "rawTitle": "SANTOS BRAVOS x &TEAM - “ORIGAMI” OFFICIAL MV",
-   "embedOk": true,
-   "embedCheck": "rss"
   },
   {
    "videoId": "fvtzZFhrKLE",
@@ -1371,7 +1371,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 15328080,
+   "views": 15333377,
    "publishedAt": "2026-10-25",
    "channel": "SMTOWN",
    "rawTitle": "RIIZE 라이즈 'Insomnia' MV",
@@ -1390,7 +1390,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 14455186,
+   "views": 14455204,
    "publishedAt": "2026-02-08",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "2026 YG SPECIAL AUDITION : GO! DEBUT",
@@ -1448,7 +1448,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 12664443,
+   "views": 12664450,
    "publishedAt": "2025-08-17",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "TREASURE & BABYMONSTER | YG ANNOUNCEMENT",
@@ -1526,7 +1526,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 11205401,
+   "views": 11205413,
    "publishedAt": "2026-02-12",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "2026 YG SPECIAL AUDITION : GO! DEBUT #2",
@@ -1565,7 +1565,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 10472354,
+   "views": 10472378,
    "publishedAt": "2026-03-03",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "2026 YG PLAN | YG ANNOUNCEMENT",
@@ -1642,7 +1642,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 7454115,
+   "views": 7454118,
    "publishedAt": "2026-01-05",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "2025-26 TREASURE TOUR [PULSE ON] - SPOT VIDEO",
@@ -1661,7 +1661,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 7244456,
+   "views": 7244548,
    "publishedAt": "2026-04-29",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "BABYMONSTER, TREASURE, AND UPCOMING ROOKIES | YG ANNOUNCEMENT",
@@ -1699,7 +1699,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 5965609,
+   "views": 5965682,
    "publishedAt": "2026-03-13",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "TREASURE - 2025-26 TOUR [PULSE ON] IN OSAKA ‘쾌지나 칭칭 + VolKno' LIVE PERFORMANCE",
@@ -1718,7 +1718,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 5902322,
+   "views": 5902461,
    "publishedAt": "2026-02-27",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "TREASURE - 2025-26 TOUR [PULSE ON] IN KANAGAWA ‘KING KONG’ JP Ver. LIVE PERFORMANCE",
@@ -1737,7 +1737,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 5783444,
+   "views": 5783602,
    "publishedAt": "2026-02-20",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "TREASURE - 2025-26 TOUR [PULSE ON] IN KANAGAWA ‘음 (MMM)’ JP Ver. LIVE PERFORMANCE",
@@ -1795,7 +1795,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 5282288,
+   "views": 5282623,
    "publishedAt": "2026-10-26",
    "channel": "SMTOWN",
    "rawTitle": "XIAOJUN 샤오쥔 'Hey, Somebody (English Ver.)' MV",
@@ -1986,7 +1986,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 3417411,
+   "views": 3417660,
    "publishedAt": "2026-10-19",
    "channel": "SMTOWN",
    "rawTitle": "MAX CHANGMIN 최강창민 'All Of My Life' MV",
@@ -2179,7 +2179,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 2303342,
+   "views": 2305015,
    "publishedAt": "2026-10-19",
    "channel": "SMTOWN",
    "rawTitle": "NCT DREAM 엔시티 드림 'The Sun' MV",
@@ -2295,7 +2295,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 1757465,
+   "views": 1773134,
    "publishedAt": "2026-11-20",
    "channel": "HYBE LABELS",
    "rawTitle": "The Wildcard Club 'Click Flick' Official MV  |  AmaLee, Dokibird, ironmouse, Rin Penrose",
@@ -2314,7 +2314,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 1699468,
+   "views": 1701625,
    "publishedAt": "2026-11-03",
    "channel": "SMTOWN",
    "rawTitle": "Red Velvet - IRENE & SEULGI 'Cheetah' MV",
@@ -2429,7 +2429,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 1290302,
+   "views": 1292002,
    "publishedAt": "2026-10-18",
    "channel": "SMTOWN",
    "rawTitle": "Hearts2Hearts 하츠투하츠 'ICONIC HEART (Korean Ver.)' MV",
@@ -2467,7 +2467,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 979582,
+   "views": 979832,
    "publishedAt": "2026-08-10",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "2026 YG GLOBAL AUDITION",
@@ -2494,6 +2494,25 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "QrxDetnioXA",
+   "title": "BOY",
+   "artist": "NAYEON",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/QrxDetnioXA/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "최신 K-POP · JYP",
+   "moods": [
+    "신나는"
+   ],
+   "views": 834177,
+   "publishedAt": "2026-11-26",
+   "channel": "JYP Entertainment",
+   "rawTitle": "NAYEON “BOY” M/V",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
    "videoId": "OaVqEy8FmPk",
    "title": "Drama",
    "artist": "aespa",
@@ -2511,25 +2530,6 @@
    "rawTitle": "aespa 에스파 'Drama' Track Poster",
    "embedOk": true,
    "embedCheck": "player+oembed"
-  },
-  {
-   "videoId": "QrxDetnioXA",
-   "title": "BOY",
-   "artist": "NAYEON",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/QrxDetnioXA/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "최신 K-POP · JYP",
-   "moods": [
-    "신나는"
-   ],
-   "views": 610041,
-   "publishedAt": "2026-11-26",
-   "channel": "JYP Entertainment",
-   "rawTitle": "NAYEON “BOY” M/V",
-   "embedOk": true,
-   "embedCheck": "rss"
   },
   {
    "videoId": "hX0UECbzDSY",
@@ -2720,7 +2720,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 244555,
+   "views": 247299,
    "publishedAt": "2026-11-24",
    "channel": "HYBE LABELS",
    "rawTitle": "[2026 BIGHIT MUSIC GLOBAL AUDITION] 🌟 Message From #CORTIS",
@@ -2837,7 +2837,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 177864,
+   "views": 178455,
    "publishedAt": "2026-11-16",
    "channel": "HYBE LABELS",
    "rawTitle": "TXT (투모로우바이투게더) ‘Angel Bite’ Official MV",
@@ -2896,7 +2896,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 154248,
+   "views": 154617,
    "publishedAt": "2026-11-19",
    "channel": "YG ENTERTAINMENT",
    "rawTitle": "[Playlist] 고작 이별하기 위해 널 사랑한 건 아닌데 (Singing My Blues)",
@@ -2915,7 +2915,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 143908,
+   "views": 144145,
    "publishedAt": "2026-11-13",
    "channel": "HYBE LABELS",
    "rawTitle": "#ENHYPEN (#엔하이픈) 'I Want You' Official MV",
@@ -2934,7 +2934,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 137388,
+   "views": 137899,
    "publishedAt": "2026-11-20",
    "channel": "JYP Entertainment",
    "rawTitle": "NAYEON \"BABY ANGEL\" M/V",
@@ -2962,6 +2962,25 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "u33Nma8tW5A",
+   "title": "1997-2026",
+   "artist": "Various Artists",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/u33Nma8tW5A/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "최신 K-POP · YG",
+   "moods": [
+    "신나는"
+   ],
+   "views": 59674,
+   "publishedAt": "2026-11-26",
+   "channel": "YG ENTERTAINMENT",
+   "rawTitle": "[Playlist] 힙합은 기세다. YG HIPHOP ARCHIVE | 1997-2026",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
    "videoId": "MaCjeHDuRGc",
    "title": "MV Lee Ye ji(이예지) _ Critical Love",
    "artist": "Various Artists",
@@ -2974,7 +2993,7 @@
     "신나는",
     "청량"
    ],
-   "views": 58057,
+   "views": 58258,
    "publishedAt": "2026-11-24",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] Lee Ye ji(이예지) _ Critical Love",
@@ -2993,7 +3012,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 55862,
+   "views": 56346,
    "publishedAt": "2026-11-24",
    "channel": "JYP Entertainment",
    "rawTitle": "우정으로 지키는 나무 l NEXZ l \"우리 오늘부터 1일!\" 열정 만렙 신입들의 우당탕탕 클럽 적응기",
@@ -3041,25 +3060,6 @@
    "embedCheck": "player+oembed"
   },
   {
-   "videoId": "u33Nma8tW5A",
-   "title": "1997-2026",
-   "artist": "Various Artists",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/u33Nma8tW5A/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "최신 K-POP · YG",
-   "moods": [
-    "신나는"
-   ],
-   "views": 52263,
-   "publishedAt": "2026-11-26",
-   "channel": "YG ENTERTAINMENT",
-   "rawTitle": "[Playlist] 힙합은 기세다. YG HIPHOP ARCHIVE | 1997-2026",
-   "embedOk": true,
-   "embedCheck": "rss"
-  },
-  {
    "videoId": "ymSpQTtytTc",
    "title": "MV KISS OF LIFE _ Greedy",
    "artist": "Various Artists",
@@ -3072,7 +3072,7 @@
     "신나는",
     "청량"
    ],
-   "views": 37155,
+   "views": 38127,
    "publishedAt": "2026-11-25",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] KISS OF LIFE _ Greedy",
@@ -3091,7 +3091,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 33905,
+   "views": 34183,
    "publishedAt": "2026-11-24",
    "channel": "SMTOWN",
    "rawTitle": "SMTOWN RUN CLUB 26 | Recap Video",
@@ -3131,7 +3131,7 @@
     "신나는",
     "청량"
    ],
-   "views": 26252,
+   "views": 29909,
    "publishedAt": "2026-11-26",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] KIIRAS(키라스) _ OVER U",
@@ -3151,7 +3151,7 @@
     "신나는",
     "청량"
    ],
-   "views": 20089,
+   "views": 20824,
    "publishedAt": "2026-11-24",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] Jang Min Ho(장민호) _ Mountain, Life(산, 삶)",
@@ -3179,26 +3179,6 @@
    "embedCheck": "player+oembed"
   },
   {
-   "videoId": "lUe5loRJiRc",
-   "title": "MV WONDER ATTACK _ Ready To Dive",
-   "artist": "Various Artists",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/lUe5loRJiRc/hqdefault.jpg",
-   "genre": "K-POP",
-   "playlist": "최신 K-POP · 1theK",
-   "moods": [
-    "신나는",
-    "청량"
-   ],
-   "views": 11037,
-   "publishedAt": "2026-11-24",
-   "channel": "1theK (원더케이)",
-   "rawTitle": "[MV] WONDER ATTACK _ Ready To Dive",
-   "embedOk": true,
-   "embedCheck": "rss"
-  },
-  {
    "videoId": "WVkHBXHPk-k",
    "title": "MV HANHAE(한해), Moon Se Yoon(문세윤) _ Love Again (feat. 제나 of RESCENE)",
    "artist": "Various Artists",
@@ -3211,10 +3191,30 @@
     "신나는",
     "청량"
    ],
-   "views": 9148,
+   "views": 11826,
    "publishedAt": "2026-11-26",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] HANHAE(한해), Moon Se Yoon(문세윤) _ Love Again (feat. 제나 of RESCENE)",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
+   "videoId": "lUe5loRJiRc",
+   "title": "MV WONDER ATTACK _ Ready To Dive",
+   "artist": "Various Artists",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/lUe5loRJiRc/hqdefault.jpg",
+   "genre": "K-POP",
+   "playlist": "최신 K-POP · 1theK",
+   "moods": [
+    "신나는",
+    "청량"
+   ],
+   "views": 11200,
+   "publishedAt": "2026-11-24",
+   "channel": "1theK (원더케이)",
+   "rawTitle": "[MV] WONDER ATTACK _ Ready To Dive",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -3251,7 +3251,7 @@
     "신나는",
     "청량"
    ],
-   "views": 8062,
+   "views": 8243,
    "publishedAt": "2026-11-25",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] Shin In Ryu(신인류) _ Noon Race(정오의 레이스)",
@@ -3291,7 +3291,7 @@
     "신나는",
     "청량"
    ],
-   "views": 4823,
+   "views": 4923,
    "publishedAt": "2026-11-25",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] ClueAt(클루엣) _ Cozy Room With You",
@@ -3311,7 +3311,7 @@
     "신나는",
     "청량"
    ],
-   "views": 4231,
+   "views": 4586,
    "publishedAt": "2026-11-26",
    "channel": "1theK (원더케이)",
    "rawTitle": "[MV] Ireh(이레) _ So Good, Getting Better(좋아 좋아져)",
@@ -5074,6 +5074,25 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "f4Y3b7un4LE",
+   "title": "Slow It Down",
+   "artist": "Benson Boone",
+   "duration": "3:04",
+   "durationSec": 184,
+   "thumbnail": "https://i.ytimg.com/vi/f4Y3b7un4LE/hqdefault.jpg",
+   "genre": "팝송",
+   "playlist": "Benson Boone 필청 트랙",
+   "moods": [
+    "잔잔한"
+   ],
+   "views": 102846731,
+   "publishedAt": "",
+   "channel": "Benson Boone",
+   "rawTitle": "Benson Boone - Slow It Down (Official Music Video)",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
    "videoId": "a9cyG_yfh1k",
    "title": "Illusion",
    "artist": "Dua Lipa",
@@ -5131,6 +5150,25 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "i828eLpviiY",
+   "title": "Cry",
+   "artist": "Benson Boone",
+   "duration": "3:07",
+   "durationSec": 187,
+   "thumbnail": "https://i.ytimg.com/vi/i828eLpviiY/hqdefault.jpg",
+   "genre": "팝송",
+   "playlist": "Benson Boone 필청 트랙",
+   "moods": [
+    "잔잔한"
+   ],
+   "views": 25750765,
+   "publishedAt": "",
+   "channel": "Benson Boone",
+   "rawTitle": "Benson Boone - Cry (Official Lyric Video)",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
    "videoId": "rEil8hvXqi0",
    "title": "VOID",
    "artist": "Melanie Martinez",
@@ -5142,10 +5180,29 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 17397109,
+   "views": 17398851,
    "publishedAt": "2023-03-30",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "VOID",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "R9xWtB0eS1c",
+   "title": "NIGHTS LIKE THESE",
+   "artist": "Benson Boone",
+   "duration": "2:53",
+   "durationSec": 173,
+   "thumbnail": "https://i.ytimg.com/vi/R9xWtB0eS1c/hqdefault.jpg",
+   "genre": "팝송",
+   "playlist": "Benson Boone 필청 트랙",
+   "moods": [
+    "잔잔한"
+   ],
+   "views": 13683009,
+   "publishedAt": "2022-07-28",
+   "channel": "Benson Boone",
+   "rawTitle": "NIGHTS LIKE THESE",
    "embedOk": true,
    "embedCheck": "player+oembed"
   },
@@ -5169,6 +5226,44 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "mC7J8Rphv5E",
+   "title": "Sugar Sweet",
+   "artist": "Benson Boone",
+   "duration": "2:50",
+   "durationSec": 170,
+   "thumbnail": "https://i.ytimg.com/vi/mC7J8Rphv5E/hqdefault.jpg",
+   "genre": "팝송",
+   "playlist": "Benson Boone 필청 트랙",
+   "moods": [
+    "잔잔한"
+   ],
+   "views": 9203684,
+   "publishedAt": "2023-03-02",
+   "channel": "Benson Boone",
+   "rawTitle": "Sugar Sweet",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "bfIAm-P5Nyk",
+   "title": "To Love Someone",
+   "artist": "Benson Boone",
+   "duration": "3:17",
+   "durationSec": 197,
+   "thumbnail": "https://i.ytimg.com/vi/bfIAm-P5Nyk/hqdefault.jpg",
+   "genre": "팝송",
+   "playlist": "Benson Boone 필청 트랙",
+   "moods": [
+    "잔잔한"
+   ],
+   "views": 8148179,
+   "publishedAt": "2023-11-09",
+   "channel": "Benson Boone",
+   "rawTitle": "To Love Someone",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
    "videoId": "LY8Wc66WSHA",
    "title": "Johnny Run Away",
    "artist": "Tones And I",
@@ -5180,7 +5275,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 7770751,
+   "views": 7770954,
    "publishedAt": "2019-08-29",
    "channel": "Tones And I - Topic",
    "rawTitle": "Johnny Run Away",
@@ -5237,7 +5332,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 6602442,
+   "views": 6603223,
    "publishedAt": "2023-03-30",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "BATTLE OF THE LARYNX",
@@ -5264,6 +5359,25 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "C6b9GyxjDmc",
+   "title": "Little Runaway",
+   "artist": "Benson Boone",
+   "duration": "3:16",
+   "durationSec": 196,
+   "thumbnail": "https://i.ytimg.com/vi/C6b9GyxjDmc/hqdefault.jpg",
+   "genre": "팝송",
+   "playlist": "Benson Boone 필청 트랙",
+   "moods": [
+    "잔잔한"
+   ],
+   "views": 5996368,
+   "publishedAt": "2023-05-04",
+   "channel": "Benson Boone - Topic",
+   "rawTitle": "Little Runaway",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
    "videoId": "uZ5RcAqYym0",
    "title": "Happy For You",
    "artist": "Dua Lipa",
@@ -5279,6 +5393,25 @@
    "publishedAt": "",
    "channel": "Dua Lipa",
    "rawTitle": "Dua Lipa - Happy For You (Official Visualiser)",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "N9r8D0_1zrQ",
+   "title": "Better Alone",
+   "artist": "Benson Boone",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/N9r8D0_1zrQ/hqdefault.jpg",
+   "genre": "팝송",
+   "playlist": "Benson Boone 필청 트랙",
+   "moods": [
+    "잔잔한"
+   ],
+   "views": 5702084,
+   "publishedAt": "2022-07-28",
+   "channel": "Benson Boone",
+   "rawTitle": "Better Alone",
    "embedOk": true,
    "embedCheck": "player+oembed"
   },
@@ -5313,7 +5446,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 4592830,
+   "views": 4593268,
    "publishedAt": "2017-01-29",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Soap",
@@ -5340,6 +5473,63 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "5N3MKz9jlIA",
+   "title": "My Greatest Fear",
+   "artist": "Benson Boone",
+   "duration": "3:34",
+   "durationSec": 214,
+   "thumbnail": "https://i.ytimg.com/vi/5N3MKz9jlIA/hqdefault.jpg",
+   "genre": "팝송",
+   "playlist": "Benson Boone 필청 트랙",
+   "moods": [
+    "잔잔한"
+   ],
+   "views": 4436659,
+   "publishedAt": "",
+   "channel": "Benson Boone",
+   "rawTitle": "My Greatest Fear",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "ar-DnXZuMqE",
+   "title": "Coffee Cake",
+   "artist": "Benson Boone",
+   "duration": "3:07",
+   "durationSec": 187,
+   "thumbnail": "https://i.ytimg.com/vi/ar-DnXZuMqE/hqdefault.jpg",
+   "genre": "팝송",
+   "playlist": "Benson Boone 필청 트랙",
+   "moods": [
+    "잔잔한"
+   ],
+   "views": 4342635,
+   "publishedAt": "2023-05-04",
+   "channel": "Benson Boone",
+   "rawTitle": "Coffee Cake",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "adWQLcIgHqg",
+   "title": "ROOM FOR 2",
+   "artist": "Benson Boone",
+   "duration": "2:32",
+   "durationSec": 152,
+   "thumbnail": "https://i.ytimg.com/vi/adWQLcIgHqg/hqdefault.jpg",
+   "genre": "팝송",
+   "playlist": "Benson Boone 필청 트랙",
+   "moods": [
+    "잔잔한"
+   ],
+   "views": 4185086,
+   "publishedAt": "2022-07-28",
+   "channel": "Benson Boone",
+   "rawTitle": "ROOM FOR 2",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
    "videoId": "dSYmojI2i1Q",
    "title": "Carousel",
    "artist": "Melanie Martinez",
@@ -5351,10 +5541,29 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 4053110,
+   "views": 4053491,
    "publishedAt": "2017-02-18",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Carousel",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "I9qxHs761Cg",
+   "title": "Be Someone",
+   "artist": "Benson Boone",
+   "duration": "3:45",
+   "durationSec": 225,
+   "thumbnail": "https://i.ytimg.com/vi/I9qxHs761Cg/hqdefault.jpg",
+   "genre": "팝송",
+   "playlist": "Benson Boone 필청 트랙",
+   "moods": [
+    "잔잔한"
+   ],
+   "views": 3864132,
+   "publishedAt": "",
+   "channel": "Benson Boone",
+   "rawTitle": "Benson Boone - Be Someone (Official Lyric Video)",
    "embedOk": true,
    "embedCheck": "player+oembed"
   },
@@ -5370,10 +5579,29 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 3805234,
+   "views": 3805380,
    "publishedAt": "2019-09-05",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Drama Club",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "e2dqLb5IfSA",
+   "title": "Let Me Go",
+   "artist": "Benson Boone",
+   "duration": "2:40",
+   "durationSec": 160,
+   "thumbnail": "https://i.ytimg.com/vi/e2dqLb5IfSA/hqdefault.jpg",
+   "genre": "팝송",
+   "playlist": "Benson Boone 필청 트랙",
+   "moods": [
+    "잔잔한"
+   ],
+   "views": 3707936,
+   "publishedAt": "2022-07-28",
+   "channel": "Benson Boone",
+   "rawTitle": "Let Me Go",
    "embedOk": true,
    "embedCheck": "player+oembed"
   },
@@ -5412,6 +5640,44 @@
    "publishedAt": "2016-10-27",
    "channel": "Dua Lipa",
    "rawTitle": "Room for 2",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "gXOoNM6YUR4",
+   "title": "Lovely Darling",
+   "artist": "Benson Boone",
+   "duration": "2:53",
+   "durationSec": 173,
+   "thumbnail": "https://i.ytimg.com/vi/gXOoNM6YUR4/hqdefault.jpg",
+   "genre": "팝송",
+   "playlist": "Benson Boone 필청 트랙",
+   "moods": [
+    "잔잔한"
+   ],
+   "views": 2862940,
+   "publishedAt": "2023-05-04",
+   "channel": "Benson Boone",
+   "rawTitle": "Lovely Darling",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "GF7_KGSJjTM",
+   "title": "Friend",
+   "artist": "Benson Boone",
+   "duration": "3:11",
+   "durationSec": 191,
+   "thumbnail": "https://i.ytimg.com/vi/GF7_KGSJjTM/hqdefault.jpg",
+   "genre": "팝송",
+   "playlist": "Benson Boone 필청 트랙",
+   "moods": [
+    "잔잔한"
+   ],
+   "views": 2581702,
+   "publishedAt": "",
+   "channel": "Benson Boone",
+   "rawTitle": "Benson Boone - Friend (Official Lyric Video)",
    "embedOk": true,
    "embedCheck": "player+oembed"
   },
@@ -5465,7 +5731,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 1977792,
+   "views": 1978066,
    "publishedAt": "2022-03-17",
    "channel": "GAYLE - Topic",
    "rawTitle": "ur just horny",
@@ -5541,7 +5807,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 1340931,
+   "views": 1340971,
    "publishedAt": "2019-09-05",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Wheels on the Bus",
@@ -5560,7 +5826,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 1260144,
+   "views": 1260176,
    "publishedAt": "2019-09-05",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Strawberry Shortcake",
@@ -5636,7 +5902,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 884228,
+   "views": 884304,
    "publishedAt": "2019-09-05",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Recess",
@@ -5655,7 +5921,7 @@
    "moods": [
     "잔잔한"
    ],
-   "views": 798739,
+   "views": 798764,
    "publishedAt": "2019-09-05",
    "channel": "Melanie Martinez - Topic",
    "rawTitle": "Orange Juice",
@@ -5674,7 +5940,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 724825,
+   "views": 724871,
    "publishedAt": "2023-07-20",
    "channel": "GAYLE - Topic",
    "rawTitle": "butterflies",
@@ -5693,7 +5959,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 607652,
+   "views": 607685,
    "publishedAt": "2022-03-17",
    "channel": "GAYLE - Topic",
    "rawTitle": "luv starved",
@@ -5712,7 +5978,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 558723,
+   "views": 558731,
    "publishedAt": "2024-02-01",
    "channel": "Tones And I - Topic",
    "rawTitle": "Dreaming",
@@ -5731,7 +5997,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 441131,
+   "views": 441257,
    "publishedAt": "2023-03-30",
    "channel": "Tones And I - Topic",
    "rawTitle": "I Am Free",
@@ -5750,7 +6016,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 440220,
+   "views": 440344,
    "publishedAt": "2024-02-15",
    "channel": "Royal & the Serpent - Topic",
    "rawTitle": "kinda smacks",
@@ -5769,7 +6035,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 424576,
+   "views": 424597,
    "publishedAt": "2022-10-06",
    "channel": "GAYLE - Topic",
    "rawTitle": "ALEX",
@@ -5788,7 +6054,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 408772,
+   "views": 408799,
    "publishedAt": "2022-08-25",
    "channel": "GAYLE - Topic",
    "rawTitle": "god has a sense of humor",
@@ -5807,7 +6073,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 366889,
+   "views": 366893,
    "publishedAt": "2024-03-11",
    "channel": "Tones And I - Topic",
    "rawTitle": "I Get High",
@@ -5826,7 +6092,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 271607,
+   "views": 271614,
    "publishedAt": "2022-03-17",
    "channel": "GAYLE - Topic",
    "rawTitle": "sleeping with my friends",
@@ -5864,7 +6130,7 @@
    "moods": [
     "신나는"
    ],
-   "views": 219987,
+   "views": 219999,
    "publishedAt": "2022-03-17",
    "channel": "GAYLE - Topic",
    "rawTitle": "e-z (feat. UPSAHL & Blu DeTiger)",
@@ -5891,26 +6157,6 @@
    "embedCheck": "player+oembed"
   },
   {
-   "videoId": "W5L79-CCtnU",
-   "title": "평가절하의 그녀 (The Diminished Girl)",
-   "artist": "Haeroiki",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/W5L79-CCtnU/hqdefault.jpg",
-   "genre": "팝송",
-   "playlist": "최신 가요 · Warner",
-   "moods": [
-    "드라이브",
-    "청량"
-   ],
-   "views": 3886,
-   "publishedAt": "2026-11-22",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "Haeroiki (해로이키) - 평가절하의 그녀 (The Diminished Girl) [Music Video]",
-   "embedOk": true,
-   "embedCheck": "rss"
-  },
-  {
    "videoId": "o3ZC-2s3wnQ",
    "title": "WELCOME TO VICE CITY Grand Theft Auto VI: THE ALBUM LISTENING PARTY",
    "artist": "Various Artists",
@@ -5923,10 +6169,30 @@
     "드라이브",
     "청량"
    ],
-   "views": 3837,
+   "views": 4028,
    "publishedAt": "2026-11-23",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "WELCOME TO VICE CITY🌴 Grand Theft Auto VI: THE ALBUM LISTENING PARTY💜",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
+   "videoId": "W5L79-CCtnU",
+   "title": "평가절하의 그녀 (The Diminished Girl)",
+   "artist": "Haeroiki",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/W5L79-CCtnU/hqdefault.jpg",
+   "genre": "팝송",
+   "playlist": "최신 가요 · Warner",
+   "moods": [
+    "드라이브",
+    "청량"
+   ],
+   "views": 3908,
+   "publishedAt": "2026-11-22",
+   "channel": "워너뮤직코리아 (Warner Music Korea)",
+   "rawTitle": "Haeroiki (해로이키) - 평가절하의 그녀 (The Diminished Girl) [Music Video]",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -5943,7 +6209,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 3497,
+   "views": 3510,
    "publishedAt": "2026-11-21",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "[라이어 OST Part 1] ABOUT(어바웃) - Icarus",
@@ -5963,7 +6229,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 2962,
+   "views": 2988,
    "publishedAt": "2026-11-24",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "아이묭 (aimyon) - Almost Lonely 가사 번역 뮤직비디오",
@@ -5983,7 +6249,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 2509,
+   "views": 2517,
    "publishedAt": "2026-11-21",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "이날(YNR) - 지금은 내일의 꿈 (Memory Room) [Lyric Video]",
@@ -6003,7 +6269,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 2111,
+   "views": 2168,
    "publishedAt": "2026-11-25",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "뎁트 - Earrings (Feat. Oh Yun) [Lyric Video]",
@@ -6023,7 +6289,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 2009,
+   "views": 2024,
    "publishedAt": "2026-11-23",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "Jaenax - donkyo [Music Video]",
@@ -6043,7 +6309,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 1615,
+   "views": 1605,
    "publishedAt": "2026-11-24",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "인생 노잼 시기 극복하는 법 댓글로 알려줘🥱",
@@ -6071,6 +6337,26 @@
    "embedCheck": "rss"
   },
   {
+   "videoId": "17zZTG8EZaA",
+   "title": "hiyin",
+   "artist": "Jaenax",
+   "duration": "3:30",
+   "durationSec": 210,
+   "thumbnail": "https://i.ytimg.com/vi/17zZTG8EZaA/hqdefault.jpg",
+   "genre": "팝송",
+   "playlist": "최신 가요 · Warner",
+   "moods": [
+    "드라이브",
+    "청량"
+   ],
+   "views": 1501,
+   "publishedAt": "2026-11-23",
+   "channel": "워너뮤직코리아 (Warner Music Korea)",
+   "rawTitle": "Jaenax - hiyin [Music Video]",
+   "embedOk": true,
+   "embedCheck": "rss"
+  },
+  {
    "videoId": "ltSb9lU7-SI",
    "title": "내 수영이가 불안핑이라니..",
    "artist": "Various Artists",
@@ -6087,26 +6373,6 @@
    "publishedAt": "2026-11-21",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "내 수영이가 불안핑이라니..🥹💗",
-   "embedOk": true,
-   "embedCheck": "rss"
-  },
-  {
-   "videoId": "17zZTG8EZaA",
-   "title": "hiyin",
-   "artist": "Jaenax",
-   "duration": "3:30",
-   "durationSec": 210,
-   "thumbnail": "https://i.ytimg.com/vi/17zZTG8EZaA/hqdefault.jpg",
-   "genre": "팝송",
-   "playlist": "최신 가요 · Warner",
-   "moods": [
-    "드라이브",
-    "청량"
-   ],
-   "views": 1492,
-   "publishedAt": "2026-11-23",
-   "channel": "워너뮤직코리아 (Warner Music Korea)",
-   "rawTitle": "Jaenax - hiyin [Music Video]",
    "embedOk": true,
    "embedCheck": "rss"
   },
@@ -6143,7 +6409,7 @@
     "드라이브",
     "청량"
    ],
-   "views": 888,
+   "views": 1004,
    "publishedAt": "2026-11-26",
    "channel": "워너뮤직코리아 (Warner Music Korea)",
    "rawTitle": "테디 스윔스 (Teddy Swims) - Perfect Man (Live from Green Room Sessions) 가사 번역 라이브",
@@ -7905,6 +8171,46 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "aa6Kb951BNE",
+   "title": "Appeasement",
+   "artist": "Le Promeneur",
+   "duration": "2:29",
+   "durationSec": 149,
+   "thumbnail": "https://i.ytimg.com/vi/aa6Kb951BNE/hqdefault.jpg",
+   "genre": "로파이·집중",
+   "playlist": "relaxing piano",
+   "moods": [
+    "집중",
+    "잔잔한"
+   ],
+   "views": 0,
+   "publishedAt": "",
+   "channel": "Le Promeneur - Topic",
+   "rawTitle": "Appeasement",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "muIFPWcjEJ8",
+   "title": "Astral Dream",
+   "artist": "Idyllyn",
+   "duration": "3:15",
+   "durationSec": 195,
+   "thumbnail": "https://i.ytimg.com/vi/muIFPWcjEJ8/hqdefault.jpg",
+   "genre": "로파이·집중",
+   "playlist": "relaxing piano",
+   "moods": [
+    "집중",
+    "잔잔한"
+   ],
+   "views": 0,
+   "publishedAt": "",
+   "channel": "Idyllyn - Topic",
+   "rawTitle": "Astral Dream",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
    "videoId": "k2qgLuGDY_c",
    "title": "Back When",
    "artist": "Jhove",
@@ -7920,6 +8226,26 @@
    "publishedAt": "",
    "channel": "Jhove - Topic",
    "rawTitle": "Back When",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "QlTCI4ocoJw",
+   "title": "Banlieue Silencieuse",
+   "artist": "Le Promeneur",
+   "duration": "2:20",
+   "durationSec": 140,
+   "thumbnail": "https://i.ytimg.com/vi/QlTCI4ocoJw/hqdefault.jpg",
+   "genre": "로파이·집중",
+   "playlist": "relaxing piano",
+   "moods": [
+    "집중",
+    "잔잔한"
+   ],
+   "views": 0,
+   "publishedAt": "",
+   "channel": "Le Promeneur - Topic",
+   "rawTitle": "Banlieue Silencieuse",
    "embedOk": true,
    "embedCheck": "player+oembed"
   },
@@ -7998,6 +8324,26 @@
    "publishedAt": "",
    "channel": "mell-ø - Topic",
    "rawTitle": "Breathe",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "5JnZhgovFbE",
+   "title": "By The River",
+   "artist": "Mariposa",
+   "duration": "1:55",
+   "durationSec": 115,
+   "thumbnail": "https://i.ytimg.com/vi/5JnZhgovFbE/hqdefault.jpg",
+   "genre": "로파이·집중",
+   "playlist": "relaxing piano",
+   "moods": [
+    "집중",
+    "잔잔한"
+   ],
+   "views": 0,
+   "publishedAt": "",
+   "channel": "Mariposa - Topic",
+   "rawTitle": "By The River",
    "embedOk": true,
    "embedCheck": "player+oembed"
   },
@@ -8099,6 +8445,26 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "QiIgWSbhSv8",
+   "title": "Frames",
+   "artist": "Alexis Geitmann",
+   "duration": "1:52",
+   "durationSec": 112,
+   "thumbnail": "https://i.ytimg.com/vi/QiIgWSbhSv8/hqdefault.jpg",
+   "genre": "로파이·집중",
+   "playlist": "relaxing piano",
+   "moods": [
+    "집중",
+    "잔잔한"
+   ],
+   "views": 0,
+   "publishedAt": "",
+   "channel": "Alexis Geitmann - Topic",
+   "rawTitle": "Frames",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
    "videoId": "GCC1wor_Sd8",
    "title": "From Above",
    "artist": "softy",
@@ -8158,6 +8524,26 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "h01GSgCxftI",
+   "title": "I Wish It Was Different",
+   "artist": "Erwin Do",
+   "duration": "2:07",
+   "durationSec": 127,
+   "thumbnail": "https://i.ytimg.com/vi/h01GSgCxftI/hqdefault.jpg",
+   "genre": "로파이·집중",
+   "playlist": "relaxing piano",
+   "moods": [
+    "집중",
+    "잔잔한"
+   ],
+   "views": 0,
+   "publishedAt": "",
+   "channel": "Erwin Do - Topic",
+   "rawTitle": "I Wish It Was Different",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
    "videoId": "8xdSlRkM4p0",
    "title": "In Clover",
    "artist": "brillion.",
@@ -8173,6 +8559,26 @@
    "publishedAt": "",
    "channel": "brillion. - Topic",
    "rawTitle": "In Clover",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "QkxvUnBZ1C8",
+   "title": "Introspection",
+   "artist": "Le Promeneur",
+   "duration": "2:12",
+   "durationSec": 132,
+   "thumbnail": "https://i.ytimg.com/vi/QkxvUnBZ1C8/hqdefault.jpg",
+   "genre": "로파이·집중",
+   "playlist": "relaxing piano",
+   "moods": [
+    "집중",
+    "잔잔한"
+   ],
+   "views": 0,
+   "publishedAt": "",
+   "channel": "Le Promeneur - Topic",
+   "rawTitle": "Introspection",
    "embedOk": true,
    "embedCheck": "player+oembed"
   },
@@ -8193,6 +8599,46 @@
    "publishedAt": "",
    "channel": "saint rumi - Topic",
    "rawTitle": "Kind of Three",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "YMmqH67k3c0",
+   "title": "Lovely Lullaby",
+   "artist": "Yoann Garel",
+   "duration": "3:11",
+   "durationSec": 191,
+   "thumbnail": "https://i.ytimg.com/vi/YMmqH67k3c0/hqdefault.jpg",
+   "genre": "로파이·집중",
+   "playlist": "relaxing piano",
+   "moods": [
+    "집중",
+    "잔잔한"
+   ],
+   "views": 0,
+   "publishedAt": "",
+   "channel": "Yoann Garel - Topic",
+   "rawTitle": "Lovely Lullaby",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "MrNs92ULssQ",
+   "title": "Là Haut",
+   "artist": "Blumen",
+   "duration": "1:53",
+   "durationSec": 113,
+   "thumbnail": "https://i.ytimg.com/vi/MrNs92ULssQ/hqdefault.jpg",
+   "genre": "로파이·집중",
+   "playlist": "relaxing piano",
+   "moods": [
+    "집중",
+    "잔잔한"
+   ],
+   "views": 0,
+   "publishedAt": "",
+   "channel": "Blumen - Topic",
+   "rawTitle": "Là Haut",
    "embedOk": true,
    "embedCheck": "player+oembed"
   },
@@ -8294,6 +8740,46 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "KrUXxSeavi8",
+   "title": "Nuances",
+   "artist": "fragile keys",
+   "duration": "2:39",
+   "durationSec": 159,
+   "thumbnail": "https://i.ytimg.com/vi/KrUXxSeavi8/hqdefault.jpg",
+   "genre": "로파이·집중",
+   "playlist": "relaxing piano",
+   "moods": [
+    "집중",
+    "잔잔한"
+   ],
+   "views": 0,
+   "publishedAt": "",
+   "channel": "fragile keys - Topic",
+   "rawTitle": "Nuances",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "0_unsGgk4ok",
+   "title": "Nuit Douce",
+   "artist": "Blumen",
+   "duration": "1:56",
+   "durationSec": 116,
+   "thumbnail": "https://i.ytimg.com/vi/0_unsGgk4ok/hqdefault.jpg",
+   "genre": "로파이·집중",
+   "playlist": "relaxing piano",
+   "moods": [
+    "집중",
+    "잔잔한"
+   ],
+   "views": 0,
+   "publishedAt": "",
+   "channel": "Blumen - Topic",
+   "rawTitle": "Nuit Douce",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
    "videoId": "tTrvhtXSmgk",
    "title": "Oddlife",
    "artist": "Erwin Do",
@@ -8330,6 +8816,66 @@
    "publishedAt": "",
    "channel": "xander. - Topic",
    "rawTitle": "On My Way to Town",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "hgVd54G70zQ",
+   "title": "On That Dawn",
+   "artist": "Idyllyn",
+   "duration": "1:41",
+   "durationSec": 101,
+   "thumbnail": "https://i.ytimg.com/vi/hgVd54G70zQ/hqdefault.jpg",
+   "genre": "로파이·집중",
+   "playlist": "relaxing piano",
+   "moods": [
+    "집중",
+    "잔잔한"
+   ],
+   "views": 0,
+   "publishedAt": "",
+   "channel": "Idyllyn - Topic",
+   "rawTitle": "On That Dawn",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "QodhUYODbWc",
+   "title": "Parting Words",
+   "artist": "Idyllyn",
+   "duration": "2:31",
+   "durationSec": 151,
+   "thumbnail": "https://i.ytimg.com/vi/QodhUYODbWc/hqdefault.jpg",
+   "genre": "로파이·집중",
+   "playlist": "relaxing piano",
+   "moods": [
+    "집중",
+    "잔잔한"
+   ],
+   "views": 0,
+   "publishedAt": "",
+   "channel": "Idyllyn - Topic",
+   "rawTitle": "Parting Words",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "THes1-cfxkU",
+   "title": "Petite Bianca",
+   "artist": "Yoann Garel",
+   "duration": "2:02",
+   "durationSec": 122,
+   "thumbnail": "https://i.ytimg.com/vi/THes1-cfxkU/hqdefault.jpg",
+   "genre": "로파이·집중",
+   "playlist": "relaxing piano",
+   "moods": [
+    "집중",
+    "잔잔한"
+   ],
+   "views": 0,
+   "publishedAt": "",
+   "channel": "Yoann Garel - Topic",
+   "rawTitle": "Petite Bianca",
    "embedOk": true,
    "embedCheck": "player+oembed"
   },
@@ -8373,6 +8919,26 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "MeT8T6jYItc",
+   "title": "Rainfall",
+   "artist": "Moonseed",
+   "duration": "2:13",
+   "durationSec": 133,
+   "thumbnail": "https://i.ytimg.com/vi/MeT8T6jYItc/hqdefault.jpg",
+   "genre": "로파이·집중",
+   "playlist": "relaxing piano",
+   "moods": [
+    "집중",
+    "잔잔한"
+   ],
+   "views": 0,
+   "publishedAt": "",
+   "channel": "Moonseed - Topic",
+   "rawTitle": "Rainfall",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
    "videoId": "OpGAESaXkY4",
    "title": "Reminders",
    "artist": "ENRA",
@@ -8388,6 +8954,46 @@
    "publishedAt": "",
    "channel": "ENRA - Topic",
    "rawTitle": "Reminders",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "S1cN34S9ZcA",
+   "title": "Rivages",
+   "artist": "Blumen",
+   "duration": "1:33",
+   "durationSec": 93,
+   "thumbnail": "https://i.ytimg.com/vi/S1cN34S9ZcA/hqdefault.jpg",
+   "genre": "로파이·집중",
+   "playlist": "relaxing piano",
+   "moods": [
+    "집중",
+    "잔잔한"
+   ],
+   "views": 0,
+   "publishedAt": "",
+   "channel": "Blumen - Topic",
+   "rawTitle": "Rivages",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "yNCm-AkG9rg",
+   "title": "Single Touch",
+   "artist": "Lock",
+   "duration": "2:04",
+   "durationSec": 124,
+   "thumbnail": "https://i.ytimg.com/vi/yNCm-AkG9rg/hqdefault.jpg",
+   "genre": "로파이·집중",
+   "playlist": "relaxing piano",
+   "moods": [
+    "집중",
+    "잔잔한"
+   ],
+   "views": 0,
+   "publishedAt": "",
+   "channel": "Lock - Topic",
+   "rawTitle": "Single Touch",
    "embedOk": true,
    "embedCheck": "player+oembed"
   },
@@ -8469,6 +9075,66 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "ewbLNBYPPys",
+   "title": "Thousands Skies",
+   "artist": "Jalaapeno",
+   "duration": "2:55",
+   "durationSec": 175,
+   "thumbnail": "https://i.ytimg.com/vi/ewbLNBYPPys/hqdefault.jpg",
+   "genre": "로파이·집중",
+   "playlist": "relaxing piano",
+   "moods": [
+    "집중",
+    "잔잔한"
+   ],
+   "views": 0,
+   "publishedAt": "",
+   "channel": "Jalaapeno - Topic",
+   "rawTitle": "Thousands Skies",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "OjmrfrAqS_M",
+   "title": "Tree House",
+   "artist": "Shoganai",
+   "duration": "3:10",
+   "durationSec": 190,
+   "thumbnail": "https://i.ytimg.com/vi/OjmrfrAqS_M/hqdefault.jpg",
+   "genre": "로파이·집중",
+   "playlist": "relaxing piano",
+   "moods": [
+    "집중",
+    "잔잔한"
+   ],
+   "views": 0,
+   "publishedAt": "",
+   "channel": "Shoganai - Topic",
+   "rawTitle": "Tree House",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "kd4BfmB8Abw",
+   "title": "Vert et Bleu",
+   "artist": "Blumen",
+   "duration": "2:36",
+   "durationSec": 156,
+   "thumbnail": "https://i.ytimg.com/vi/kd4BfmB8Abw/hqdefault.jpg",
+   "genre": "로파이·집중",
+   "playlist": "relaxing piano",
+   "moods": [
+    "집중",
+    "잔잔한"
+   ],
+   "views": 0,
+   "publishedAt": "",
+   "channel": "Blumen - Topic",
+   "rawTitle": "Vert et Bleu",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
    "videoId": "BHlgFJmJ4tQ",
    "title": "Waves Calling",
    "artist": "Mondo Loops",
@@ -8528,6 +9194,26 @@
    "embedCheck": "player+oembed"
   },
   {
+   "videoId": "rbq4SA39CdE",
+   "title": "saying things",
+   "artist": "Blissful Radiance",
+   "duration": "2:13",
+   "durationSec": 133,
+   "thumbnail": "https://i.ytimg.com/vi/rbq4SA39CdE/hqdefault.jpg",
+   "genre": "로파이·집중",
+   "playlist": "relaxing piano",
+   "moods": [
+    "집중",
+    "잔잔한"
+   ],
+   "views": 0,
+   "publishedAt": "",
+   "channel": "Blissful Radiance - Topic",
+   "rawTitle": "saying things",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
    "videoId": "5m72ougYl18",
    "title": "the rain",
    "artist": "maeLstro",
@@ -8544,6 +9230,26 @@
    "publishedAt": "",
    "channel": "maeLstro - Topic",
    "rawTitle": "the rain",
+   "embedOk": true,
+   "embedCheck": "player+oembed"
+  },
+  {
+   "videoId": "nnr9eCImlq0",
+   "title": "ur smile",
+   "artist": "B9",
+   "duration": "1:13",
+   "durationSec": 73,
+   "thumbnail": "https://i.ytimg.com/vi/nnr9eCImlq0/hqdefault.jpg",
+   "genre": "로파이·집중",
+   "playlist": "relaxing piano",
+   "moods": [
+    "집중",
+    "잔잔한"
+   ],
+   "views": 0,
+   "publishedAt": "",
+   "channel": "B9 - Topic",
+   "rawTitle": "ur smile",
    "embedOk": true,
    "embedCheck": "player+oembed"
   }
